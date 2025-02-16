@@ -15,22 +15,22 @@ organization. It is based on the November SPL and aligns with the AOSP tag `andr
 
 ## Current features
 
-    - Configurable 360° rotation
-    - Support for setting a minimum delay between app notification sounds
-    - Volume long-press for skipping tracks
-    - Advanced restart options
-    - One-shot brightness adjustment
-    - VPN support on hotspot
-    - Status bar icons manager
-    - ParanoidSense face unlock
-    - Option to hide SSID
-    - Network traffic indicator
-    - Smart 5G support
-    - Three-finger swipe for screenshots
-    - LineageOS features: High Touch Polling Rate, Charging Control, and LiveDisplay
-    - Option to allow 60Hz refresh rate on battery saver
-    - Improved refresh rate selector page
-    - Support for ADB root on userdebug builds
+- Configurable 360° rotation
+- Support for setting a minimum delay between app notification sounds
+- Volume long-press for skipping tracks
+- Advanced restart options
+- One-shot brightness adjustment
+- VPN support on hotspot
+- Status bar icons manager
+- ParanoidSense face unlock
+- Option to hide SSID
+- Network traffic indicator
+- Smart 5G support
+- Three-finger swipe for screenshots
+- LineageOS features: High Touch Polling Rate, Charging Control, and LiveDisplay
+- Option to allow 60Hz refresh rate on battery saver
+- Improved refresh rate selector page
+- Support for ADB root on userdebug builds
 
 ## A glimpse of new Updater app
 

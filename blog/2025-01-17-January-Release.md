@@ -14,19 +14,19 @@ As per usual, the latest security patch (`android-15.0.0_r10`) has been merged i
 
 ## Changelogs
 
-    - Ambient display
-    - Long press power button for torch
-    - Long press volume buttons for music playbacks
-    - Extended battery information
-    - New refresh rate selector page
-    - One shot brightness
-    - Status bar icon manager
-    - LineageOS LiveDisplay
-    - Tap to sleep on statusbar or lockscreen
-    - Option to force apps to ignore notch space
-    - Scrambled PIN layout
-    - Allow accessing power menu on secured lockscreen
-    - Touch to unlock anytime
+- Ambient display
+- Long press power button for torch
+- Long press volume buttons for music playbacks
+- Extended battery information
+- New refresh rate selector page
+- One shot brightness
+- Status bar icon manager
+- LineageOS LiveDisplay
+- Tap to sleep on statusbar or lockscreen
+- Option to force apps to ignore notch space
+- Scrambled PIN layout
+- Allow accessing power menu on secured lockscreen
+- Touch to unlock anytime
 
 ### Applications for PixelOS 15 are now open
 

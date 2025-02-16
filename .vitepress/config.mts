@@ -12,9 +12,7 @@ export default defineConfig({
   lastUpdated: true,
 
   vite: {
-    plugins: [
-      tailwindcss()
-    ],
+    plugins: [tailwindcss()],
   },
 
   themeConfig: {
@@ -28,7 +26,7 @@ export default defineConfig({
       {
         text: "Changelogs",
         link: "/changelogs",
-        activeMatch: "^/changelogs/",
+        activeMatch: "^/changelogs",
       },
       {
         text: "For Users",
@@ -48,6 +46,7 @@ export default defineConfig({
       {
         text: "Donate",
         link: "/docs/donate",
+        activeMatch: "^/docs/donate",
       },
     ],
 
