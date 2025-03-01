@@ -4,6 +4,11 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-02-28
+[59442da](https://github.com/PixelOS-AOSP/vendor_aosp/commit/59442da0b3a290a566c570b7404c622f2ff0dd08) Add `androidx.compose.compiler_compiler-hosted-plugin` define _(by Luca Stefani)_  
+[53dfd1e](https://github.com/PixelOS-AOSP/build_soong/commit/53dfd1e7998a25aecc06a894bba3df73960f1b9b) Add vendor/aosp to kotlin plugins neverallow _(by Luca Stefani)_  
+[e5c4291](https://github.com/PixelOS-AOSP/build_soong/commit/e5c42916355a691d6944841190e96ca57964bf59) Add support for kotlin plugins _(by Luca Stefani)_  
+
 ## 2025-02-26
 [06ebc35](https://github.com/PixelOS-AOSP/frameworks_base/commit/06ebc359e0950d23e66825e2c58b5ad837577245) health: Catch all setCharging*() exceptions _(by LuK1337)_  
 
