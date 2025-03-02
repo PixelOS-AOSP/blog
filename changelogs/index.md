@@ -4,6 +4,22 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-01
+[81b5527](https://github.com/PixelOS-AOSP/frameworks_base/commit/81b55275c263b7f231cd458433fcaea2231e81f1) BrightnessUtils: Conditionally disable gamma conversion for brightnes… _(by SagarMakhar)_  
+[88ab2a7](https://github.com/PixelOS-AOSP/frameworks_base/commit/88ab2a7d624a822a771ace337a79734811ddfdff) Revert "BrightnessUtils: Conditionally use low gamma implementation f… _(by Hridaya Prajapati)_  
+[5db36c8](https://github.com/PixelOS-AOSP/frameworks_base/commit/5db36c87ed70d3696eddd7f26e854f897122e1ae) SystemUI: Implement Split notification shade changes _(by minaripenguin)_  
+[d0cfd79](https://github.com/PixelOS-AOSP/frameworks_base/commit/d0cfd79f3d40daa34ce511639e1e56838e52e1c4) SystemUI: Turn on the display briefly when resuming AOD _(by Adithya R)_  
+[f81b68f](https://github.com/PixelOS-AOSP/frameworks_base/commit/f81b68f773ec46cee95fa7ea24c96955d73f5945) SystemUI: Disable animations during biometric wake-and-unlock _(by Adithya R)_  
+[ee51e6c](https://github.com/PixelOS-AOSP/frameworks_base/commit/ee51e6cd41f4e18a8f630f558ca8f7a111f4a255) Revert "[sb] remove unused param from initializer callback" _(by Hridaya Prajapati)_  
+[57b1e18](https://github.com/PixelOS-AOSP/frameworks_base/commit/57b1e1829c72a6736556405a4fa622dbbc84bcca) SystemUI: Implement burn-in protection for status/navbar _(by Park Ju Hyung)_  
+[416d3ba](https://github.com/PixelOS-AOSP/frameworks_base/commit/416d3baee85175f7bd4a8d319fa51f950679e470) SystemUI: React to PrivacyConfig changes properly _(by Tommy Webb)_  
+[0ff1b77](https://github.com/PixelOS-AOSP/frameworks_base/commit/0ff1b77c36470e35a55b1ac6f5a38c4116271e8c) core: PinSet: Fixup and improve algorithms caching _(by jhonboy121)_  
+[e4b8f08](https://github.com/PixelOS-AOSP/frameworks_base/commit/e4b8f085c67e1e26efe8fa11f71689010941b58d) Cache pin algorithms in PinSet _(by Till Kottmann)_  
+[71a1ade](https://github.com/PixelOS-AOSP/frameworks_base/commit/71a1adee1657576b71a1823a047e53e9e2e1d90e) Cache KeyStoreService _(by Till Kottmann)_  
+[b2e1fbd](https://github.com/PixelOS-AOSP/frameworks_base/commit/b2e1fbd225d21b329e7ddeba74fea598e2e852ae) (Point) Only calculate sin and cos once _(by Till Kottmann)_  
+[c41f600](https://github.com/PixelOS-AOSP/frameworks_base/commit/c41f60083715bad5d56b5ca9e23db26bf7a8aa7c) SystemUI: CastTile: Open cast settings on long click _(by Ido Ben-Hur)_  
+[480eaff](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/480eaff9890b76438adc3595f7d697723b59a8e1) PixelLauncherIconsOverlay: Use MIUICamera icon for OPlus Camera app _(by Karan Parashar)_  
+
 ## 2025-02-28
 [59442da](https://github.com/PixelOS-AOSP/vendor_aosp/commit/59442da0b3a290a566c570b7404c622f2ff0dd08) Add `androidx.compose.compiler_compiler-hosted-plugin` define _(by Luca Stefani)_  
 [53dfd1e](https://github.com/PixelOS-AOSP/build_soong/commit/53dfd1e7998a25aecc06a894bba3df73960f1b9b) Add vendor/aosp to kotlin plugins neverallow _(by Luca Stefani)_  
