@@ -4,6 +4,16 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-02
+[7ec1d1a](https://github.com/PixelOS-AOSP/frameworks_base/commit/7ec1d1ac5c21e784fab0be61531c7e95755c899b) Catch BadParcelableException when checking extras _(by Luca Stefani)_  
+[0e664c2](https://github.com/PixelOS-AOSP/frameworks_base/commit/0e664c2f5578d7b82c17599cfb841c002748b655) Catch all exceptions when loading images _(by Jernej Virag)_  
+[7177671](https://github.com/PixelOS-AOSP/frameworks_base/commit/71776714c0f7604c5ebb04dbd878c7d34c4c6157) SettingsProvider: aconfig: do not error on missing flag files _(by Aaron Kling)_  
+[7b7c62e](https://github.com/PixelOS-AOSP/frameworks_base/commit/7b7c62e6fcaec94b91a8d63de2efc777b1a85a19) pm: aconfig: do not error on missing flag files _(by Thomas Makin)_  
+[2a88b3d](https://github.com/PixelOS-AOSP/frameworks_base/commit/2a88b3d485e13a95905d3f5d20257228103e19f6) Revert "pm: aconfig: do not error on flags missing per partition" _(by Hridaya Prajapati)_  
+[f1939ed](https://github.com/PixelOS-AOSP/frameworks_base/commit/f1939edbd91da277070eab61d55e23220df03650) FlashlightStrengthTile: Update bg color only if supports flash streng… _(by Dhina17)_  
+[2b86f8d](https://github.com/PixelOS-AOSP/frameworks_base/commit/2b86f8d1e4661d9e5ce0feea44e8943affdc7db1) SliderQSTileView: Pass the SlideableQSTile interface itself _(by Dhina17)_  
+[71a0938](https://github.com/PixelOS-AOSP/frameworks_base/commit/71a0938666b620df0141b50012f89f72122da6d8) FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile _(by Dhina17)_  
+
 ## 2025-03-01
 [81b5527](https://github.com/PixelOS-AOSP/frameworks_base/commit/81b55275c263b7f231cd458433fcaea2231e81f1) BrightnessUtils: Conditionally disable gamma conversion for brightnes… _(by SagarMakhar)_  
 [88ab2a7](https://github.com/PixelOS-AOSP/frameworks_base/commit/88ab2a7d624a822a771ace337a79734811ddfdff) Revert "BrightnessUtils: Conditionally use low gamma implementation f… _(by Hridaya Prajapati)_  
