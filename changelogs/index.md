@@ -4,18 +4,21 @@ pageClass: changelogSection
 
 # Changelogs
 
-## 2025-03-02
-[7ec1d1a](https://github.com/PixelOS-AOSP/frameworks_base/commit/7ec1d1ac5c21e784fab0be61531c7e95755c899b) Catch BadParcelableException when checking extras _(by Luca Stefani)_  
-[0e664c2](https://github.com/PixelOS-AOSP/frameworks_base/commit/0e664c2f5578d7b82c17599cfb841c002748b655) Catch all exceptions when loading images _(by Jernej Virag)_  
-[7177671](https://github.com/PixelOS-AOSP/frameworks_base/commit/71776714c0f7604c5ebb04dbd878c7d34c4c6157) SettingsProvider: aconfig: do not error on missing flag files _(by Aaron Kling)_  
-[7b7c62e](https://github.com/PixelOS-AOSP/frameworks_base/commit/7b7c62e6fcaec94b91a8d63de2efc777b1a85a19) pm: aconfig: do not error on missing flag files _(by Thomas Makin)_  
-[2a88b3d](https://github.com/PixelOS-AOSP/frameworks_base/commit/2a88b3d485e13a95905d3f5d20257228103e19f6) Revert "pm: aconfig: do not error on flags missing per partition" _(by Hridaya Prajapati)_  
-[f1939ed](https://github.com/PixelOS-AOSP/frameworks_base/commit/f1939edbd91da277070eab61d55e23220df03650) FlashlightStrengthTile: Update bg color only if supports flash streng… _(by Dhina17)_  
-[2b86f8d](https://github.com/PixelOS-AOSP/frameworks_base/commit/2b86f8d1e4661d9e5ce0feea44e8943affdc7db1) SliderQSTileView: Pass the SlideableQSTile interface itself _(by Dhina17)_  
-[71a0938](https://github.com/PixelOS-AOSP/frameworks_base/commit/71a0938666b620df0141b50012f89f72122da6d8) FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile _(by Dhina17)_  
+## 2025-03-05
+[91c09cb](https://github.com/PixelOS-AOSP/frameworks_base/commit/91c09cbdf5fd39c67894416bb708c542ca8855c3) SystemUI: Fix up large clock top margin with pixel-fw _(by Pranav Vashi)_  
+
+## 2025-03-04
+[82ec188](https://github.com/PixelOS-AOSP/frameworks_base/commit/82ec188643e30709acf8b69d88afc271b87441c6) Catch BadParcelableException when checking extras _(by Luca Stefani)_  
+[3b916ee](https://github.com/PixelOS-AOSP/frameworks_base/commit/3b916ee936ff293cd1355d0e92e39cb44773e37b) Catch all exceptions when loading images _(by Jernej Virag)_  
+[b7dfc18](https://github.com/PixelOS-AOSP/frameworks_base/commit/b7dfc1837546b377b6cdcdbc6061f06ee65fda36) SettingsProvider: aconfig: do not error on missing flag files _(by Aaron Kling)_  
+[a99fd4f](https://github.com/PixelOS-AOSP/frameworks_base/commit/a99fd4f5400183a822da3f883613871ba5d2f950) pm: aconfig: do not error on missing flag files _(by Thomas Makin)_  
+[9b1a93e](https://github.com/PixelOS-AOSP/frameworks_base/commit/9b1a93e500da29883cb16870f9d1de3759eb5861) Revert "pm: aconfig: do not error on flags missing per partition" _(by Hridaya Prajapati)_  
+[8dd0bb3](https://github.com/PixelOS-AOSP/frameworks_base/commit/8dd0bb3d78c0d5417411bae9918872c8e09bf15b) FlashlightStrengthTile: Update bg color only if supports flash streng… _(by Dhina17)_  
+[51dcf54](https://github.com/PixelOS-AOSP/frameworks_base/commit/51dcf54893368f56af7a52a6771ddfa32e918159) SliderQSTileView: Pass the SlideableQSTile interface itself _(by Dhina17)_  
+[6929792](https://github.com/PixelOS-AOSP/frameworks_base/commit/692979294e1a7fdfda7918bcf3e5033ebc1c0e2e) FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile _(by Dhina17)_  
+[7ea7bf5](https://github.com/PixelOS-AOSP/frameworks_base/commit/7ea7bf5b30601105f2f74ed23a5d609c39eda3c6) BrightnessUtils: Conditionally disable gamma conversion for brightnes… _(by SagarMakhar)_  
 
 ## 2025-03-01
-[81b5527](https://github.com/PixelOS-AOSP/frameworks_base/commit/81b55275c263b7f231cd458433fcaea2231e81f1) BrightnessUtils: Conditionally disable gamma conversion for brightnes… _(by SagarMakhar)_  
 [88ab2a7](https://github.com/PixelOS-AOSP/frameworks_base/commit/88ab2a7d624a822a771ace337a79734811ddfdff) Revert "BrightnessUtils: Conditionally use low gamma implementation f… _(by Hridaya Prajapati)_  
 [5db36c8](https://github.com/PixelOS-AOSP/frameworks_base/commit/5db36c87ed70d3696eddd7f26e854f897122e1ae) SystemUI: Implement Split notification shade changes _(by minaripenguin)_  
 [d0cfd79](https://github.com/PixelOS-AOSP/frameworks_base/commit/d0cfd79f3d40daa34ce511639e1e56838e52e1c4) SystemUI: Turn on the display briefly when resuming AOD _(by Adithya R)_  
