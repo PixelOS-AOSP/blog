@@ -5,6 +5,7 @@ pageClass: changelogSection
 # Changelogs
 
 ## 2025-03-05
+[6fa50bd](https://github.com/PixelOS-AOSP/frameworks_base/commit/6fa50bd392a65dc109579ea2df25cebaecf72f6e) fixup! SystemUI: Turn on the display briefly when resuming AOD _(by Hridaya Prajapati)_  
 [91c09cb](https://github.com/PixelOS-AOSP/frameworks_base/commit/91c09cbdf5fd39c67894416bb708c542ca8855c3) SystemUI: Fix up large clock top margin with pixel-fw _(by Pranav Vashi)_  
 
 ## 2025-03-04
