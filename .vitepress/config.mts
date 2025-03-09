@@ -88,6 +88,7 @@ export default defineConfig({
           base: "/docs/guides/",
           items: [
             { text: "Reporting Bugs", link: "BugReport" },
+            { text: "Bypassing FRP", link: "BypassFRP" },
             { text: "Taking Logs", link: "HowToLog" },
             { text: "Rooting and SafetyNet", link: "HowToRoot" },
           ],
@@ -113,6 +114,7 @@ export default defineConfig({
           base: "/docs/guides/",
           items: [
             { text: "Reporting Bugs", link: "BugReport" },
+            { text: "Bypassing FRP", link: "BypassFRP" },
             { text: "Taking Logs", link: "HowToLog" },
             { text: "Rooting and SafetyNet", link: "HowToRoot" },
           ],
