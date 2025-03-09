@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-08
+[f62e5a5](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f62e5a56056f640f793be4c5e673fc06e4e90bd8) config: Move wifionly defination to tablet wifionly makefile _(by AdarshGrewal)_  
+
 ## 2025-03-05
 [6fa50bd](https://github.com/PixelOS-AOSP/frameworks_base/commit/6fa50bd392a65dc109579ea2df25cebaecf72f6e) fixup! SystemUI: Turn on the display briefly when resuming AOD _(by Hridaya Prajapati)_  
 [91c09cb](https://github.com/PixelOS-AOSP/frameworks_base/commit/91c09cbdf5fd39c67894416bb708c542ca8855c3) SystemUI: Fix up large clock top margin with pixel-fw _(by Pranav Vashi)_  
