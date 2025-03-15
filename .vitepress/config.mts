@@ -11,6 +11,18 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  markdown: {
+    config(md) {
+      const orig = md.render;
+      md.render = function (src, env) {
+        if (env.relativePath === "changelogs/index.md") {
+          src = src.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        }
+        return orig.call(this, src, env);
+      };
+    },
+  },
+
   vite: {
     plugins: [tailwindcss()],
   },
