@@ -8,7 +8,7 @@ on:
 env:
   BRANCH: "fifteen"
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-  START_DATE: "2024-12-03"
+  START_DATE: "2025-03-01"
 
 jobs:
   regen-changelogs:
