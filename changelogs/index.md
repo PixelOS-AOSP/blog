@@ -4,11 +4,354 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-15
+[b251857](https://github.com/PixelOS-AOSP/frameworks_base/commit/b25185779c08bdac59449194f85a3081010ab3d0) SystemUI: Nuke oriented navbar handle _(by Ido Ben-Hur)_  
+[0b429ae](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b429aeb39d27e9aba1159f1294637b10deaab82) SystemUI: Update advanced reboot icons _(by Gustavo Mendes)_  
+[4068d27](https://github.com/PixelOS-AOSP/frameworks_base/commit/4068d2758b5773c6d4d848d5fae39bd8d4652b5c) SystemUI: Hide advanced reboot options on keyguard _(by Adithya R)_  
+[c10506b](https://github.com/PixelOS-AOSP/frameworks_base/commit/c10506b82f80a09bb92b0bd207bea50c718a4b6d) SystemUI: Make advanced reboot optional _(by Adithya R)_  
+[998f488](https://github.com/PixelOS-AOSP/frameworks_base/commit/998f4881cdd99429f65ae83c0e47c1091f221a6e) base: PowerMenu advanced reboot options _(by Adithya R)_  
+[f36feb1](https://github.com/PixelOS-AOSP/frameworks_base/commit/f36feb1f7ba0d7616702d8d4c6ff47fbf6fcf190) BatteryService: Add support for oem fast charger detection _(by Alexander Martinz)_  
+[0c3b26a](https://github.com/PixelOS-AOSP/frameworks_base/commit/0c3b26a66ac5f5b241d3f0ac0e62a225bc406ebe) SystemUI: Bump dependencies _(by dependabot[bot])_  
+[69cda55](https://github.com/PixelOS-AOSP/frameworks_base/commit/69cda55a5b369ce023b81baeaf833d6f095b3822) PiHooks: Update fingerprints _(by Hridaya Prajapati)_  
+[45865ef](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/45865efe468e1ad02f6c604199ec84115f31b187) Settings: Hide|disable "Phone number" from About phone information _(by kubersharma001)_  
+[51662ba](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/51662baf4156998f8952c5c9714c13f6ba18a129) fixup! Revert "[Sim UI enhancement] remove the "Tap to show info"" _(by Adithya R)_  
+[39f3f63](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/39f3f6327b918bd43bdf7325de2540d2a9e6a70b) Revert "[Sim UI enhancement] remove the "Tap to show info"" _(by althafvly)_  
+[06dc478](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/06dc47864f4329273598176dc76c15a34a31f172) Settings: Remove divider from Battery Manager _(by Akash Srivastava)_  
+[fcf9b63](https://github.com/PixelOS-AOSP/frameworks_base/commit/fcf9b63ee4da6aec6784383d706e8599a53849ad) PIHooks: Add a system prop to enable debug logs _(by Adithya R)_  
+[b8c64cb](https://github.com/PixelOS-AOSP/frameworks_base/commit/b8c64cbb26614f435e41bd4d87fa9e769b1837f2) PIHooks: Allow user to disable prop imitation _(by Jyotiraditya Panda)_  
+[85bf9d7](https://github.com/PixelOS-AOSP/frameworks_base/commit/85bf9d7e8d4c6d2bce6ddec113d64d244d837178) PIHooks: Simplify tablet spoofing _(by bheatleyyy)_  
+[bb56a96](https://github.com/PixelOS-AOSP/frameworks_base/commit/bb56a96e4b1ba9d3e9e8ed096a03c280e6b32f56) PIHooks: Refactor _(by basamaryan)_  
+[9150800](https://github.com/PixelOS-AOSP/frameworks_base/commit/91508007b00fc911bc7c14be3943915694bd14ab) PIHooks: Set HARDWARE, ID values _(by someone5678)_  
+[bcebbb1](https://github.com/PixelOS-AOSP/frameworks_base/commit/bcebbb1b32c9d8960d836236bd4582a629079b5d) PIHooks: Drop GBoard spoofing _(by basamaryan)_  
+[a3a7b50](https://github.com/PixelOS-AOSP/frameworks_base/commit/a3a7b50abdc058d164c44d85d6394978bdaea8d7) PIHooks: Spoof as Pixel Tab for tablets _(by saikiran2001)_  
+[5f0567d](https://github.com/PixelOS-AOSP/frameworks_base/commit/5f0567d67876d10b4c8e344640cb67c9c3a3164c) PIHooks: Spoof more Google apps _(by PainKiller3)_  
+[2b7c587](https://github.com/PixelOS-AOSP/frameworks_base/commit/2b7c58742eba7c9e2b6386cbf2f7efd5ee90f46e) PIHooks: Spoof Pixel 8 Pro to some Google apps _(by Adithya R)_  
+[072c735](https://github.com/PixelOS-AOSP/frameworks_base/commit/072c735f459ee3bfc4e70a6dd5f995fc67ab4ec4) PIHooks: Spoof more gapps and google photos _(by Adithya R)_  
+[5583331](https://github.com/PixelOS-AOSP/frameworks_base/commit/5583331b2f65aeeefaff8be3c30f3a08defd41a9) PIHooks: Make it a hidden API _(by Adithya R)_  
+[660771d](https://github.com/PixelOS-AOSP/frameworks_base/commit/660771d0f5e96f2a370bfa0e127ae96f05943fb9) PIHooks: Set system props for native hook _(by Adithya R)_  
+[bd75d34](https://github.com/PixelOS-AOSP/frameworks_base/commit/bd75d347539ca1662b478f6e2b0205cb4861ad28) PIHooks: Get resources from context _(by Adithya R)_  
+[efa460d](https://github.com/PixelOS-AOSP/frameworks_base/commit/efa460d9dd3b9e97e5983191d12b2fc667901b8d) PIHooks: Allow setting any field in certified build props _(by Adithya R)_  
+[daa8389](https://github.com/PixelOS-AOSP/frameworks_base/commit/daa8389fbafd19c59b2f6e59c7700b5c346d8659) Introduce PropImitationHooks _(by Omkar Chandorkar)_  
+[6022002](https://github.com/PixelOS-AOSP/frameworks_base/commit/60220023adfd619d4d2797572cfecb319bc40825) SystemUI: VolumeDialog: Fix per-app volume on secondary users _(by Dhina17)_  
+[5898dc1](https://github.com/PixelOS-AOSP/frameworks_base/commit/5898dc13777b9472c060c426071bd05d344feda5) SystemUI: Update per-app volume icon _(by yukiscape)_  
+[106fa60](https://github.com/PixelOS-AOSP/frameworks_base/commit/106fa60ceb012557bfbce073cc85af39e64c70d8) base: make per-app work with multi audio focus _(by El Dainosor)_  
+[c9b5158](https://github.com/PixelOS-AOSP/frameworks_base/commit/c9b5158e093fa027d41d147585430e7bf9793de4) base: support per-app volume [2/3] _(by cjybyjk)_  
+[238ca56](https://github.com/PixelOS-AOSP/frameworks_base/commit/238ca56c2b7f84c89e48be5bd2a31cf938ddadd6) SystemUI: volume dialog: Align padding/margin for left and right _(by Arian)_  
+[0b68993](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b689934e024b69c3feac540bc5247786b5c701b) VolumeDialogImpl: Handle the outmost row with respect to left gravity _(by Arian)_  
+[7782673](https://github.com/PixelOS-AOSP/frameworks_base/commit/7782673fbc3ce4e39606774ec45bb98fac1c5fc5) VolumeDialogImpl: Respect left gravity in ringer drawer _(by Arian)_  
+[8e153d0](https://github.com/PixelOS-AOSP/frameworks_base/commit/8e153d02f1ca049a1ed065493d7ae1b5c7bfdfc5) VolumeDialogImpl: Set touchable region properly for left gravity _(by Arian)_  
+[5ebba94](https://github.com/PixelOS-AOSP/frameworks_base/commit/5ebba9431f98d0d1d208a453534392b7d86902da) VolumeDialogImpl: Drop unnecessary layout gravity defines and handle … _(by Arian)_  
+[d44a7ee](https://github.com/PixelOS-AOSP/frameworks_base/commit/d44a7eecf5ed6cf6c8bc2b40f4f770b4aed24e27) VolumeDialogImpl: Fix cut layout when on setup or lock task mode _(by jhenrique09)_  
+[26de65c](https://github.com/PixelOS-AOSP/frameworks_base/commit/26de65c894e046363ee1d6352efbbbfeb14c7243) VolumeDialogImpl: Don't vibrate when volume dialog is not visible _(by LuK1337)_  
+[3fa6879](https://github.com/PixelOS-AOSP/frameworks_base/commit/3fa6879fd45fdfd610edfced9c067fb39bb291a9) SystemUI: Fix up large clock top margin with pixel-fw _(by Pranav Vashi)_  
+[46c6fa9](https://github.com/PixelOS-AOSP/frameworks_base/commit/46c6fa94e525ff497243a2a27f3e3153265b463f) SystemUI: Fix smartspace layout _(by Pranav Vashi)_  
+[4abdcde](https://github.com/PixelOS-AOSP/frameworks_base/commit/4abdcde4a7954ecd7cedc130ab7dd1117b54809b) SystemUI: SmartspaceSection: Build decoupled views only when required _(by Pranav Vashi)_  
+[1396787](https://github.com/PixelOS-AOSP/frameworks_base/commit/1396787aec168a8f70363b447b867d409f61a8e1) SystemUI: Grant additional permissions for smartspace _(by Andrzej Perczak)_  
+[333fd90](https://github.com/PixelOS-AOSP/frameworks_base/commit/333fd90818d3180ecce5909d7a5beb6f3e35baeb) SystemUI: Adapt Smartspace A15-QPR1 _(by clarencelol)_  
+[6784472](https://github.com/PixelOS-AOSP/frameworks_base/commit/67844729c07c9b7c049af07355ffa9ef526ff631) SystemUI: smartspace: Adapt for 14 QPR2 _(by aswin7469)_  
+[8b5d560](https://github.com/PixelOS-AOSP/frameworks_base/commit/8b5d560ee654d6e99355ed83faf4cb625ffc4e9f) SystemUI: Implement Reverse-engineered Smartspace _(by Daniel Jacob Chittoor)_  
+[2502fb2](https://github.com/PixelOS-AOSP/frameworks_base/commit/2502fb21e10494d72f3b799c5f6804fcff564d44) BrightnessUtils: Conditionally disable gamma conversion for brightnes… _(by SagarMakhar)_  
+[1faa355](https://github.com/PixelOS-AOSP/frameworks_base/commit/1faa3558f59395691685049bd3fc9031fefc7a10) SystemUI: Turn on the display briefly when resuming AOD _(by Adithya R)_  
+[4e2b1eb](https://github.com/PixelOS-AOSP/frameworks_base/commit/4e2b1ebd25a8f9d7c3f4d01874121370ac0a1921) SystemUI: Disable animations during biometric wake-and-unlock _(by Adithya R)_  
+[f447949](https://github.com/PixelOS-AOSP/frameworks_base/commit/f4479493047203f01a4932d38a002fcfbf21d02f) SystemUI: React to PrivacyConfig changes properly _(by Tommy Webb)_  
+[b192862](https://github.com/PixelOS-AOSP/frameworks_base/commit/b19286219587409747bb12544da023b0d09c3471) Catch BadParcelableException when checking extras _(by Luca Stefani)_  
+[5afe6e2](https://github.com/PixelOS-AOSP/frameworks_base/commit/5afe6e21c2a88577985cc8a411ece73c03b9664c) SettingsProvider: aconfig: do not error on missing flag files _(by Aaron Kling)_  
+[b6b2f44](https://github.com/PixelOS-AOSP/frameworks_base/commit/b6b2f44a6faf842a8f096390eaf04091aa5640ef) pm: aconfig: do not error on missing flag files _(by Thomas Makin)_  
+[15fc82c](https://github.com/PixelOS-AOSP/frameworks_base/commit/15fc82ca7c13bae46f6f187ebd5c8565e534d7a8) ExifInterface: do not spam stacktrace on invalid format _(by Thomas Makin)_  
+[2b13509](https://github.com/PixelOS-AOSP/frameworks_base/commit/2b1350949e4c344f4540fd62941bce84ebaf5ee5) core: PinSet: Fixup and improve algorithms caching _(by jhonboy121)_  
+[f965048](https://github.com/PixelOS-AOSP/frameworks_base/commit/f965048ffed7a38095fecbd394970dc2f196186d) Cache pin algorithms in PinSet _(by Till Kottmann)_  
+[3aa0a18](https://github.com/PixelOS-AOSP/frameworks_base/commit/3aa0a181147bb9ddc5b0059b80f643c568ec929e) Cache KeyStoreService _(by Till Kottmann)_  
+[60d5a1b](https://github.com/PixelOS-AOSP/frameworks_base/commit/60d5a1bab67e34bc5fe585dbcd31ba8dff110bfa) (Point) Only calculate sin and cos once _(by Till Kottmann)_  
+[677e438](https://github.com/PixelOS-AOSP/frameworks_base/commit/677e4387acf668b540885ddc953a5b4b32dae86c) SystemUI: CastTile: Open cast settings on long click _(by Ido Ben-Hur)_  
+[d2c390c](https://github.com/PixelOS-AOSP/frameworks_base/commit/d2c390c690b1db7e93756ac9b55b80784f3cc53a) FingerprintUtils: Migrate old fp config xml to new one on HIDL/AIDL s… _(by Luofan Chen)_  
+[c77bc29](https://github.com/PixelOS-AOSP/frameworks_base/commit/c77bc2995866e2c256ce675fd69fe9f65f711564) JobScheduler: Respect allow-in-power-save perm _(by Tommy Webb)_  
+[37ffcc7](https://github.com/PixelOS-AOSP/frameworks_base/commit/37ffcc725974e9d1c143def7535d0b2e509ca799) SystemUI: Check whether the selected WFD route is available _(by Weijie Wang)_  
+[0d29014](https://github.com/PixelOS-AOSP/frameworks_base/commit/0d29014c17d582e92a2133762c692dca01e3f3a6) camera2: allow access to CaptureRequest.mLogicalCameraSettings _(by Cosmin Tanislav)_  
+[6a98201](https://github.com/PixelOS-AOSP/frameworks_base/commit/6a982017df4a1cf7c259b9391c8b527ccb693900) base: Export bodyFontFamily and bodyFontFamilyMedium symbols _(by Pranav Vashi)_  
+[fa5a70c](https://github.com/PixelOS-AOSP/frameworks_base/commit/fa5a70c065e8413037ed82c56336cd335d237684) CachedAppOptimizer : Pageout File pages during system compaction _(by Divyanand Rangu)_  
+[25a0bb5](https://github.com/PixelOS-AOSP/frameworks_base/commit/25a0bb504741fb0b1ab8e76e2053dfef6db0d1f2) webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well _(by LuK1337)_  
+[9c27f8f](https://github.com/PixelOS-AOSP/frameworks_base/commit/9c27f8f22269fa8f6e9290886b89962da324178c) SystemUI: Fix QS customizer corner radius _(by Pranav Vashi)_  
+[e6b6082](https://github.com/PixelOS-AOSP/frameworks_base/commit/e6b608247689a0dbaec15e7d6229b69c5dcdd1f0) SystemUI: Fix burn-in translations not applying to keyguard slices _(by Andy CrossGate Yan)_  
+[4fb4ef2](https://github.com/PixelOS-AOSP/frameworks_base/commit/4fb4ef236d0655bcc3d8e2796ce7c6c439ff2e38) BluetoothControllerImpl: Optimize connected battery level scanning _(by minaripenguin)_  
+[da38dc1](https://github.com/PixelOS-AOSP/frameworks_base/commit/da38dc1cff60a661f7d0133ad119efc8829462d8) BluetoothControllerImpl: fetch battery level from any device _(by jhonboy121)_  
+[4bd8aea](https://github.com/PixelOS-AOSP/frameworks_base/commit/4bd8aea7f63eda20c6a1af223e8a394119030723) BluetoothControllerImpl: Synchronize mConnectedDevices access _(by jhonboy121)_  
+[5697c8d](https://github.com/PixelOS-AOSP/frameworks_base/commit/5697c8d315e7fe0235815476a27e27adb9c928a5) Revert "AudioService: do not log sound effects in audio dumpsys" _(by jro1979oliver)_  
+[380a0f6](https://github.com/PixelOS-AOSP/frameworks_base/commit/380a0f6dbac489cc67b1e4e5913e5751c0ca6ff6) SystemUI: Fix Internet Tile showing no service _(by Tommy Webb)_  
+[d8006cc](https://github.com/PixelOS-AOSP/frameworks_base/commit/d8006ccf90bde949c26cbc9f43d7c42bedde553f) SystemUI: require unlocking to use QS tiles _(by Dmitry Muhomor)_  
+[513a664](https://github.com/PixelOS-AOSP/frameworks_base/commit/513a6649ab3b301164b0c6a69fee1eb9ae0c5316) SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions _(by LuK1337)_  
+[1c7a1f0](https://github.com/PixelOS-AOSP/frameworks_base/commit/1c7a1f0abcfe76040b14c279b6b8c3db248746d1) SystemUI: Constrain keyguard indication area burn-in offset _(by Adithya R)_  
+[ff1cc2d](https://github.com/PixelOS-AOSP/frameworks_base/commit/ff1cc2d705b89fad816a4341a9e0454b5c7f9d33) fixup! Add setting to allow/disallow interacting with quick _(by Dhina17)_  
+[d60c1b5](https://github.com/PixelOS-AOSP/frameworks_base/commit/d60c1b553ada0134714352d79a4ead7c6408b36a) Add setting to allow/disallow interacting with quick settings on secu… _(by Oliver Scott)_  
+[889aec0](https://github.com/PixelOS-AOSP/frameworks_base/commit/889aec03f95b78e8251dea4cbf43a5cb2ee41eda) SystemUI: Don't remove keyguard slice view _(by LuK1337)_  
+[76c569b](https://github.com/PixelOS-AOSP/frameworks_base/commit/76c569bbde6df62b6c3f4c80ec9515cdd69ab472) fixup! SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
+[25ebfe4](https://github.com/PixelOS-AOSP/frameworks_base/commit/25ebfe41e288d590fe343dd96750c941d8c53900) SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
+[f305009](https://github.com/PixelOS-AOSP/frameworks_base/commit/f305009a4f2d9eb918777d6e8da95bb85d94d3ff) FlashlightStrengthTile: Move torch strength percentage to description _(by Hridaya Prajapati)_  
+[3878422](https://github.com/PixelOS-AOSP/frameworks_base/commit/3878422e41d1c7cd0ec1a4f356788c372c68fc8b) FlashlightStrengthTile: Update bg color only if supports flash streng… _(by Dhina17)_  
+[3c94bcb](https://github.com/PixelOS-AOSP/frameworks_base/commit/3c94bcb4c3408aa76731aeaadd939930b59b8f49) SliderQSTileView: Pass the SlideableQSTile interface itself _(by Dhina17)_  
+[7d680d9](https://github.com/PixelOS-AOSP/frameworks_base/commit/7d680d98b94f69683bf60c27cd7612eef3f53c43) FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile _(by Dhina17)_  
+[7d4c0de](https://github.com/PixelOS-AOSP/frameworks_base/commit/7d4c0de260469e28151aff5d0d87716acfc4b24f) SystemUI: Fix flashlight strength tile in secondary user _(by Adithya R)_  
+[d40ca5e](https://github.com/PixelOS-AOSP/frameworks_base/commit/d40ca5e7807aea6444d575f9653e9737a4a2b3aa) FlashlightStrengthTile: Do NOT leak CameraManager TorchCallback _(by Ido Ben-Hur)_  
+[599d474](https://github.com/PixelOS-AOSP/frameworks_base/commit/599d4748ee11df88794979ed5f1c6cc3eef23ed4) SystemUI: Introduce Flashlight Strength Tile _(by Anay Wadhera)_  
+[164b60e](https://github.com/PixelOS-AOSP/frameworks_base/commit/164b60e001b9849a2a77973787a4e6d4a11c5e16) OplusTypeCastingHelper: update stub _(by arnodorian-r)_  
+[ed5391d](https://github.com/PixelOS-AOSP/frameworks_base/commit/ed5391dd2c619827ecbb63ff34a5da6c22be2029) Add some fwb stubs from Oplus _(by DennySPb)_  
+[3f89803](https://github.com/PixelOS-AOSP/frameworks_base/commit/3f89803eaf37b951914cd85a5438b008ebf5d54d) core: Expose method to toggle recent apps through Binder _(by someone5678)_  
+[d32f638](https://github.com/PixelOS-AOSP/frameworks_base/commit/d32f638610eebc1b8c3f184bb071d64cb06cae20) SystemUI: Update UdfpsTouchOverlay sensorRect on updating overlay params _(by Dhina17)_  
+[d25d41b](https://github.com/PixelOS-AOSP/frameworks_base/commit/d25d41bacc6b0fe8f8b3316dfbef95864700c626) Biometrics: Allow disabling of fingerprint cleanups _(by jhenrique09)_  
+[650b36c](https://github.com/PixelOS-AOSP/frameworks_base/commit/650b36cc28b5a3fa299d1019790d5370e6004fb7) LayoutInflater: Opportunistically create views directly for performance _(by Danny Lin)_  
+[3f02756](https://github.com/PixelOS-AOSP/frameworks_base/commit/3f027568461e69435040239fd81c7a84baebbaf2) Textutils: Optimize writeToParcel for performance _(by minaripenguin)_  
+[afeee15](https://github.com/PixelOS-AOSP/frameworks_base/commit/afeee155013aaf57fc8daf016d299d26c87981b0) EventLog: Optimize writeEventArray for performance _(by minaripenguin)_  
+[057cdbc](https://github.com/PixelOS-AOSP/frameworks_base/commit/057cdbcaa8943c2bb279e854cd9e3dc6dec385f6) SystemServiceRegistry: Replace ArrayMap with HashMap for performance _(by Danny Lin)_  
+[becbf7f](https://github.com/PixelOS-AOSP/frameworks_base/commit/becbf7f56c832b8995feb3c3bbbd6634ee738afb) ThemedResourceCache: Replace ArrayMap with HashMap for performance _(by Danny Lin)_  
+[bc16b8e](https://github.com/PixelOS-AOSP/frameworks_base/commit/bc16b8eda255ec559d321f992d14961dcaea90f4) SettingsLib: Migrate MainSwitchPreference to Material3 _(by Bruno Martins)_  
+[13d0981](https://github.com/PixelOS-AOSP/frameworks_base/commit/13d09819a16dd76f75da0f3a6596a608f82e0645) Correction in logic of roundend size calculation of SD card _(by Chetan Gurjar)_  
+[fb086c0](https://github.com/PixelOS-AOSP/frameworks_base/commit/fb086c0fb417c8a503c96ce499f0422b775b1684) SQLiteDatabase: Catch corrupt exception during transaction _(by muzbit.kim)_  
+[6791fb3](https://github.com/PixelOS-AOSP/frameworks_base/commit/6791fb3bf386f0f6510cdcc51c26fae04c6756dc) SQLite: Do integrity_check only once _(by yi.jang)_  
+[dad3568](https://github.com/PixelOS-AOSP/frameworks_base/commit/dad35681c5554f32e188a2433d0abbe58da20263) SystemUI: Fix double unlock sound issue _(by timjosten)_  
+[beaa385](https://github.com/PixelOS-AOSP/frameworks_base/commit/beaa38514891d436b4ee976876dba90c66db786f) Use getPackagesForOps instead of iterating packages by checkOperation _(by yinwei.sun1)_  
+[dfb466f](https://github.com/PixelOS-AOSP/frameworks_base/commit/dfb466f3763eeeb2e7f3410b526a9a4f0bf1d53a) Set alert dialog message to use system font _(by maxwen)_  
+[069eeff](https://github.com/PixelOS-AOSP/frameworks_base/commit/069eeff43f5f416b1508e1e49883bfe03a09ae74) pm: actually check fs verity support _(by Thomas Makin)_  
+[03e3dc2](https://github.com/PixelOS-AOSP/frameworks_base/commit/03e3dc25c76362c3f212c163764a5fb43988a9e9) Don't fail setDeviceConnectionState if not implemented in hal _(by Aaron Kling)_  
+[4062577](https://github.com/PixelOS-AOSP/frameworks_base/commit/40625770bac871f4c0f0923551c04b264f6cdbe8) SystemUI: Use AVCProfileMain for screen recorder _(by Arne Coucheron)_  
+[3058c82](https://github.com/PixelOS-AOSP/frameworks_base/commit/3058c82a578b23b26676ed904714b795279714ec) power: Keep file scheme when not using content URI _(by Han Wang)_  
+[ff216b4](https://github.com/PixelOS-AOSP/frameworks_base/commit/ff216b49884f365dfe89c17b7181c20be2c8d2ec) SystemUI: Redraw display cutout on overlay changes _(by Adithya R)_  
+[07f25e5](https://github.com/PixelOS-AOSP/frameworks_av/commit/07f25e5d45f766b6cdec0d11a6a2bb90f5ebdd36) libcameraservice: Add support to set vendor tag with client package name _(by cjh1249131356)_  
+[ec3da0d](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ec3da0d862c1bfe2ec25f4d212b722ed3968259d) soong: Add camera package name flag _(by Jake Weinstein)_  
+[db9567e](https://github.com/PixelOS-AOSP/vendor_aosp/commit/db9567e1b5d43d0104c44d60d912bfcc97b2f788) Revert "soong: Add TARGET_USES_OPLUS_CAMERA" _(by Hridaya Prajapati)_  
+[49472aa](https://github.com/PixelOS-AOSP/vendor_aosp/commit/49472aaf8e9dd896304c40d93cf9990118932991) Revert "soong: Add TARGET_USES_NOTHING_CAMERA" _(by Hridaya Prajapati)_  
+[7140829](https://github.com/PixelOS-AOSP/frameworks_av/commit/7140829f8bec1aafb4f2238142744b6f88f72376) Revert "libcameraservice: Add support to set vendor tag with client p… _(by Hridaya Prajapati)_  
+[3fbe562](https://github.com/PixelOS-AOSP/frameworks_base/commit/3fbe5620eb15f846c4185c5e2263f74bd8e57f6e) SystemUI: Let screenshot window ignore screen decorations _(by LuK1337)_  
+[ba0e4c5](https://github.com/PixelOS-AOSP/frameworks_base/commit/ba0e4c5cfb8f6deb7247060ae4b671476359c193) SystemUI: screenshot: close QS after launching long screenshot activity _(by LuK1337)_  
+[734c6eb](https://github.com/PixelOS-AOSP/frameworks_base/commit/734c6eb5de15e87a5c5a097ca2342abda1faf6ad) SystemUI: screenshot: disable magnification for partial screenshots _(by Cosmin Tanislav)_  
+[1fd717e](https://github.com/PixelOS-AOSP/frameworks_base/commit/1fd717ea7020c1a804763513d713cb154c978134) SystemUI: screenshot: add extra crop boundaries _(by Cosmin Tanislav)_  
+[54a5f30](https://github.com/PixelOS-AOSP/frameworks_base/commit/54a5f30e27b4fbb1cb2a9adeb6ccd987d9b76862) SystemUI: screenshot: remove duplicate clamping on move action _(by Cosmin Tanislav)_  
+[783b762](https://github.com/PixelOS-AOSP/frameworks_base/commit/783b76262478954152044f958c96bb89b44a0a40) SystemUI: screenshot: open long screenshot activity for partial scree… _(by Cosmin Tanislav)_  
+[d095d28](https://github.com/PixelOS-AOSP/frameworks_base/commit/d095d2871f0290c46fa6af36e384d857464961ae) Implement click to take partial screenshot [1/3] _(by Jesse Chan)_  
+[4c4c9f4](https://github.com/PixelOS-AOSP/frameworks_base/commit/4c4c9f41a5a4439bbed36378b7c3497f2029fa7a) fixup! SystemUI: screenshot: Add delete action chip intent _(by LuK1337)_  
+[da82976](https://github.com/PixelOS-AOSP/frameworks_base/commit/da8297692714a6e4cf0705885a101abe7883ffae) fixup! SystemUI: screenshot: Add delete action chip intent _(by Ido Ben-Hur)_  
+[c1dd32c](https://github.com/PixelOS-AOSP/frameworks_base/commit/c1dd32c827dbe7971c5f50011b6ffa242990750f) SystemUI: screenshot: Add delete action chip intent _(by ganeshi4u)_  
+[8bf129c](https://github.com/PixelOS-AOSP/frameworks_base/commit/8bf129cf8c08f4d1e615e614628172a672274b20) fixup! base: Allow disabling turbulence noise after clicking the play… _(by Ido Ben-Hur)_  
+[1195dac](https://github.com/PixelOS-AOSP/frameworks_base/commit/1195dac41a75d967dad3fc1db40bcbbc237f1405) base: Allow disabling turbulence noise after clicking the play button _(by Ido Ben-Hur)_  
+[23bd800](https://github.com/PixelOS-AOSP/frameworks_base/commit/23bd8003a2bad08446269b870e5376aa6ae4fa0e) SystemUI: screenshot: Hide action chips text labels _(by Ido Ben-Hur)_  
+[eda79f4](https://github.com/PixelOS-AOSP/frameworks_base/commit/eda79f475da17d209d7fac88f99ce3eff53e9799) SystemUI: Dismiss screenshot window on touch outside _(by LibXZR)_  
+[2fc278c](https://github.com/PixelOS-AOSP/frameworks_base/commit/2fc278c4887eb5dabe3d89e2da8480ecdee9dfd7) SystemUI: Reduce screenshot dismiss delay to 3 seconds _(by Danny Lin)_  
+[f917f18](https://github.com/PixelOS-AOSP/frameworks_base/commit/f917f18884448904185ccf80b5c9cdd9299af752) SystemUI: Cleanup screenshot sound/vibration logic _(by Adithya R)_  
+[84221a4](https://github.com/PixelOS-AOSP/frameworks_base/commit/84221a4c47d07876a401154693dab2101f15024f) SystemUI: Adapt screenshot sound to ringer modes _(by Ashwin R C)_  
+[3f3723c](https://github.com/PixelOS-AOSP/frameworks_base/commit/3f3723c2d64f470388c8e31b4dbffec1d5cc3aa2) base: Implement cutout force full screen [1/2] _(by jhenrique09)_  
+[97a8ce9](https://github.com/PixelOS-AOSP/frameworks_base/commit/97a8ce98db121cf1d632a834de515e3a9f1755e7) base: Rework lock gesture feature _(by cjh1249131356)_  
+[58e0b90](https://github.com/PixelOS-AOSP/frameworks_base/commit/58e0b90100e8bd4958e5b1156e8cb1e0e450f5e9) fixup! base: Add support for window ignore secure [1/2] _(by someone5678)_  
+[fc8dfb3](https://github.com/PixelOS-AOSP/frameworks_base/commit/fc8dfb335b4913c24c9c806d2b7f45a0af47df01) base: Add support for window ignore secure [1/2] _(by LibXZR)_  
+[d804bf0](https://github.com/PixelOS-AOSP/frameworks_base/commit/d804bf073f89b16251a079aa445ea98316544150) SurfaceControl: add more window types to consider NoVote _(by Omkar Chandorkar)_  
+[f879295](https://github.com/PixelOS-AOSP/frameworks_base/commit/f87929579eda4b067f37eb8e7c4495836306f065) Make default permissions updates tied to version incremental _(by Luca Stefani)_  
+[b3903b0](https://github.com/PixelOS-AOSP/frameworks_base/commit/b3903b0632c5dc960be7a987629f6ded23c9d6f7) SystemUI: Add support for udfps dim layer _(by pjgowtham)_  
+[b27dc2e](https://github.com/PixelOS-AOSP/frameworks_base/commit/b27dc2e49a5e4b1a5c2dd5074cff2bfce15bfa28) udfps: Make pressed udfps view configurable _(by TheScarastic)_  
+[8e933c3](https://github.com/PixelOS-AOSP/frameworks_base/commit/8e933c3ab7ba9e26eb1f08f0da1fe312225a0208) udfps: Restore illumination dot for global hbm _(by Arian)_  
+[6324639](https://github.com/PixelOS-AOSP/frameworks_base/commit/6324639e471b60662d05ea841a0aec8f28a57e70) WiredAccessoryManager: support for DP/HDMI display on soc:qcom,msm-ex… _(by Sai Priyanka Thirukkovela)_  
+[8c8b76b](https://github.com/PixelOS-AOSP/frameworks_base/commit/8c8b76bbb7a73f44a4ce8ae4d9aaf6d419014b4d) Force using WiredAccessoryObserver for DisplayPort _(by Harold Tan)_  
+[b061fa1](https://github.com/PixelOS-AOSP/frameworks_base/commit/b061fa144221f39576130eb172e312f27fb7c77e) WiredAccessoryManager: Update stream index assignment _(by Harold Tan)_  
+[a7c1c6d](https://github.com/PixelOS-AOSP/frameworks_base/commit/a7c1c6da486cf00e13cbcaaa0283867d3d44dda8) WiredAccessoryManager: use dev index from UEventInfo to form devPath _(by Harold Tan)_  
+[9a6fcde](https://github.com/PixelOS-AOSP/frameworks_base/commit/9a6fcdef41b65c3cb50a6194ec565c2b61f3f89d) WiredAccessoryManager: Update display port device index _(by Aniket Kumar Lata)_  
+[bd68e59](https://github.com/PixelOS-AOSP/frameworks_base/commit/bd68e59369dd65ba9579d48a568a2f4a9c310c2e) WiredAccessoryManager: support for multiple display ports _(by Vignesh Kulothungan)_  
+[625cf69](https://github.com/PixelOS-AOSP/frameworks_base/commit/625cf692beed91547f31f73dca94d9b1d9010f4d) audio: update WiredAccessoryManager to use ExtconUEventObserver based… _(by Dhananjay Kumar)_  
+[81f1bed](https://github.com/PixelOS-AOSP/frameworks_base/commit/81f1bed7bab86dc3250ff23311a377f1845f2259) WiredAccessoryManager: Support for multiple extconn devices _(by Haynes Mathew George)_  
+[28a437a](https://github.com/PixelOS-AOSP/frameworks_base/commit/28a437a0b1770d0367c94214d02006b3db47551a) WiredAccessoryManager: update extcon file paths _(by Aalique Grahame)_  
+[1de19b4](https://github.com/PixelOS-AOSP/frameworks_base/commit/1de19b4d91be954045c1d99aa67aa1f8a69b1ceb) WiredAccessoryManager: Add support for DisplayPort Audio _(by Revathi Uddaraju)_  
+[94b4742](https://github.com/PixelOS-AOSP/frameworks_base/commit/94b4742d1c85f53f81d166c950704cda6d6f9903) WifiDisplayController: handle preexisting p2p connection status _(by Li Sun)_  
+[faaf862](https://github.com/PixelOS-AOSP/frameworks_base/commit/faaf862abab94989c0336165f3077a1e71d08bbc) Merge changes for launching wifidisplay from system settings _(by Indranil Chakraborty)_  
+[5583a9d](https://github.com/PixelOS-AOSP/frameworks_base/commit/5583a9de9a3e11980b699727413d3964a49c9959) fixup! ThemeOverlayController: Ensure we always disable the neutral o… _(by Luca Stefani)_  
+[da976a5](https://github.com/PixelOS-AOSP/frameworks_base/commit/da976a5d8c51966ee2d7c973a4e018bd10c4acc6) ThemeOverlayController: Ensure we always disable the neutral overlay _(by Pranav Vashi)_  
+[eaa1504](https://github.com/PixelOS-AOSP/frameworks_base/commit/eaa150477dbb1e3d976fee6d368d1224b563dda8) ThemeOverlayController: Don't enable neutral overlay when we use dark bg _(by Ido Ben-Hur)_  
+[7737d56](https://github.com/PixelOS-AOSP/frameworks_base/commit/7737d5698e11be9f811b16e9698d7ec5d4923a82) BiometricScheduler: Cancel operation if not idle _(by SagarMakhar)_  
+[9d9d85c](https://github.com/PixelOS-AOSP/frameworks_base/commit/9d9d85c6074d271bb1f82e5d5a065d57c271617c) SystemUI: Implement bouncer face unlock animation _(by minaripenguin)_  
+[9587353](https://github.com/PixelOS-AOSP/frameworks_base/commit/95873532a37cdd8fd6313b798a3a2d31616c663b) SystemUI: biometrics: Follow user setting to confirm face unlock _(by Pranav Vashi)_  
+[dde0a82](https://github.com/PixelOS-AOSP/frameworks_base/commit/dde0a820456256bc6c6b7cb937d769a1a697cd2b) SystemUI: Use proper tint for face unlock icon _(by Pranav Vashi)_  
+[1f789c8](https://github.com/PixelOS-AOSP/frameworks_base/commit/1f789c8c75ded282194294c6a67a1bfdb5f1cae4) SystemUI: Implement face unlock recognition animation and text _(by minaripenguin)_  
+[406c90b](https://github.com/PixelOS-AOSP/frameworks_base/commit/406c90b9ca09b54c2ec3e2b184776b46370a7671) SystemUI: Disable FaceUnlock Lockouts _(by minaripenguin)_  
+[1f939e6](https://github.com/PixelOS-AOSP/frameworks_base/commit/1f939e6e93441ce39073e2febd587f4fcef0dfe0) services: Force load FaceSense providers _(by Pranav Vashi)_  
+[6c846a9](https://github.com/PixelOS-AOSP/frameworks_base/commit/6c846a936639acd8a02479e81fe36e1cea6f833c) FaceSense: Vibrate on successful authentication _(by Adithya R)_  
+[6d38846](https://github.com/PixelOS-AOSP/frameworks_base/commit/6d3884632a6d58ba62d509cff077048d2bc55675) FaceService: Conditionally add ParanoidSense _(by someone5678)_  
+[f677747](https://github.com/PixelOS-AOSP/frameworks_base/commit/f677747b1249b13c26253cf94877a59b71b53154) services: Adapt face sense to A15-QPR1 _(by COSMIC)_  
+[b101f63](https://github.com/PixelOS-AOSP/frameworks_base/commit/b101f63a76bd62b0f6d382e15ec0d62c9751dc91) base: Initial SenseProvider for FaceSense service _(by Chris Crump)_  
+[d098fe8](https://github.com/PixelOS-AOSP/frameworks_base/commit/d098fe868851e5378017a3eb7d82f8aeef81ba13) SystemUI: Status bar tuner improvements _(by Rashed Abdel-Tawab)_  
+[34f1c4a](https://github.com/PixelOS-AOSP/frameworks_base/commit/34f1c4a7e9a8c206d22dad639228cf51e4e2daab) SystemUI: Adapt tuner prefs to S settings style _(by SagarMakhar)_  
+[9fcefb2](https://github.com/PixelOS-AOSP/frameworks_base/commit/9fcefb2943c587da248a0d31e8c5c8d09da6df30) SystemUI: Don't show tuner warning _(by Danny Lin)_  
+[f6cba8a](https://github.com/PixelOS-AOSP/frameworks_base/commit/f6cba8a74cbde5be6099c94fadc36d04df1aa2cf) SystemUI: Hide more tuner preferences on production builds _(by Danny Lin)_  
+[3b5d4e1](https://github.com/PixelOS-AOSP/frameworks_base/commit/3b5d4e11a60bfa9fde277a789320506a37ba803f) StatusBarIconController: Don't crash at boot _(by Ido Ben-Hur)_  
+[7308fdb](https://github.com/PixelOS-AOSP/frameworks_base/commit/7308fdb2512ed4ee2b5b23786ad43bd352cebf0b) SystemUI: Do not duplicate SPN and PLMN in network name _(by Adithya R)_  
+[19c679e](https://github.com/PixelOS-AOSP/frameworks_base/commit/19c679e200cfa2a69336e54d75b2b05908f7a478) Flags: Enable color fidelity _(by aswin7469)_  
+[e6c0775](https://github.com/PixelOS-AOSP/frameworks_base/commit/e6c0775763fd7f26bf4948c8e302a1c011295246) SystemUI: Update Bluetooth battery level assets _(by Hernán Castañón Álvarez)_  
+[6434df0](https://github.com/PixelOS-AOSP/frameworks_base/commit/6434df034d2f62db501d0585cf057896eceb2ad6) services: Fix crash of boot-time info dialog due to delayed font init _(by Dmitry Muhomor)_  
+[4bcb7fb](https://github.com/PixelOS-AOSP/frameworks_base/commit/4bcb7fb54e5ea5aa7bb4162188f4c9cb655b1a68) ShutdownThread: Shorten wait time for shutdown time optimization _(by zljing)_  
+[5677c52](https://github.com/PixelOS-AOSP/frameworks_base/commit/5677c5273d27aa81c991125f20a89d83ef54c7ea) base: Allow setting wake for notifications separately from doze [1/2] _(by Ido Ben-Hur)_  
+[f56b343](https://github.com/PixelOS-AOSP/frameworks_base/commit/f56b34345205a28aabc5fee0d3f398e3ab4a49c7) base: Allow showing Ambient instead of fully waking [1/2] _(by ezio84)_  
+[982c499](https://github.com/PixelOS-AOSP/frameworks_base/commit/982c4991148e0b82ab871fd17f849c98f72b30cd) core: res: Use accent color for progress bar background _(by Danny Lin)_  
+[35efbb9](https://github.com/PixelOS-AOSP/frameworks_base/commit/35efbb9d115aaa1378a65eb3e94fd94b2173c18c) Make all activities resizable _(by Andy CrossGate Yan)_  
+[573a809](https://github.com/PixelOS-AOSP/frameworks_base/commit/573a8096714cafb1f9392ccd3fa5076d68379dba) UI: Follow Monet and light/dark theme in user 1 icon _(by Andy CrossGate Yan)_  
+[1f83d45](https://github.com/PixelOS-AOSP/frameworks_base/commit/1f83d45e3f35e07b5a9a4c53388d1a90d8f458cd) NightLight: Allow lower temperatures _(by Joe Maples)_  
+[95a028b](https://github.com/PixelOS-AOSP/frameworks_base/commit/95a028be1863d4afc53dbde193562b6f2bc65922) SystemUI: Fix suspicious spaces around new mobile icons _(by lgjint)_  
+[a97ef1a](https://github.com/PixelOS-AOSP/frameworks_base/commit/a97ef1ab5cb4ec94663e27932150e781470718f3) Configurable 0, 90, 180 and 270 degree rotation [1/2] _(by Ricardo Cerqueira)_  
+[f60dff0](https://github.com/PixelOS-AOSP/frameworks_base/commit/f60dff0954005aee9a0f95b62967f7a88dec17d3) core: Fix uninitialized settings in NotificationAttentionHelper _(by LuK1337)_  
+[b7626b1](https://github.com/PixelOS-AOSP/frameworks_base/commit/b7626b18a9471036d58928a0bdc27fb02f8a2164) Support enforcing a minimum delay between notification sounds of an app. _(by Danny Baumann)_  
+[1452670](https://github.com/PixelOS-AOSP/frameworks_base/commit/1452670cca5b0ed2dc16e95aa337018704dc0f2c) base: Forward Port Volume Long Press Skip Tracks [1/2] _(by Austin T. Conn)_  
+[677f847](https://github.com/PixelOS-AOSP/frameworks_base/commit/677f8471c6151818519b2e20173e918ecb7c61f0) SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod _(by maxwen)_  
+[7dca6f7](https://github.com/PixelOS-AOSP/frameworks_base/commit/7dca6f71edad9fefc348b2e092d7682509d9445c) core: Allow to hide and set a default for status bar DT2S gesture _(by Bruno Martins)_  
+[f75a618](https://github.com/PixelOS-AOSP/frameworks_base/commit/f75a6189bccfe84ea22d703a6ed0784b80e26943) fixup! SystemUI: Add double tap to sleep gesture _(by Chirayu Desai)_  
+[7439e1b](https://github.com/PixelOS-AOSP/frameworks_base/commit/7439e1bc6d166926cfb2acbe0f58598a8f6aa775) SystemUI: Add double tap to sleep gesture _(by Rashed Abdel-Tawab)_  
+[bb501b8](https://github.com/PixelOS-AOSP/frameworks_base/commit/bb501b8d12263a7c5a430fdc356037f9fac71d6b) AutoBrightness: Add support for one shot auto-brightness _(by Cédric Bellegarde)_  
+[a5fb871](https://github.com/PixelOS-AOSP/frameworks_base/commit/a5fb871fac434246d72479a75a93b03b32f61e69) fw/b: Add capability to allow tethering to use VPN upstreams _(by Sam Mortimer)_  
+[a66a889](https://github.com/PixelOS-AOSP/frameworks_base/commit/a66a889906d3de148de0f352268196cc3d5abc25) SystemUI: Remove nav bar background in QS customizer _(by Danny Lin)_  
+[f814de3](https://github.com/PixelOS-AOSP/frameworks_base/commit/f814de3fb613f28755c415b08a7f6156612afcd1) base: Incall vibration options [1/3] _(by beanstown106)_  
+[1bd5661](https://github.com/PixelOS-AOSP/frameworks_base/commit/1bd56610100d5509c2ecf68f493cfa1391738836) NetworkPolicyManagerService: turn this into just a warning _(by Simão Gomes Viana)_  
+[d52dc88](https://github.com/PixelOS-AOSP/frameworks_base/commit/d52dc88aad0345fa09a37f59a97d7add2757fd8b) base: Squash import NetworkTraffic _(by Jon Haus)_  
+[c22cb46](https://github.com/PixelOS-AOSP/frameworks_base/commit/c22cb46e6293ed276add4e7e6a00e0f23322cbac) Keyguard: Add option to scramble pin layout when unlocking [2/2] _(by Adnan)_  
+[7650bc6](https://github.com/PixelOS-AOSP/frameworks_base/commit/7650bc68c9c3d05f9d097cecef33f2aec992d4c3) LockPatternView: Fix showing pattern error _(by Dhina17)_  
+[c7e320b](https://github.com/PixelOS-AOSP/frameworks_base/commit/c7e320b8e754c80fb2279c9cfb17a0159ae96722) fixup! Forward port CM Screen Security settings (1/2) _(by LuK1337)_  
+[9669132](https://github.com/PixelOS-AOSP/frameworks_base/commit/966913216826c77b5fb247b67b17514af374f0bd) Forward port CM Screen Security settings [1/2] _(by Michael Bestas)_  
+[6151e9a](https://github.com/PixelOS-AOSP/frameworks_base/commit/6151e9aa35c361e496c54edf4a28cdffc072ff76) SystemUI: Launch power menu from QS only if enabled _(by DarkJoker360)_  
+[c085d01](https://github.com/PixelOS-AOSP/frameworks_base/commit/c085d012e2430e8c5faf82dcddbc013e497611e4) base: Fix disabling power menu completely on secured lockscreen _(by Pranav Vashi)_  
+[a9458df](https://github.com/PixelOS-AOSP/frameworks_base/commit/a9458dfc124c72ac77354d051ebc7eb807d27b6c) base: Hide power menu on secure lockscreen [1/2] _(by Altaf-Mahdi)_  
+[82234f0](https://github.com/PixelOS-AOSP/frameworks_base/commit/82234f048853fa8f4f657c1cf0390055d97c5f3a) SystemUI: Show big keyguard clock when media controls are hidden _(by Ido Ben-Hur)_  
+[ccb0c3e](https://github.com/PixelOS-AOSP/frameworks_base/commit/ccb0c3e27bf773523367b06335e68bf16af3db59) base: Long press power button to toggle flashlight [1/2] _(by ezio84)_  
+[9d6b25f](https://github.com/PixelOS-AOSP/frameworks_base/commit/9d6b25f688db2ab7b7be46200ec06e83d2a7cac8) SystemUI: MediaHierarchyManager: Initiate allowMediaPlayerOnLockScreen _(by Ido Ben-Hur)_  
+[f4909d4](https://github.com/PixelOS-AOSP/frameworks_base/commit/f4909d43d5abc8a070f0a1a910a551b0bafe2ad6) fixup! SystemUI: Implement hide gestural navigation hint bar _(by Dhina17)_  
+[03bc65f](https://github.com/PixelOS-AOSP/frameworks_base/commit/03bc65f3db2bcf7d0d9a5263e8f957eb2ac1ce2b) SystemUI: Implement hide gestural navigation hint bar _(by Jesse Chan)_  
+[0a44ec2](https://github.com/PixelOS-AOSP/frameworks_base/commit/0a44ec297b2ac9d02615334288dbedb8e9eddb2d) SystemUI: Add Autobrightness tile _(by Dil3mm4)_  
+[8f051d3](https://github.com/PixelOS-AOSP/frameworks_base/commit/8f051d382dc5c7cdd6f0fdffe2c14b4d9507c918) SystemUI: Add powershare QS tile _(by Linux4)_  
+[285b1ed](https://github.com/PixelOS-AOSP/frameworks_base/commit/285b1ed58fcca9715ee87e5bda93b67203c24fab) SystemUI: Add USB Tether tile _(by BestPig)_  
+[e38e173](https://github.com/PixelOS-AOSP/frameworks_base/commit/e38e173b01b35e3131c826fb20f6e449439e4bbf) SystemUI: Add AOD QS tile _(by Marko Man)_  
+[11b2ec0](https://github.com/PixelOS-AOSP/frameworks_base/commit/11b2ec058c92db147d331bc0c527d95b906ee3df) SystemUI: Add heads up tile _(by Michael Bestas)_  
+[92891ea](https://github.com/PixelOS-AOSP/frameworks_base/commit/92891ea6c913b964402d308fbdc8f03f0aebf1fd) Revert "[DO NOT MERGE] Make sure WiFi and Cell tiles are not created … _(by Danny Lin)_  
+[f572022](https://github.com/PixelOS-AOSP/frameworks_base/commit/f572022dc6db67e189e8a26edb1a1ca3c4bfe8ec) Reapply "SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider m… _(by Danny Lin)_  
+[a6ae7a8](https://github.com/PixelOS-AOSP/frameworks_base/commit/a6ae7a8097ab3371f32c16c86e0839cf0dfc4b42) SystemUI: Restore wifi and cellular QS tiles _(by Michael Bestas)_  
+[8400a8e](https://github.com/PixelOS-AOSP/frameworks_base/commit/8400a8e704e23d4975d42d6bdc62c045ce2a17db) SystemUI: Introduce Data Switch QS Tile _(by Christian Oder)_  
+[bad464e](https://github.com/PixelOS-AOSP/frameworks_base/commit/bad464e80f8c848ff9d350f7359bf7583c8abd5c) SystemUI: Add caffeine QS tile _(by Keith Mok)_  
+[845b2b2](https://github.com/PixelOS-AOSP/frameworks_base/commit/845b2b2468ada357811bed9933d3af3bb527cd6c) SystemUI: Enable NFC tile _(by Tim Schumacher)_  
+[61ae1d1](https://github.com/PixelOS-AOSP/frameworks_base/commit/61ae1d1e3514586d46a5164d26b9e564385774da) SystemUI: Update NFC tile drawable _(by mydongistiny)_  
+[c732594](https://github.com/PixelOS-AOSP/frameworks_base/commit/c732594dded3bc8f40d29f59852a2a96ba7fc97d) core: Fix menu popup ripple _(by timjosten)_  
+[929b36a](https://github.com/PixelOS-AOSP/frameworks_base/commit/929b36a5f734e98738cc4ba49cb2fccc2eb3c0ca) SystemUI: Add navbar layout inversion tuning [1/2] _(by LuK1337)_  
+[fe8fdf8](https://github.com/PixelOS-AOSP/frameworks_base/commit/fe8fdf87cc7ab9de6e4ad2620eefbec194eb9829) policy: Add support for device alert sliders. _(by thecrazyskull)_  
+[556815f](https://github.com/PixelOS-AOSP/frameworks_base/commit/556815f7a7ad964244bfb2280e85c29904a43986) base: Introduce Smart 5G service [1/2] _(by Adithya R)_  
+[3f873ea](https://github.com/PixelOS-AOSP/frameworks_base/commit/3f873ea2f982bea82fb3f83b55a620a7241e925a) s2ss: Remove property usage _(by LibXZR)_  
+[b728ccc](https://github.com/PixelOS-AOSP/frameworks_base/commit/b728ccc94d3570ba93c2cb7be4241a7c6af0ce64) base: Add three-fingers-swipe to screenshot [1/2] _(by ghbhaha)_  
+[88f60c3](https://github.com/PixelOS-AOSP/frameworks_base/commit/88f60c3689cdaf9af5aa073878c8d809852f60fc) [SQUASH] base: Add option to cycle through ringer modes [1/2] _(by rituj)_  
+[5baf8fc](https://github.com/PixelOS-AOSP/frameworks_base/commit/5baf8fcd65bd862e91b9147b510f894fc1718fda) SystemUI: Introduce Adaptive Playback [1/2] _(by Jyotiraditya)_  
+[b121f6e](https://github.com/PixelOS-AOSP/frameworks_base/commit/b121f6eb5e3edcf7fab943cb99a1ef4fc6618132) core: Broadcast intent when display power state changes _(by Adithya R)_  
+[92060d6](https://github.com/PixelOS-AOSP/frameworks_base/commit/92060d63a1463563195bad16042118dc91c97be8) base: Update some icons to MD2 _(by Anushek Prasal)_  
+[e487e14](https://github.com/PixelOS-AOSP/frameworks_base/commit/e487e1458f69433179a1dd31130d5033c9acb082) Report success on every fingerprint removal _(by Kishan Dudhatra)_  
+[ec489bd](https://github.com/PixelOS-AOSP/frameworks_base/commit/ec489bd805e3c11850111016a790ace895faa3bc) Apply monet to fingerprint authentication ripple animation _(by SagarMakhar)_  
+[50d75c8](https://github.com/PixelOS-AOSP/frameworks_base/commit/50d75c87f4e6da4801997d284ea0242bc3405dc3) SystemUI: support black theme for dark mode [1/3] _(by Jesse Chan)_  
+[7b87063](https://github.com/PixelOS-AOSP/frameworks_base/commit/7b8706360a7c3cffba4fa692f7a71ac778d73b54) SystemUI: Fix uneven DND icon padding in status bar _(by Ido Ben-Hur)_  
+[012b37b](https://github.com/PixelOS-AOSP/frameworks_base/commit/012b37bab7b2773621ef194036a6e090548718a9) SystemUI: Update string for add tiles with one click _(by mydongistiny)_  
+[e2e68cb](https://github.com/PixelOS-AOSP/frameworks_base/commit/e2e68cbb677a0fe6ef128544ea57763dc0f9ba95) SystemUI: Allow user to add/remove QS with one click _(by Andrzej Ressel)_  
+[eacd51f](https://github.com/PixelOS-AOSP/frameworks_base/commit/eacd51f9b8b0f5d53bdba95607d7b840b0d88234) SystemUI: Make battery clickable again _(by Michael W)_  
+[a847e3c](https://github.com/PixelOS-AOSP/frameworks_base/commit/a847e3cab210ba9882395c9fa09422f37ed347c2) SystemUI: Enable cast tile without Wi-Fi connection _(by nift4)_  
+[040930c](https://github.com/PixelOS-AOSP/frameworks_base/commit/040930cf3757199fdf962d19cb9de38d90a9f4c4) AutofillManager: Make userdebug default to NO_LOGGING _(by LuK1337)_  
+[da3f6e0](https://github.com/PixelOS-AOSP/frameworks_base/commit/da3f6e0658fcc2b5226942b0729a3b8019fa74e5) SystemServer: only enable fd leak tracker on eng _(by Simao Gomes Viana)_  
+[99c831b](https://github.com/PixelOS-AOSP/frameworks_base/commit/99c831bebc5bf5678a3bac15f496c6f93a451cc7) core: BatteryManager: Add few more Battery broadcast intents _(by Jyotiraditya Panda)_  
+[434ad25](https://github.com/PixelOS-AOSP/frameworks_base/commit/434ad25c7125b3f57c14a0490071d059cb990351) PowerOffAlarmService: Handle NPE with shared preferences _(by Adithya R)_  
+[c5890b1](https://github.com/PixelOS-AOSP/frameworks_base/commit/c5890b19a8116f8531ba156d3fdc8f97c44ead5b) base: Introduce PowerOffAlarmService _(by Ido Ben-Hur)_  
+[fe7d7d1](https://github.com/PixelOS-AOSP/frameworks_base/commit/fe7d7d15dd4994a7d4fff1496d2b835a0e77bdfe) SystemUI: Update QS header fields text appearance on theme change _(by Dhina17)_  
+[4bc3b74](https://github.com/PixelOS-AOSP/frameworks_base/commit/4bc3b74aceace19a40b5990536869105b86d228f) Fix default values for 5G Ultra Wideband icon carrier config keys _(by Vala Zadeh)_  
+[cc7c9f8](https://github.com/PixelOS-AOSP/frameworks_base/commit/cc7c9f8ebb1dd580711ffcdd86b7a09cb7db6739) Add 5G Ultra Wideband icon carrier config keys _(by Vala Zadeh)_  
+[044e31b](https://github.com/PixelOS-AOSP/frameworks_base/commit/044e31b4f4235530c0552ebf9f8174b0c8c514c4) base: SystemUI: Allow flags to be overrideable _(by Jeferson)_  
+[08509d9](https://github.com/PixelOS-AOSP/frameworks_base/commit/08509d9216f620773dc6af7c9308acb48edddd8c) SystemUI: handle camera launch gesture from keyhandler _(by Roman Birg)_  
+[9dd729a](https://github.com/PixelOS-AOSP/frameworks_base/commit/9dd729ad8f5917389a8346aff87c3ef524887f3c) DozeSensors: only use proximity sensor if supported _(by Demon000)_  
+[e81c1b2](https://github.com/PixelOS-AOSP/frameworks_base/commit/e81c1b21d6dc95a7acfa477e584b7405c90d58a3) SystemUI: doze: add config for long press sensors that need a proximi… _(by Cosmin Tanislav)_  
+[b057a63](https://github.com/PixelOS-AOSP/frameworks_base/commit/b057a63b4f18694cdf91f33b61009ec0c490455b) SystemUI: doze: add config for double tap sensors that need a proximi… _(by Cosmin Tanislav)_  
+[aa546d1](https://github.com/PixelOS-AOSP/frameworks_base/commit/aa546d14ddc92434eba39448e5165ec7383544d0) Partially revert "Assume sensors perform prox check" _(by Cosmin Tanislav)_  
+[243abc2](https://github.com/PixelOS-AOSP/frameworks_base/commit/243abc287d8fb0e0a1095fc554db9c2509d89c72) SettingsLib: Update 5G+ icon to Silk design _(by Adithya R)_  
+[63efcdb](https://github.com/PixelOS-AOSP/frameworks_base/commit/63efcdb94866dc6e8ed6ee6d2a30f693205f7694) SystemUI: Enable production-ready feature flags _(by Danny Lin)_  
+[a45718f](https://github.com/PixelOS-AOSP/frameworks_base/commit/a45718fc854aa34a793656aedfe8d207d97ce1b2) SystemUI: Internet tile: Allow long-pressing on mobile network _(by Michael W)_  
+[eeeaba8](https://github.com/PixelOS-AOSP/frameworks_base/commit/eeeaba8c0f63d6b23fb7a3caeee61c8585d70f75) SystemUI: More rounded corners _(by Lucchetto)_  
+[e799828](https://github.com/PixelOS-AOSP/frameworks_base/commit/e799828b326b5eb8a5b7a75003c91058d642c144) Add config to exempt telephony-related app from location indicators _(by Danny Lin)_  
+[082604b](https://github.com/PixelOS-AOSP/frameworks_base/commit/082604b661aff27a846da1c35ef7d047c41b1028) wm: Follow rounded corners by split divider corner size _(by ReallySnow)_  
+[4eb9700](https://github.com/PixelOS-AOSP/frameworks_base/commit/4eb97001df055dab4a82b6d29b6c8986ab0f7b72) graphics: Override system fonts with user-selected overlays _(by Danny Lin)_  
+[63522be](https://github.com/PixelOS-AOSP/frameworks_base/commit/63522be783ff0ce82f9ee6f02b92ae980e104faa) base: Add deep sleep info to uptime preference _(by maxwen)_  
+[da0a186](https://github.com/PixelOS-AOSP/frameworks_base/commit/da0a1867eaa40a8b3269b9a19211fd7ad13e8ffd) SettingsProvider: Set device name to marketname if available _(by Adithya R)_  
+[50923aa](https://github.com/PixelOS-AOSP/frameworks_base/commit/50923aa366598dc5bb41984b6a82cda2d0d57ed7) TtsEngines: avoid crashes caused by null engine name _(by Oliver Scott)_  
+[df1119e](https://github.com/PixelOS-AOSP/frameworks_base/commit/df1119e39b87ac8a60ae174f1008fbcf0da0ce1f) Do not ignore background vibrations from shell _(by Tommy Webb)_  
+[26a59a2](https://github.com/PixelOS-AOSP/frameworks_base/commit/26a59a2b0ed9504485cfa9306fadc9b0fa3ee7f0) Fix MtpDatabase multithreading NullPointerException _(by katao)_  
+[5b630a3](https://github.com/PixelOS-AOSP/frameworks_base/commit/5b630a352879cca4fd8718eede9da59231f2ec2c) Allow disabling USB notifications _(by Danny Lin)_  
+[4e0ca3d](https://github.com/PixelOS-AOSP/frameworks_base/commit/4e0ca3df067d3f87398dfc26e49a3b29183f3bd4) UpdateEngine: Add perf mode binder interface _(by Luca Stefani)_  
+[de47938](https://github.com/PixelOS-AOSP/frameworks_base/commit/de47938e2c8f8fc35342c32433debc1b8d388504) TwilightService: Use temporary TwilightState when location is not ava… _(by rituj)_  
+[4ce384f](https://github.com/PixelOS-AOSP/frameworks_base/commit/4ce384f03e605914870bbd2f30887e3f1f3e240c) Fix bug Device that can't support adoptable storage cannot read the s… _(by sangho.yoon)_  
+[13512a2](https://github.com/PixelOS-AOSP/frameworks_base/commit/13512a20cd5bf69929bbba7370c8ddd552e1be1d) ScreenRecord: Save recordings in ScreenRecords _(by El Dainosor)_  
+[b8bc127](https://github.com/PixelOS-AOSP/frameworks_base/commit/b8bc127f4d48233a9ed225df12df0255b1460637) SystemUI: Add colors to assistant animation _(by paphonb)_  
+[2d1d271](https://github.com/PixelOS-AOSP/frameworks_base/commit/2d1d2716b68f1c9483203b9527e0772598ba175b) SystemUI: Fix the unlock sound played repeatedly _(by Shufeng Hou)_  
+[f7e9d3c](https://github.com/PixelOS-AOSP/frameworks_base/commit/f7e9d3cb87b3350b8fab451b6ce2b6fbaf244bf8) SystemUI: Fix status bar alarm icon _(by Michael W)_  
+[6795d82](https://github.com/PixelOS-AOSP/frameworks_base/commit/6795d8220b018ce046e22ab3ed49b4a27cc24eff) SystemUI: Remove alarm from statusbar icon blocklist _(by Adithya R)_  
+[eb3d262](https://github.com/PixelOS-AOSP/frameworks_base/commit/eb3d262c882f1ca074bccbc86587dd3080daef56) base: Rearrange bluetooth icon on statusbar _(by Adithya)_  
+[c7afb5c](https://github.com/PixelOS-AOSP/frameworks_base/commit/c7afb5c96b24bfa93cdcc905a5ff195114d4eed1) themes: Fix list style alert dialog to use system font _(by maxwen)_  
+[e1b4685](https://github.com/PixelOS-AOSP/frameworks_base/commit/e1b4685215754124fe47bb8a33c9c5cf1795136e) SystemUI: Remove excess margin in few statusbar icons _(by Adithya R)_  
+[f922fc0](https://github.com/PixelOS-AOSP/frameworks_base/commit/f922fc0cf011afd79632961c66509b1f46dd5010) SystemUI: Internet tile: Allow long-pressing on mobile network _(by Michael W)_  
+[f4fb4b8](https://github.com/PixelOS-AOSP/frameworks_base/commit/f4fb4b8d60c9be37b632454acf6e642bb9c2e102) SystemUI: Fix uneven volume icon padding in status bar _(by Danny Lin)_  
+[cfd3732](https://github.com/PixelOS-AOSP/frameworks_base/commit/cfd37322251127a01e69ec954b28f87c226caad8) SystemUI: Check if primitive vibrations are supported in new quick af… _(by Fabian Leutenegger)_  
+[0cbd546](https://github.com/PixelOS-AOSP/frameworks_base/commit/0cbd54606946c55bd81174b5ee69020dad0d7e66) camera: Skip HFR checks for privileged apps. _(by Sai Kumar Sanagavarapu)_  
+[91165ed](https://github.com/PixelOS-AOSP/frameworks_base/commit/91165edf21f1559b43bc5a7cd180072377473ff8) Camera: Skip stream size check for whitelisted apps. _(by Gaoxiang Chen)_  
+[32bdea1](https://github.com/PixelOS-AOSP/frameworks_base/commit/32bdea19df983ab309a17c22c667ae036d5a7f8d) camera: Support exposing aux camera to apps _(by Sauhard Pande)_  
+[bf655ec](https://github.com/PixelOS-AOSP/frameworks_base/commit/bf655ec4dce0f9b2ae33df078452ffc78d60d550) camera: Add backwards-compatible CaptureResultExtras constructor _(by Adithya R)_  
+[177bc27](https://github.com/PixelOS-AOSP/frameworks_base/commit/177bc27c6b84c4fd30b2afd8edecbcf5c3e48b90) core: camera2: StreamConfigurationMap: add constructor for MIUI camera _(by Pulkit077)_  
+[59c1a08](https://github.com/PixelOS-AOSP/frameworks_base/commit/59c1a0810d2a2d659df4d1e36179fd3c156e1126) base: Follow Dark/Light theme for Safe Mode dialog _(by Pulkit077)_  
+[6bb02ba](https://github.com/PixelOS-AOSP/frameworks_base/commit/6bb02ba2b77269153ecffce258e4b4a01c0d34bd) Enable Binder Proxy Tracking by Uid only on eng builds _(by dianlujitao)_  
+[a5f34a0](https://github.com/PixelOS-AOSP/frameworks_base/commit/a5f34a0ac2044029c757a2abbc5f13b981fe0830) frameworks: Exempt location packages from location indicators _(by Chirayu Desai)_  
+[5a97e63](https://github.com/PixelOS-AOSP/frameworks_base/commit/5a97e634686179533416d1d795a2123034258b6f) AbsListView: Improve scrolling cache _(by Pawit Pornkitprasan)_  
+[b99809a](https://github.com/PixelOS-AOSP/frameworks_base/commit/b99809a01228a91854e64df47b822af9a0480a17) Trace: Disable debug tracing on production builds _(by Danny Lin)_  
+[af75948](https://github.com/PixelOS-AOSP/frameworks_base/commit/af75948a60459544fa0bb938f8871c0a19a232cd) Paint: Enable subpixel text positioning by default _(by Danny Lin)_  
+[494556d](https://github.com/PixelOS-AOSP/frameworks_base/commit/494556d8f9c164ea6e136a4ad0c58141368083ef) base: Deprioritize important developer notifications _(by Danny Lin)_  
+[0beb48e](https://github.com/PixelOS-AOSP/frameworks_base/commit/0beb48e50185ebad34c81e49d89e66bce2a32d9b) SettingsLib: Update 4G+ icon to Silk design as well _(by TH779)_  
+[9951c7f](https://github.com/PixelOS-AOSP/frameworks_base/commit/9951c7fa37d1765faedfb160388b265d1aeeab41) SettingsLib: Update LTE+ icon as per new Silk design _(by Adithya)_  
+[429eb82](https://github.com/PixelOS-AOSP/frameworks_base/commit/429eb823abe69fe8d2419437a121b7a463805b90) SystemUI: Remove Android build number from QS footer _(by Danny Lin)_  
+[233ec9b](https://github.com/PixelOS-AOSP/frameworks_base/commit/233ec9b0a1c8e725bf23ff5d479cee1aff7fd21c) SystemUI: Remove build version from qs footer _(by jhenrique09)_  
+[eb4d814](https://github.com/PixelOS-AOSP/frameworks_base/commit/eb4d814f28b6fa889965c9c82e832fe380a50b0d) Squash of SystemUI: Show bluetooth battery level _(by LuK1337)_  
+[f4fa341](https://github.com/PixelOS-AOSP/frameworks_base/commit/f4fa341be880f5ca493bfceaef769f835d0b47d3) Fallback to global actions if assistant is not available _(by LuK1337)_  
+[dc66ac5](https://github.com/PixelOS-AOSP/frameworks_base/commit/dc66ac5bb01c02de3b1cc03cfa0c926596986782) SystemUI: Add support for persistent usb drive notification. _(by Adnan Begovic)_  
+[ad5d235](https://github.com/PixelOS-AOSP/frameworks_base/commit/ad5d235bcb6341837cc4640de1d3d4e3f72cd7be) SystemUI: Allow snoozing SD card notification unconditionally _(by LuK1337)_  
+[a228f4e](https://github.com/PixelOS-AOSP/frameworks_base/commit/a228f4ed72a5c5af940423206f41fa63d9421fe4) SystemUI: Allow privileged system apps to access screenshot service _(by Danny Lin)_  
+[53bf752](https://github.com/PixelOS-AOSP/frameworks_base/commit/53bf752ba0b3df7c5ddcd498a078dc9784e175a3) core: Expose method to start assistant through Binder _(by Danny Lin)_  
+[a9e58fa](https://github.com/PixelOS-AOSP/frameworks_base/commit/a9e58fa11b0f876bdf8991f65b8dc998280ebe16) base: Support for device specific key handlers _(by Bruno Martins)_  
+[fbae9ab](https://github.com/PixelOS-AOSP/frameworks_base/commit/fbae9abf4200c0931e4d09e45cb018b898c1d239) Check for null callerPackage in getStorageEncryptionStatus _(by Ethan Chen)_  
+[e2e9634](https://github.com/PixelOS-AOSP/frameworks_base/commit/e2e96341592d317bce20302e31eba2f4ca68fdbc) Show the vibrate icon in the Status Bar by default _(by Chirayu Desai)_  
+[2b71ae4](https://github.com/PixelOS-AOSP/frameworks_base/commit/2b71ae4c048f0c4f1f694e47f18eb329ef45e688) Updates to various icons: _(by Dan Sandler)_  
+[c6d6368](https://github.com/PixelOS-AOSP/frameworks_base/commit/c6d6368fe146936b9f150e5c7f43a0075a191b66) SettingsLib: Don't show system overlays on apps list _(by Henrique Silva)_  
+[ef2631d](https://github.com/PixelOS-AOSP/frameworks_base/commit/ef2631dbafa2e73108f01c913558e8b85ae83c2a) Download: Add support to manually pause/resume download _(by qqzhou)_  
+[5c226e2](https://github.com/PixelOS-AOSP/frameworks_base/commit/5c226e218525edb1375def146d0c309ec025d31d) Allow adjusting screen density to smaller sizes. _(by Danny Baumann)_  
+[aa9865e](https://github.com/PixelOS-AOSP/frameworks_base/commit/aa9865e2e1178c17cf5cc6b870d93eb77571c769) Allow adjusting progress on touch events. _(by Danny Baumann)_  
+[d540422](https://github.com/PixelOS-AOSP/frameworks_base/commit/d5404224f48cbe57826242898c2eec9d7696c246) [SQUASH] Implement DeviceConfigUtils and service _(by jhenrique09)_  
+[7e92a90](https://github.com/PixelOS-AOSP/frameworks_base/commit/7e92a90efff6ee722fdc2ee72cda771438e28cb9) fixup! Introduce high touch polling rate feature control _(by Michael Bestas)_  
+[f698498](https://github.com/PixelOS-AOSP/frameworks_base/commit/f6984981455690d16aa4432a6b2691598093d98c) Introduce high touch polling rate feature control _(by Ramii Ahmed)_  
+[55e86e6](https://github.com/PixelOS-AOSP/frameworks_base/commit/55e86e628cac6023dd9a19a50215f9f811be5315) fixup! Add high touch sensitivity and hovering to InputService _(by Chirayu Desai)_  
+[180d7fc](https://github.com/PixelOS-AOSP/frameworks_base/commit/180d7fca37a755abf8b3c55cfeb856b5b5eb9cec) Move high touch sensitivity and hovering to InputService _(by Danesh M)_  
+[3e1ce40](https://github.com/PixelOS-AOSP/frameworks_base/commit/3e1ce407c03fba606ddabce9e6c4be1cb873992e) base: Add Touch HIDL support _(by Anushek Prasal)_  
+[3135306](https://github.com/PixelOS-AOSP/frameworks_base/commit/3135306c132c487d16208dcd4b8c4ea4bcd2702c) Shell: Don't show bugreport on DocumentsUI _(by jhenrique09)_  
+[7d804b3](https://github.com/PixelOS-AOSP/frameworks_base/commit/7d804b3b4c4c7dff37dd5c3cc47bd6e93b3a03fe) Introduce anti flicker mode in LiveDisplay _(by Arian)_  
+[0f1e076](https://github.com/PixelOS-AOSP/frameworks_base/commit/0f1e076634b1e7c08faf59bdf11b39df9fe7046d) services: TwilightTracker: create an attribution context and use it i… _(by jhonboy121)_  
+[fa1bb4f](https://github.com/PixelOS-AOSP/frameworks_base/commit/fa1bb4f1abe6b7b56eac739438e7d5dbc8a9cc50) Introduce LiveDisplay from Lineage _(by Henrique Silva)_  
+[a6060a0](https://github.com/PixelOS-AOSP/frameworks_base/commit/a6060a05b98aea5b4c43ad7f5776addd9127c22f) Initial import of lineagehw _(by jhenrique09)_  
+[6390d8a](https://github.com/PixelOS-AOSP/frameworks_base/commit/6390d8ac8cca326f12e7a2d78ca7c7ccea6a729a) health: Catch all setCharging*() exceptions _(by LuK1337)_  
+[c8adbfb](https://github.com/PixelOS-AOSP/frameworks_base/commit/c8adbfb639dd7a8fc42023b4fbcd352ce6094a00) health: Rename msToUTCString to msToHMSString _(by Luofan Chen)_  
+[9687526](https://github.com/PixelOS-AOSP/frameworks_base/commit/9687526533926f10b91ee14c78a30cec6f2fb3e2) health: Format notification's target time according to locale _(by наб)_  
+[2935da2](https://github.com/PixelOS-AOSP/frameworks_base/commit/2935da2f917611d956290d1f32886b891c7e05d5) base: Decouple charging control and main logic _(by Luofan Chen)_  
+[9edca14](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9edca14d88b1c1c6e140a4b9ae2beb5c0b5e2cd3) soong: Remove LD_SHIM_LIBS support _(by LuK1337)_  
+[ecbf1df](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ecbf1dfd718012a57a883c1e2ea8608f09a66941) envsetup.sh: Always use AOSP latest clang version _(by micky387)_  
+[58f28bf](https://github.com/PixelOS-AOSP/vendor_aosp/commit/58f28bfafa8fc1506a1caa99b203b1dbde7ebe32) release: Enable screen_off_unlock_udfps _(by Michael Bestas)_  
+[1b31cf3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/1b31cf35f8404e310f447024f80fa8f6748651fe) release: Bump aconfig flags extension to BP1A _(by Michael Bestas)_  
+[a17fcc6](https://github.com/PixelOS-AOSP/build/commit/a17fcc6ad8bfac75fe0d43f6a4c233b69296989d) Reapply "Add DeviceDiagnostics.apk" _(by Hridaya Prajapati)_  
+[f27d510](https://github.com/PixelOS-AOSP/build/commit/f27d510f617aa7e446bec86c571bf3c1bbf4b384) Revert "Remove additional DeviceDiagnostics reference" _(by Hridaya Prajapati)_  
+[655e1ee](https://github.com/PixelOS-AOSP/system_core/commit/655e1eed9279f6561548620b1417075ee77e5b95) Revert "init: Remove schedtune support" _(by Giovanni Ricca)_  
+[b89203a](https://github.com/PixelOS-AOSP/frameworks_base/commit/b89203ad0c242e2c5caf271791a0ca7a19477476) base: Implement Lineage Health Service _(by Luofan Chen)_  
+[b6af1a4](https://github.com/PixelOS-AOSP/frameworks_base/commit/b6af1a4ec9efff0d864dc2be359e5dc58faa5cfe) utils: Introduce FileUtils class _(by Michael Bestas)_  
+[83ed1b5](https://github.com/PixelOS-AOSP/frameworks_base/commit/83ed1b588661fd906a4217e93932e81893e05e79) base: Add CUSTOM metrics const. _(by Bauuuuu)_  
+[90f5ca9](https://github.com/PixelOS-AOSP/frameworks_base/commit/90f5ca9bdfed38de8ebb0ee38fcc4da243c085e2) core: Switch to mkrbin for copying crash logs _(by NurKeinNeid)_  
+[cba469c](https://github.com/PixelOS-AOSP/frameworks_base/commit/cba469cb5071e01deaf7cef03447fa099a9dfabd) base: Add button to upload crash log to memocho _(by Till Kottmann)_  
+[b8fdd12](https://github.com/PixelOS-AOSP/frameworks_base/commit/b8fdd128a1f1bf562430d1d4b07be50d732c3797) FrameTracker: Silence logspam _(by cjh1249131356)_  
+[5d97d6b](https://github.com/PixelOS-AOSP/frameworks_base/commit/5d97d6bc8ec07da6ff50f5e724e1e0ae647c356f) fw/b: Use ro.build.version.incremental to signal OTA upgrades _(by dhacker29)_  
+[45e9270](https://github.com/PixelOS-AOSP/frameworks_base/commit/45e92708b4b70490fb1bb9dbbcff23b6c5600405) KernelCpuUidTimeReader: Decrease log level on non-eng builds _(by Han Wang)_  
+[fe29dc3](https://github.com/PixelOS-AOSP/frameworks_base/commit/fe29dc3edddbc8f4150f54862c03c5e8fe11b2f5) styles: Use user fonts for Material UI themes _(by Danny Lin)_  
+[d22158b](https://github.com/PixelOS-AOSP/frameworks_base/commit/d22158b23db9cda0b765f0c0ebe15b5ed94dd950) SettingsLib: Use framework resource for headline font _(by Adithya R)_  
+[4679c6e](https://github.com/PixelOS-AOSP/frameworks_base/commit/4679c6eabbc8426a7ea2093ab2f616f07da0aa25) base: Allow disabling refresh rate lowering in battery saver _(by Adithya R)_  
+
 ## 2025-03-13
-[c4cc794](https://github.com/PixelOS-AOSP/vendor_aosp/commit/c4cc794c409f2ccb6dab983f2bec9e69d5744243) REVERTME Don't inherit GApps for now _(by Hridaya Prajapati)_  
 [ac3f780](https://github.com/PixelOS-AOSP/build_soong/commit/ac3f78065caea7ae70484ad32db5d2ac6c9fa23b) Add <partition>/addon.d support to fsgen _(by Thomas Turner)_  
 [75fc332](https://github.com/PixelOS-AOSP/build_soong/commit/75fc3327da4f5f53fbee0c0465c149f986aa9e1a) Add <partition>/install support to fsgen _(by Thomas Turner)_  
-[7db320a](https://github.com/PixelOS-AOSP/frameworks_base/commit/7db320abd35530cc7ab3d82a505072c7d640fd63) fixup! base: Initial SenseProvider for FaceSense service _(by Hridaya Prajapati)_  
 [dd15b53](https://github.com/PixelOS-AOSP/build_soong/commit/dd15b53ef20c683c235b67d9bf30eedc0edcf373) Add Compress_apk property to android_app_import _(by Nelson Li)_  
 [6de967a](https://github.com/PixelOS-AOSP/build_soong/commit/6de967a4d0fd09048cd57b3711e04b2d0a6cb871) Support extract_apk in soong _(by Herbert Xue)_  
 [46b6d53](https://github.com/PixelOS-AOSP/frameworks_av/commit/46b6d536fd7c785a6944ed7d1a060a0375c4e7aa) fixup! Camera: Skip stream size check for whitelisted apps _(by Michael Bestas)_  
@@ -25,8 +368,6 @@ pageClass: changelogSection
 [0f12f61](https://github.com/PixelOS-AOSP/build_soong/commit/0f12f6189fb717b862223ce03506bc16a7b49e2d) Merge tag 'android-15.0.0_r20' into fifteen _(by Hridaya Prajapati)_  
 
 ## 2025-03-12
-[3170248](https://github.com/PixelOS-AOSP/vendor_aosp/commit/31702489488f656bdcc602f202bcd0105b89a9af) release: Enable screen_off_unlock_udfps _(by Michael Bestas)_  
-[a0323b7](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a0323b7662f17d632e327dff3672a8de4556ccf5) release: Bump aconfig flags extension to BP1A _(by Michael Bestas)_  
 [a3d94ac](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a3d94ac64338e25cc2f78de4fb9654759cbc1dc8) tablet: Enable desktop windowing mode _(by Yumi Yukimura)_  
 [5d798b7](https://github.com/PixelOS-AOSP/vendor_aosp/commit/5d798b733d709efe7491ebcb58394f0cdadf796c) overlay: tablet: Enable communal service _(by Yumi Yukimura)_  
 [ba82bb4](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ba82bb4cf551ff11f0006f17d400b9450264e1e7) config: tablet: Include tablet-specific overlay _(by Yumi Yukimura)_  
@@ -89,339 +430,6 @@ pageClass: changelogSection
 [f3ead0f](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/f3ead0f11ab2643f14774629e8b8594fa3120a2a) Hide unavailable battery info _(by Michael Bestas)_  
 [834944d](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/834944d5b15d8c7213897307115d6a0caf617c99) fixup! Settings: deviceinfo: Extend Battery info page _(by Michael Bestas)_  
 [730ec00](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/730ec0091852d6ccaaa04f3764ae7d4ac31f101a) Settings: deviceinfo: Extend Battery info page _(by Jyotiraditya Panda)_  
-[4a8ee6a](https://github.com/PixelOS-AOSP/frameworks_base/commit/4a8ee6a4fe655df70e7e7343b01da37298e4acc3) PiHooks: Update fingerprints _(by Hridaya Prajapati)_  
-[a7ef566](https://github.com/PixelOS-AOSP/frameworks_base/commit/a7ef5664e5a8cd1735b61f4739ecdf9bd18ec8b3) PIHooks: Add a system prop to enable debug logs _(by Adithya R)_  
-[f36918d](https://github.com/PixelOS-AOSP/frameworks_base/commit/f36918dcf59d776119c5ff6d70ab4a13bc8a7993) PropImitationHooks: Allow user to disable prop imitation _(by Jyotiraditya Panda)_  
-[3a24bcc](https://github.com/PixelOS-AOSP/frameworks_base/commit/3a24bcc5a3fedec81cf229777e04188ee5dc7916) PropImitationHooks: Simplify tablet spoofing _(by bheatleyyy)_  
-[d4009af](https://github.com/PixelOS-AOSP/frameworks_base/commit/d4009af37609a99badb2db87da3fd9e016836987) PIHooks: Refactor _(by basamaryan)_  
-[b311534](https://github.com/PixelOS-AOSP/frameworks_base/commit/b311534be40b8475b07bf6169e8ad4389e62f100) PropImitationHooks: Set HARDWARE, ID values _(by someone5678)_  
-[46d1344](https://github.com/PixelOS-AOSP/frameworks_base/commit/46d1344eb55454234b8d6e18e0a6b3e80c723f81) PIHooks: Drop GBoard spoofing _(by basamaryan)_  
-[fd091f4](https://github.com/PixelOS-AOSP/frameworks_base/commit/fd091f4e5df40efb7d13e4953f14bc046839b8cf) PIHooks: Spoof as Pixel Tab for tablets _(by saikiran2001)_  
-[c30cbad](https://github.com/PixelOS-AOSP/frameworks_base/commit/c30cbaddd5c76d2aae35d8a3a20c6ef65c25bbce) PIHooks: Spoof more Google apps _(by PainKiller3)_  
-[431497e](https://github.com/PixelOS-AOSP/frameworks_base/commit/431497e8f603162695b4e920fa5b99401e4e5da8) PIHooks: Spoof Pixel 8 Pro to some Google apps _(by Adithya R)_  
-[1d08f4c](https://github.com/PixelOS-AOSP/frameworks_base/commit/1d08f4cb8b7d241f7e8d7eb916e8a00136370893) PIHooks: Spoof more gapps and google photos _(by Adithya R)_  
-[a210ed2](https://github.com/PixelOS-AOSP/frameworks_base/commit/a210ed230dd119f501bcee4e3e2f355f6474d45a) PropImitationHooks: Make it a hidden API _(by Adithya R)_  
-[3c8633f](https://github.com/PixelOS-AOSP/frameworks_base/commit/3c8633fb80f7841c7e4dbc57a7bcc3241aa17c22) PIHooks: Set system props for native hook _(by Adithya R)_  
-[bb1d329](https://github.com/PixelOS-AOSP/frameworks_base/commit/bb1d3299c6af6f7875340a0a43a57251fb90541e) PIHooks: Get resources from context _(by Adithya R)_  
-[3d03d74](https://github.com/PixelOS-AOSP/frameworks_base/commit/3d03d747f65ce54c9e25f54e1da9c39fa5c950b9) PIHooks: Allow setting any field in certified build props _(by Adithya R)_  
-[f8d4cb1](https://github.com/PixelOS-AOSP/frameworks_base/commit/f8d4cb1ace091dbead8da9d13eb75d705d69470f) Introduce PropImitationHooks _(by Omkar Chandorkar)_  
-[c7ca59b](https://github.com/PixelOS-AOSP/frameworks_base/commit/c7ca59ba0aaeebd6270b320c2aad309e322896ae) SystemUI: VolumeDialog: Fix per-app volume on secondary users _(by Dhina17)_  
-[6f9899a](https://github.com/PixelOS-AOSP/frameworks_base/commit/6f9899a00a40b4b7d16a78411d21a98f08228464) SystemUI: Update per-app volume icon _(by yukiscape)_  
-[f012550](https://github.com/PixelOS-AOSP/frameworks_base/commit/f0125508f8046a2a0decb7b0032928c7c313f82e) base: make per-app work with multi audio focus _(by El Dainosor)_  
-[62665d0](https://github.com/PixelOS-AOSP/frameworks_base/commit/62665d0161cc314365cf2b066be80df0f0b33155) base: support per-app volume [2/3] _(by cjybyjk)_  
-[01c5f7f](https://github.com/PixelOS-AOSP/frameworks_base/commit/01c5f7f175c7d7e8a014e421202f496f0482e3a5) SystemUI: volume dialog: Align padding/margin for left and right _(by Arian)_  
-[3c0b63e](https://github.com/PixelOS-AOSP/frameworks_base/commit/3c0b63e3f869f7d58d6d2ee94ba11c71fbe1ff94) VolumeDialogImpl: Handle the outmost row with respect to left gravity _(by Arian)_  
-[0b99d0b](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b99d0b9891f291911b64fb079bb10e1a87f6f92) VolumeDialogImpl: Respect left gravity in ringer drawer _(by Arian)_  
-[607d183](https://github.com/PixelOS-AOSP/frameworks_base/commit/607d1831121e4e196e945efdfebe8b377cbc3aeb) VolumeDialogImpl: Set touchable region properly for left gravity _(by Arian)_  
-[d9339d5](https://github.com/PixelOS-AOSP/frameworks_base/commit/d9339d5062fcd548c5418d5e8215c015d4ff9c8b) VolumeDialogImpl: Drop unnecessary layout gravity defines and handle … _(by Arian)_  
-[82b4981](https://github.com/PixelOS-AOSP/frameworks_base/commit/82b4981277a1d640d4ac8b06d3c9b0721f1066b9) VolumeDialogImpl: Fix cut layout when on setup or lock task mode _(by jhenrique09)_  
-[ebdda53](https://github.com/PixelOS-AOSP/frameworks_base/commit/ebdda537e784bc5c999b9d0d60a8d679da7ccb8e) SystemUI: Fix up large clock top margin with pixel-fw _(by Pranav Vashi)_  
-[8b1263a](https://github.com/PixelOS-AOSP/frameworks_base/commit/8b1263ae07bb92ef92ab2412633a9db31e178dd6) SystemUI: Fix smartspace layout _(by Pranav Vashi)_  
-[0e9d03e](https://github.com/PixelOS-AOSP/frameworks_base/commit/0e9d03ed4e49a6d06f0a17931da9d080ba9effa7) SystemUI: SmartspaceSection: Build decoupled views only when required _(by Pranav Vashi)_  
-[f476448](https://github.com/PixelOS-AOSP/frameworks_base/commit/f476448192606c4166249881385dfe7d7a9ab6f2) SystemUI: Grant additional permissions for smartspace _(by Andrzej Perczak)_  
-[130df35](https://github.com/PixelOS-AOSP/frameworks_base/commit/130df35bcd23f4791cde0c1d30a360bb342705f7) SystemUI: Adapt Smartspace A15-QPR1 _(by clarencelol)_  
-[1cca6ae](https://github.com/PixelOS-AOSP/frameworks_base/commit/1cca6aed5489a5724989b99f8d40d30c9624dee3) SystemUI: smartspace: Adapt for 14 QPR2 _(by aswin7469)_  
-[b217e09](https://github.com/PixelOS-AOSP/frameworks_base/commit/b217e092d4cdcddbeb4f51edd9a6313b73367cf8) SystemUI: Implement Reverse-engineered Smartspace _(by Daniel Jacob Chittoor)_  
-[f713969](https://github.com/PixelOS-AOSP/frameworks_base/commit/f7139692dc222239e595c09f851e9cec1f4c6d4a) Catch BadParcelableException when checking extras _(by Luca Stefani)_  
-[5473a8b](https://github.com/PixelOS-AOSP/frameworks_base/commit/5473a8b22cc3c73d6661093b75f37b8d7a228fae) SettingsProvider: aconfig: do not error on missing flag files _(by Aaron Kling)_  
-[6a21eef](https://github.com/PixelOS-AOSP/frameworks_base/commit/6a21eef75b75af0a773753dda805f4171c954b41) pm: aconfig: do not error on missing flag files _(by Thomas Makin)_  
-[64b0cb0](https://github.com/PixelOS-AOSP/frameworks_base/commit/64b0cb03368433df5ed9fec87ea04fa2ef6ac3e9) ExifInterface: do not spam stacktrace on invalid format _(by Thomas Makin)_  
-[910e604](https://github.com/PixelOS-AOSP/frameworks_base/commit/910e6047182bc4da7d601089d9babe2d0bc9f019) BrightnessUtils: Conditionally disable gamma conversion for brightnes… _(by SagarMakhar)_  
-[10e45e0](https://github.com/PixelOS-AOSP/frameworks_base/commit/10e45e00638f08de59f02542ee2e04ad70765662) fixup! SystemUI: Turn on the display briefly when resuming AOD _(by Hridaya Prajapati)_  
-[309ca0d](https://github.com/PixelOS-AOSP/frameworks_base/commit/309ca0db608ec9d9f44557b7cb29154d2e84dad4) SystemUI: Turn on the display briefly when resuming AOD _(by Adithya R)_  
-[42cee1d](https://github.com/PixelOS-AOSP/frameworks_base/commit/42cee1dbdee9d13d1579af5a8c6ebf0f3c027ecb) SystemUI: Disable animations during biometric wake-and-unlock _(by Adithya R)_  
-[29038e0](https://github.com/PixelOS-AOSP/frameworks_base/commit/29038e0a2bc2a54ccc4d5a0af1f3be4e502b3939) Revert "[sb] remove unused param from initializer callback" _(by Hridaya Prajapati)_  
-[e6249cf](https://github.com/PixelOS-AOSP/frameworks_base/commit/e6249cfe9dd9e9fbc1cb0e9bf0d92631b9c3e08d) SystemUI: Implement burn-in protection for status/navbar _(by Park Ju Hyung)_  
-[e477c8c](https://github.com/PixelOS-AOSP/frameworks_base/commit/e477c8c113563efe769dacf96082f55989a152e8) SystemUI: React to PrivacyConfig changes properly _(by Tommy Webb)_  
-[f7f50eb](https://github.com/PixelOS-AOSP/frameworks_base/commit/f7f50eb1605c8a23038377682656f93f79a7011b) core: PinSet: Fixup and improve algorithms caching _(by jhonboy121)_  
-[9fb13e4](https://github.com/PixelOS-AOSP/frameworks_base/commit/9fb13e48c15fe486def0653d64f902c414930e68) Cache pin algorithms in PinSet _(by Till Kottmann)_  
-[6f9ff02](https://github.com/PixelOS-AOSP/frameworks_base/commit/6f9ff024af5090edba140690fecb1dff45c35924) Cache KeyStoreService _(by Till Kottmann)_  
-[f6f34a6](https://github.com/PixelOS-AOSP/frameworks_base/commit/f6f34a64b9258bbdb4230b86c44f5ea9fa8c9e08) (Point) Only calculate sin and cos once _(by Till Kottmann)_  
-[4949fac](https://github.com/PixelOS-AOSP/frameworks_base/commit/4949fac3c584f75449bbf261264cb8bdbedba35c) SystemUI: CastTile: Open cast settings on long click _(by Ido Ben-Hur)_  
-[b2253e0](https://github.com/PixelOS-AOSP/frameworks_base/commit/b2253e08b5ab5c0557aba8d1dc917267295c8cb2) health: Catch all setCharging*() exceptions _(by LuK1337)_  
-[5377f06](https://github.com/PixelOS-AOSP/frameworks_base/commit/5377f064f081b9f467e5577b031a1a71a6b829e6) health: Rename msToUTCString to msToHMSString _(by Luofan Chen)_  
-[416f635](https://github.com/PixelOS-AOSP/frameworks_base/commit/416f63558f3261d8aeccc991d569bc73b22f439b) health: Format notification's target time according to locale _(by наб)_  
-[103929d](https://github.com/PixelOS-AOSP/frameworks_base/commit/103929db3efe694db5aaaa5d0ed1dfb3a24bcd4e) FingerprintUtils: Migrate old fp config xml to new one on HIDL/AIDL s… _(by Luofan Chen)_  
-[27a09de](https://github.com/PixelOS-AOSP/frameworks_base/commit/27a09de4f9a850f0bac9fd73380505a477424477) JobScheduler: Respect allow-in-power-save perm _(by Tommy Webb)_  
-[02d6988](https://github.com/PixelOS-AOSP/frameworks_base/commit/02d69881dc9118d1195d5582ff9df4d1bdc99c6f) SystemUI: Check whether the selected WFD route is available _(by Weijie Wang)_  
-[7d6f2c4](https://github.com/PixelOS-AOSP/frameworks_base/commit/7d6f2c414d37a571691f9fabe121571504ff1b97) camera2: allow access to CaptureRequest.mLogicalCameraSettings _(by Cosmin Tanislav)_  
-[dc59b21](https://github.com/PixelOS-AOSP/frameworks_base/commit/dc59b2189f876c967ffaeec99305b583144babdc) base: Export bodyFontFamily and bodyFontFamilyMedium symbols _(by Pranav Vashi)_  
-[6d3c1c3](https://github.com/PixelOS-AOSP/frameworks_base/commit/6d3c1c324bc10435242f988ec84e1a04a533a251) CachedAppOptimizer : Pageout File pages during system compaction _(by Divyanand Rangu)_  
-[67fefe9](https://github.com/PixelOS-AOSP/frameworks_base/commit/67fefe98ec82b76e55d6d66430c1d47d788af48f) webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well _(by LuK1337)_  
-[2b0f43a](https://github.com/PixelOS-AOSP/frameworks_base/commit/2b0f43a338eae197e2555f5006ceaab2aebe8993) SystemUI: Fix QS customizer corner radius _(by Pranav Vashi)_  
-[ff52e67](https://github.com/PixelOS-AOSP/frameworks_base/commit/ff52e6776364e6b85a07762ccc8e048076338ee1) SystemUI: Fix burn-in translations not applying to keyguard slices _(by Andy CrossGate Yan)_  
-[feb6a19](https://github.com/PixelOS-AOSP/frameworks_base/commit/feb6a197d2280e2fd2efae83c0d5cea0f7a54b5c) BluetoothControllerImpl: Optimize connected battery level scanning _(by minaripenguin)_  
-[4018ab5](https://github.com/PixelOS-AOSP/frameworks_base/commit/4018ab5a7fad539ab36d5cae054daff28a8fe520) BluetoothControllerImpl: fetch battery level from any device _(by jhonboy121)_  
-[d17e53e](https://github.com/PixelOS-AOSP/frameworks_base/commit/d17e53e9cf46debeb2bf0e0e8a79704cd147dc1a) BluetoothControllerImpl: Synchronize mConnectedDevices access _(by jhonboy121)_  
-[08a99b8](https://github.com/PixelOS-AOSP/frameworks_base/commit/08a99b8f8be30b83b9d784186d36b96dddeb31de) Revert "AudioService: do not log sound effects in audio dumpsys" _(by jro1979oliver)_  
-[39dd1d2](https://github.com/PixelOS-AOSP/frameworks_base/commit/39dd1d282a9342c5fed3b25226ad0d2a3172452d) FlashlightStrengthTile: Move torch strength percentage to description _(by Hridaya Prajapati)_  
-[365c402](https://github.com/PixelOS-AOSP/frameworks_base/commit/365c4026116886aa68304d0616de8a520081d879) SystemUI: Fix Internet Tile showing no service _(by Tommy Webb)_  
-[1aca056](https://github.com/PixelOS-AOSP/frameworks_base/commit/1aca0566d4fa2beadf37c54af67cc7d7a8cd2660) s2ss: Remove property usage _(by LibXZR)_  
-[28f8d53](https://github.com/PixelOS-AOSP/frameworks_base/commit/28f8d53d06312e6587d338d87ff010240282ec77) SystemUI: require unlocking to use QS tiles _(by Dmitry Muhomor)_  
-[c89804e](https://github.com/PixelOS-AOSP/frameworks_base/commit/c89804e58b9aaa4603becd1339153f07707b35ff) SystemUI: Add DOUBLE_TAP_TO_WAKE to tuner service reset exceptions _(by LuK1337)_  
-[1ad7d46](https://github.com/PixelOS-AOSP/frameworks_base/commit/1ad7d46f0c645ca8e097f91e6e91abd0c7dafabb) SystemUI: Constrain keyguard indication area burn-in offset _(by Adithya R)_  
-[7482bde](https://github.com/PixelOS-AOSP/frameworks_base/commit/7482bde807456531d76061d3eea69b2a09973e84) FaceSense: Vibrate on successful authentication _(by Adithya R)_  
-[7a40e1f](https://github.com/PixelOS-AOSP/frameworks_base/commit/7a40e1fb95758b02950e5a7d37e053221922fbd9) SystemUI: Nuke oriented navbar handle _(by Ido Ben-Hur)_  
-[87c593c](https://github.com/PixelOS-AOSP/frameworks_base/commit/87c593cd56da038ebcabfb2d1d92d610c749cdc8) fixup! Add setting to allow/disallow interacting with quick _(by Dhina17)_  
-[e7231c2](https://github.com/PixelOS-AOSP/frameworks_base/commit/e7231c2cab6f550cc5dee9dd898e3d509ceddd33) Add setting to allow/disallow interacting with quick settings on secu… _(by Oliver Scott)_  
-[562f75a](https://github.com/PixelOS-AOSP/frameworks_base/commit/562f75a6c5147274a7fd73be20eb7ae97dbd4673) SystemUI: Don't remove keyguard slice view _(by LuK1337)_  
-[0dc5913](https://github.com/PixelOS-AOSP/frameworks_base/commit/0dc59131db27f3d5799227bcd88b5cca415448ae) fixup! SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
-[ead970f](https://github.com/PixelOS-AOSP/frameworks_base/commit/ead970f3a720a3433208ab3d8f6836730df5746f) SystemUI: Fix constraints for keyguard slice view _(by LuK1337)_  
-[6c358d6](https://github.com/PixelOS-AOSP/frameworks_base/commit/6c358d666704d931170d5908e411cce0d77e1d7a) FlashlightStrengthTile: Update bg color only if supports flash streng… _(by Dhina17)_  
-[d3e506f](https://github.com/PixelOS-AOSP/frameworks_base/commit/d3e506fc0f0af4a31808e4bb56cf53c65eb7c6d1) SliderQSTileView: Pass the SlideableQSTile interface itself _(by Dhina17)_  
-[072664c](https://github.com/PixelOS-AOSP/frameworks_base/commit/072664ca178c03fc0c98a3d07c7d37dae1f11d3c) FlashlightStrengthTile: TouchableQSTile -> SlideableQSTile _(by Dhina17)_  
-[b3b9df5](https://github.com/PixelOS-AOSP/frameworks_base/commit/b3b9df531d7043c82401de77052902a6d30ef53a) SystemUI: Fix flashlight strength tile in secondary user _(by Adithya R)_  
-[841e3ae](https://github.com/PixelOS-AOSP/frameworks_base/commit/841e3aef4965b3b407227c4f8e5afaac2df0c5ea) FlashlightStrengthTile: Do NOT leak CameraManager TorchCallback _(by Ido Ben-Hur)_  
-[392b07e](https://github.com/PixelOS-AOSP/frameworks_base/commit/392b07e57df9dbfd16233ec3b3f05b796f031c01) SystemUI: Introduce Flashlight Strength Tile _(by Anay Wadhera)_  
-[0d0086c](https://github.com/PixelOS-AOSP/frameworks_base/commit/0d0086c7d20b60dd638b2ceaa2e0b7d3b9ad9d80) OplusTypeCastingHelper: update stub _(by arnodorian-r)_  
-[951b32c](https://github.com/PixelOS-AOSP/frameworks_base/commit/951b32cd291b4b2b3096cc68cf5574655a896acb) Add some fwb stubs from Oplus _(by DennySPb)_  
-[4f2a966](https://github.com/PixelOS-AOSP/frameworks_base/commit/4f2a966bc2ffcb4ad16d820a6ed4b48784a07340) core: Expose method to toggle recent apps through Binder _(by someone5678)_  
-[c0bb98a](https://github.com/PixelOS-AOSP/frameworks_base/commit/c0bb98a46b12dfc782947cc39e083433397ae479) VolumeDialogImpl: Don't vibrate when volume dialog is not visible _(by LuK1337)_  
-[538fae6](https://github.com/PixelOS-AOSP/frameworks_base/commit/538fae63a6ffae8ccbc8e0ab5b3e88a727f27925) base: Decouple charging control and main logic _(by Luofan Chen)_  
-[fb19785](https://github.com/PixelOS-AOSP/frameworks_base/commit/fb19785ac8911ca4fca9fe219f69193b91024823) SystemUI: Update UdfpsTouchOverlay sensorRect on updating overlay params _(by Dhina17)_  
-[0f12e13](https://github.com/PixelOS-AOSP/frameworks_base/commit/0f12e136a2a498d8ecfb1ed4e980ed803dc43145) Biometrics: Allow disabling of fingerprint cleanups _(by jhenrique09)_  
-[8036088](https://github.com/PixelOS-AOSP/frameworks_base/commit/803608809d78247cb17a97a57799149cd143651d) wm: QC-like gesture fling boost _(by nift4)_  
-[1c8e923](https://github.com/PixelOS-AOSP/frameworks_base/commit/1c8e923e3adf1c7bf5088e68635fe80bf0f94138) ViewConfiguration: Set scroll friction to 0.012 _(by Alex Naidis)_  
-[2575c89](https://github.com/PixelOS-AOSP/frameworks_base/commit/2575c89aa5ac0cfaee6aa06ace751fb073d4f15b) base: set scrolling friction to 0.006f _(by Jake Weinstein)_  
-[225cf84](https://github.com/PixelOS-AOSP/frameworks_base/commit/225cf845ec65c873c414f1f871b56816ce5c9b6a) LayoutInflater: Opportunistically create views directly for performance _(by Danny Lin)_  
-[ca63bbe](https://github.com/PixelOS-AOSP/frameworks_base/commit/ca63bbe24ed84df300124d73d73730baeb1d5ae6) Textutils: Optimize writeToParcel for performance _(by minaripenguin)_  
-[e188055](https://github.com/PixelOS-AOSP/frameworks_base/commit/e18805583c99f1abae5f4c6a2aed5a0662adffc3) EventLog: Optimize writeEventArray for performance _(by minaripenguin)_  
-[f2bc2c4](https://github.com/PixelOS-AOSP/frameworks_base/commit/f2bc2c4a1eb9d2a499940304ac30d0f0eadd33ab) SystemServiceRegistry: Replace ArrayMap with HashMap for performance _(by Danny Lin)_  
-[adc5191](https://github.com/PixelOS-AOSP/frameworks_base/commit/adc51913b963a9c1a66fdda1fa841d4177fcff9a) ThemedResourceCache: Replace ArrayMap with HashMap for performance _(by Danny Lin)_  
-[060d24c](https://github.com/PixelOS-AOSP/frameworks_base/commit/060d24c7c1b97f9d28c9d6b5ed533629cfb53318) SettingsLib: Migrate MainSwitchPreference to Material3 _(by Bruno Martins)_  
-[5c9dfb3](https://github.com/PixelOS-AOSP/frameworks_base/commit/5c9dfb3a3e1f78e1b14b41738ec57d535646987a) Correction in logic of roundend size calculation of SD card _(by Chetan Gurjar)_  
-[adc56b5](https://github.com/PixelOS-AOSP/frameworks_base/commit/adc56b52359bc8e5ec7d98df44f576d812e61d58) SQLiteDatabase: Catch corrupt exception during transaction _(by muzbit.kim)_  
-[ac41b80](https://github.com/PixelOS-AOSP/frameworks_base/commit/ac41b8061a2e74bb94b43d223f0852add45b0856) SQLite: Do integrity_check only once _(by yi.jang)_  
-[1dc5c59](https://github.com/PixelOS-AOSP/frameworks_base/commit/1dc5c59eac74c9170ff06b051469470d73ed10d9) SystemUI: Fix double unlock sound issue _(by timjosten)_  
-[cb20cdf](https://github.com/PixelOS-AOSP/frameworks_base/commit/cb20cdf36e8afbce63e9d7fc9faa665ef5e812bc) Use getPackagesForOps instead of iterating packages by checkOperation _(by yinwei.sun1)_  
-[192afca](https://github.com/PixelOS-AOSP/frameworks_base/commit/192afca4f86aced4e6a089ca7b4ae2d1b89e1013) Set alert dialog message to use system font _(by maxwen)_  
-[18f946f](https://github.com/PixelOS-AOSP/frameworks_base/commit/18f946f82a855d827d142929851ebebfb3647003) pm: actually check fs verity support _(by Thomas Makin)_  
-[2ebac89](https://github.com/PixelOS-AOSP/frameworks_base/commit/2ebac8935f63ce5134c16e20f1389220879ac990) Don't fail setDeviceConnectionState if not implemented in hal _(by Aaron Kling)_  
-[5b91ac2](https://github.com/PixelOS-AOSP/frameworks_base/commit/5b91ac2b216977805c75fa35270662c667eec9a7) SystemUI: Use AVCProfileMain for screen recorder _(by Arne Coucheron)_  
-[1fa487e](https://github.com/PixelOS-AOSP/frameworks_base/commit/1fa487e020c858495ed6a278346e317671ab0016) power: Extend custom charging sounds _(by Bruno Martins)_  
-[a8d6ab5](https://github.com/PixelOS-AOSP/frameworks_base/commit/a8d6ab594250b6af69e7bd49b8255e7150074516) power: Keep file scheme when not using content URI _(by Han Wang)_  
-[b6a466d](https://github.com/PixelOS-AOSP/frameworks_base/commit/b6a466da0424016fb6ffe75ecfe36df2e18c4f09) SystemUI: Redraw display cutout on overlay changes _(by Adithya R)_  
-[6b5a9a9](https://github.com/PixelOS-AOSP/frameworks_base/commit/6b5a9a9c46a8b9953391dbe3eef918d6134584b4) SystemUI: Update advanced reboot icons _(by Gustavo Mendes)_  
-[efefeaa](https://github.com/PixelOS-AOSP/frameworks_base/commit/efefeaaf213156b9334a24427f972347209a026f) SystemUI: Hide advanced reboot options on keyguard _(by Adithya R)_  
-[8caede4](https://github.com/PixelOS-AOSP/frameworks_base/commit/8caede49ed0cf654b96d3242e7c6744dd8d46495) SystemUI: Make advanced reboot optional _(by Adithya R)_  
-[6a891fd](https://github.com/PixelOS-AOSP/frameworks_base/commit/6a891fdf30642afba36cb76368cacb590aa5185c) base: PowerMenu advanced reboot options _(by Adithya R)_  
-[bf57182](https://github.com/PixelOS-AOSP/frameworks_base/commit/bf57182b8d93841f69f9a2cdf7d02f06cfff519f) SystemUI: Let screenshot window ignore screen decorations _(by LuK1337)_  
-[af7bb88](https://github.com/PixelOS-AOSP/frameworks_base/commit/af7bb88439c1f183295dcf374d63158edfeba553) SystemUI: screenshot: close QS after launching long screenshot activity _(by LuK1337)_  
-[7e74c04](https://github.com/PixelOS-AOSP/frameworks_base/commit/7e74c040839d132d5d1ba754d4472b69a5596f39) SystemUI: screenshot: disable magnification for partial screenshots _(by Cosmin Tanislav)_  
-[d1d6a56](https://github.com/PixelOS-AOSP/frameworks_base/commit/d1d6a569893b1a33e0c8a92153b466f14c552559) SystemUI: screenshot: add extra crop boundaries _(by Cosmin Tanislav)_  
-[89782f2](https://github.com/PixelOS-AOSP/frameworks_base/commit/89782f2f1c4b401e88d95f76d0c5d0e8b490b9b3) SystemUI: screenshot: remove duplicate clamping on move action _(by Cosmin Tanislav)_  
-[dcb7c22](https://github.com/PixelOS-AOSP/frameworks_base/commit/dcb7c22b96a175827b233e61ce4370151ee7a094) SystemUI: screenshot: open long screenshot activity for partial scree… _(by Cosmin Tanislav)_  
-[fcfa7f9](https://github.com/PixelOS-AOSP/frameworks_base/commit/fcfa7f9d7ae4ad2feea0f4505c41d7be2955d74d) Implement click to take partial screenshot [1/3] _(by Jesse Chan)_  
-[64b8b4f](https://github.com/PixelOS-AOSP/frameworks_base/commit/64b8b4fef5b49eee4990bd23b1b30a90e932fc18) fixup! SystemUI: screenshot: Add delete action chip intent _(by LuK1337)_  
-[560bded](https://github.com/PixelOS-AOSP/frameworks_base/commit/560bded7ec4d093231126733cc1a063f854a4245) fixup! SystemUI: screenshot: Add delete action chip intent _(by Ido Ben-Hur)_  
-[c0e1f14](https://github.com/PixelOS-AOSP/frameworks_base/commit/c0e1f14fc644911a50b86b96c9e46ea1fe247ac6) SystemUI: screenshot: Add delete action chip intent _(by ganeshi4u)_  
-[ea45978](https://github.com/PixelOS-AOSP/frameworks_base/commit/ea45978d6cce10efedc8d52f5edef8cc494da06f) fixup! base: Allow disabling turbulence noise after clicking the play… _(by Ido Ben-Hur)_  
-[bc59b4c](https://github.com/PixelOS-AOSP/frameworks_base/commit/bc59b4ce1d8fd3624806b7548d6d8475bf9a704b) base: Allow disabling turbulence noise after clicking the play button _(by Ido Ben-Hur)_  
-[539a94a](https://github.com/PixelOS-AOSP/frameworks_base/commit/539a94a564c1f3b4c4c1bbb1cbc312d2f89329a5) SystemUI: screenshot: Hide action chips text labels _(by Ido Ben-Hur)_  
-[08f07cc](https://github.com/PixelOS-AOSP/frameworks_base/commit/08f07cca8a93636b1a944ed1d57129ce064dd03c) SystemUI: Dismiss screenshot window on touch outside _(by LibXZR)_  
-[35958dc](https://github.com/PixelOS-AOSP/frameworks_base/commit/35958dcfe8dd38fadb0b73f7244f5f35f91fa15f) SystemUI: Reduce screenshot dismiss delay to 3 seconds _(by Danny Lin)_  
-[38420a8](https://github.com/PixelOS-AOSP/frameworks_base/commit/38420a8eb342493ef11ccb535d082c2907bfa15e) SystemUI: Cleanup screenshot sound/vibration logic _(by Adithya R)_  
-[1272cfc](https://github.com/PixelOS-AOSP/frameworks_base/commit/1272cfcb7c69161ba56e2b0b81e90dcf747bbd7f) SystemUI: Adapt screenshot sound to ringer modes _(by Ashwin R C)_  
-[888bbc9](https://github.com/PixelOS-AOSP/frameworks_base/commit/888bbc9751dc1ea052d29c2fa298c0b2d5e21525) base: Implement cutout force full screen [1/2] _(by jhenrique09)_  
-[9ac2528](https://github.com/PixelOS-AOSP/frameworks_base/commit/9ac25289b989007ff0002a988e99e6deef69c992) base: Rework lock gesture feature _(by cjh1249131356)_  
-[309aff3](https://github.com/PixelOS-AOSP/frameworks_base/commit/309aff3b053fcb69c5a52ee30d8d270ea43c114e) fixup! base: Add support for window ignore secure [1/2] _(by someone5678)_  
-[58ccd7e](https://github.com/PixelOS-AOSP/frameworks_base/commit/58ccd7ee4dc44768ee56e96234dca0458c3b9910) base: Add support for window ignore secure [1/2] _(by LibXZR)_  
-[90f453c](https://github.com/PixelOS-AOSP/frameworks_base/commit/90f453c495d8913044a5840d8aa11dfa1b2dc4da) SurfaceControl: add more window types to consider NoVote _(by Omkar Chandorkar)_  
-[c91f987](https://github.com/PixelOS-AOSP/frameworks_base/commit/c91f987b6c4c17651e0c1f93119bdca055673b2b) Make default permissions updates tied to version incremental _(by Luca Stefani)_  
-[e89a386](https://github.com/PixelOS-AOSP/frameworks_base/commit/e89a3868e3cfd00ee2ed69eca9387dc79821cd6e) SystemUI: Add support for udfps dim layer _(by pjgowtham)_  
-[f4f9803](https://github.com/PixelOS-AOSP/frameworks_base/commit/f4f98036ca9d8b1f920d84246c01ffd2d7dadf45) udfps: Make pressed udfps view configurable _(by TheScarastic)_  
-[4821035](https://github.com/PixelOS-AOSP/frameworks_base/commit/4821035f1dbab9e93c69e36fa5d75c9883e24c31) udfps: Restore illumination dot for global hbm _(by Arian)_  
-[a0adcc2](https://github.com/PixelOS-AOSP/frameworks_base/commit/a0adcc29bbe0f356ee98aa5575d7e635c29fb254) WiredAccessoryManager: support for DP/HDMI display on soc:qcom,msm-ex… _(by Sai Priyanka Thirukkovela)_  
-[cb2f275](https://github.com/PixelOS-AOSP/frameworks_base/commit/cb2f275bd0604d53af3d0deffed2163425fddd1a) Force using WiredAccessoryObserver for DisplayPort _(by Harold Tan)_  
-[ac35bd7](https://github.com/PixelOS-AOSP/frameworks_base/commit/ac35bd738d4ff1b719458cd93a73ae05afb4f892) WiredAccessoryManager: Update stream index assignment _(by Harold Tan)_  
-[d1d6025](https://github.com/PixelOS-AOSP/frameworks_base/commit/d1d60251cad57a797d18087f5038c32df7cc9069) WiredAccessoryManager: use dev index from UEventInfo to form devPath _(by Harold Tan)_  
-[a6f0e42](https://github.com/PixelOS-AOSP/frameworks_base/commit/a6f0e4267f8b27814b70aec4de7568e26fb103d9) WiredAccessoryManager: Update display port device index _(by Aniket Kumar Lata)_  
-[6d3ab2c](https://github.com/PixelOS-AOSP/frameworks_base/commit/6d3ab2cf168d5c74efc7385e7cd060a8133d9190) WiredAccessoryManager: support for multiple display ports _(by Vignesh Kulothungan)_  
-[caf740e](https://github.com/PixelOS-AOSP/frameworks_base/commit/caf740e076c733cddfa8be12b16d74c42ca4f9a6) audio: update WiredAccessoryManager to use ExtconUEventObserver based… _(by Dhananjay Kumar)_  
-[07d3e25](https://github.com/PixelOS-AOSP/frameworks_base/commit/07d3e25254c3466956cf3a820c4aab77d1b79454) WiredAccessoryManager: Support for multiple extconn devices _(by Haynes Mathew George)_  
-[a06bdef](https://github.com/PixelOS-AOSP/frameworks_base/commit/a06bdef65692190d016cf1cd87eaed6654266cbd) WiredAccessoryManager: update extcon file paths _(by Aalique Grahame)_  
-[88e7339](https://github.com/PixelOS-AOSP/frameworks_base/commit/88e7339d15799ab00767f974714847ea91e8c5ed) WiredAccessoryManager: Add support for DisplayPort Audio _(by Revathi Uddaraju)_  
-[a02bc21](https://github.com/PixelOS-AOSP/frameworks_base/commit/a02bc21616a83da7d972a67fe4902ff438adb1c3) WifiDisplayController: handle preexisting p2p connection status _(by Li Sun)_  
-[b188efa](https://github.com/PixelOS-AOSP/frameworks_base/commit/b188efafad6d39c8d4ab6cc80cd426506b6dea7c) Merge changes for launching wifidisplay from system settings _(by Indranil Chakraborty)_  
-[57cc8e7](https://github.com/PixelOS-AOSP/frameworks_base/commit/57cc8e74adace3d192624a515202c63fa29d67b5) fixup! ThemeOverlayController: Ensure we always disable the neutral o… _(by Luca Stefani)_  
-[7a01843](https://github.com/PixelOS-AOSP/frameworks_base/commit/7a01843919fbfcc79996b59e81db0f5aade19271) ThemeOverlayController: Ensure we always disable the neutral overlay _(by Pranav Vashi)_  
-[6ea4083](https://github.com/PixelOS-AOSP/frameworks_base/commit/6ea40834b97267c3963431355ccda2ff953aa404) ThemeOverlayController: Don't enable neutral overlay when we use dark bg _(by Ido Ben-Hur)_  
-[b76ad43](https://github.com/PixelOS-AOSP/frameworks_base/commit/b76ad4364d34d4f7ae60c37057c65300d9d3d21a) BiometricScheduler: Cancel operation if not idle _(by SagarMakhar)_  
-[792a7be](https://github.com/PixelOS-AOSP/frameworks_base/commit/792a7bebc58897575de55ed35d20d31c935146e8) SystemUI: Implement bouncer face unlock animation _(by minaripenguin)_  
-[0a896c3](https://github.com/PixelOS-AOSP/frameworks_base/commit/0a896c37496f68ab3588536ce3b410d275314ba2) SystemUI: biometrics: Follow user setting to confirm face unlock _(by Pranav Vashi)_  
-[a941d61](https://github.com/PixelOS-AOSP/frameworks_base/commit/a941d61ed3fd83b5401ae9a9e69e8b288627cfa0) SystemUI: Use proper tint for face unlock icon _(by Pranav Vashi)_  
-[ecaff18](https://github.com/PixelOS-AOSP/frameworks_base/commit/ecaff1833240857c58f42f2b59895ab04318d98e) SystemUI: Implement face unlock recognition animation and text _(by minaripenguin)_  
-[9c3360f](https://github.com/PixelOS-AOSP/frameworks_base/commit/9c3360fb03f58b72996e528a450bfd9ee68966a4) SystemUI: Disable FaceUnlock Lockouts _(by minaripenguin)_  
-[802e22e](https://github.com/PixelOS-AOSP/frameworks_base/commit/802e22e98f2bb867ca2baa072d8d46fefcbb4343) services: Force load FaceSense providers _(by Pranav Vashi)_  
-[898b1fb](https://github.com/PixelOS-AOSP/frameworks_base/commit/898b1fbdc0c7a114555fd83e2dc0b00e6ff823c8) FaceService: Conditionally add ParanoidSense _(by someone5678)_  
-[fdb6dd5](https://github.com/PixelOS-AOSP/frameworks_base/commit/fdb6dd5a03f01ea0793045515767b712ed6f8354) services: Adapt face sense to A15-QPR1 _(by COSMIC)_  
-[d4e7dc3](https://github.com/PixelOS-AOSP/frameworks_base/commit/d4e7dc3b49b4b1792ffbb469cbc7acae96a3e35b) base: Initial SenseProvider for FaceSense service _(by Chris Crump)_  
-[6f3224c](https://github.com/PixelOS-AOSP/frameworks_base/commit/6f3224ce0efd8574252082d46974cfaffb88c358) SystemUI: Status bar tuner improvements _(by Rashed Abdel-Tawab)_  
-[54c3696](https://github.com/PixelOS-AOSP/frameworks_base/commit/54c3696322e8b7683cf2142ad48637fe14198fcf) SystemUI: Adapt tuner prefs to S settings style _(by SagarMakhar)_  
-[1776f0f](https://github.com/PixelOS-AOSP/frameworks_base/commit/1776f0f5178e830507988051531bf2d636545574) SystemUI: Don't show tuner warning _(by Danny Lin)_  
-[db8f69f](https://github.com/PixelOS-AOSP/frameworks_base/commit/db8f69f4f527b007303b23f37079362230c3920d) SystemUI: Hide more tuner preferences on production builds _(by Danny Lin)_  
-[01f96e1](https://github.com/PixelOS-AOSP/frameworks_base/commit/01f96e12844c8d65e796d10a873213829405b7e8) StatusBarIconController: Don't crash at boot _(by Ido Ben-Hur)_  
-[0efbab8](https://github.com/PixelOS-AOSP/frameworks_base/commit/0efbab8df4d596eb1d6e9e841edae8bea1cd5142) SystemUI: Do not duplicate SPN and PLMN in network name _(by Adithya R)_  
-[6dfc823](https://github.com/PixelOS-AOSP/frameworks_base/commit/6dfc823c78745abdf675894186b7f87ed1bc5d22) Flags: Enable color fidelity _(by aswin7469)_  
-[79561d1](https://github.com/PixelOS-AOSP/frameworks_base/commit/79561d18c7ab543c6351f5d29ef9f73d41e38130) SystemUI: Update Bluetooth battery level assets _(by Hernán Castañón Álvarez)_  
-[682c497](https://github.com/PixelOS-AOSP/frameworks_base/commit/682c4970fcbdaf2c81ebeeaee4da27c42867f14c) services: Fix crash of boot-time info dialog due to delayed font init _(by Dmitry Muhomor)_  
-[ef9b2dc](https://github.com/PixelOS-AOSP/frameworks_base/commit/ef9b2dc3fb2c5001ccc15c9a3ffa366170620388) ShutdownThread: Shorten wait time for shutdown time optimization _(by zljing)_  
-[f3fdcad](https://github.com/PixelOS-AOSP/frameworks_base/commit/f3fdcad7c6dc85b6ae12b98f4c6fb536a43ff90d) base: Allow setting wake for notifications separately from doze [1/2] _(by Ido Ben-Hur)_  
-[7d19749](https://github.com/PixelOS-AOSP/frameworks_base/commit/7d197492c0b4f5143a60525ceb3a9b82e295f905) base: Allow showing Ambient instead of fully waking [1/2] _(by ezio84)_  
-[073dd5a](https://github.com/PixelOS-AOSP/frameworks_base/commit/073dd5a2b6b484c2e28512b6f5783eed912d3963) core: res: Use accent color for progress bar background _(by Danny Lin)_  
-[3011e5e](https://github.com/PixelOS-AOSP/frameworks_base/commit/3011e5efb68e348e7bac07bae062770b131d5eb5) Make all activities resizable _(by Andy CrossGate Yan)_  
-[56b689f](https://github.com/PixelOS-AOSP/frameworks_base/commit/56b689f65df813b8e127807779e91de1f4d934df) UI: Follow Monet and light/dark theme in user 1 icon _(by Andy CrossGate Yan)_  
-[4379d76](https://github.com/PixelOS-AOSP/frameworks_base/commit/4379d762986f03432bd86a6580e3e957054ab803) NightLight: Allow lower temperatures _(by Joe Maples)_  
-[6d03249](https://github.com/PixelOS-AOSP/frameworks_base/commit/6d032499c7c9c49e4aa3f9bd730cefb318358c03) SystemUI: Fix suspicious spaces around new mobile icons _(by lgjint)_  
-[e390ba0](https://github.com/PixelOS-AOSP/frameworks_base/commit/e390ba0b579e6c9448dfbe186e3a7c48b970e3dd) Configurable 0, 90, 180 and 270 degree rotation [1/2] _(by Ricardo Cerqueira)_  
-[9832ccb](https://github.com/PixelOS-AOSP/frameworks_base/commit/9832ccb53bd508e3888ae175c63d28f154d90522) core: Fix uninitialized settings in NotificationAttentionHelper _(by LuK1337)_  
-[d88816a](https://github.com/PixelOS-AOSP/frameworks_base/commit/d88816aa765334266fd082fd192f9ec362ef3d31) Support enforcing a minimum delay between notification sounds of an app. _(by Danny Baumann)_  
-[0f61624](https://github.com/PixelOS-AOSP/frameworks_base/commit/0f61624e8789b75c1a362d322e3d168dad5de7e9) base: Forward Port Volume Long Press Skip Tracks [1/2] _(by Austin T. Conn)_  
-[dd7f431](https://github.com/PixelOS-AOSP/frameworks_base/commit/dd7f431e7b07114e74958b12d3e1f3b7cdfe5cb9) SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod _(by maxwen)_  
-[c72d2aa](https://github.com/PixelOS-AOSP/frameworks_base/commit/c72d2aa9822602fbc2b5ab8606aa5516a3e18c93) core: Allow to hide and set a default for status bar DT2S gesture _(by Bruno Martins)_  
-[077d52b](https://github.com/PixelOS-AOSP/frameworks_base/commit/077d52b555e88769c86f721820e4b1a067059cf8) fixup! SystemUI: Add double tap to sleep gesture _(by Chirayu Desai)_  
-[a08c14a](https://github.com/PixelOS-AOSP/frameworks_base/commit/a08c14a3390ed48c9fcd599b28d8081ff1e057c3) SystemUI: Add double tap to sleep gesture _(by Rashed Abdel-Tawab)_  
-[e9a33e6](https://github.com/PixelOS-AOSP/frameworks_base/commit/e9a33e6802401b95dfc94444f31bce09121682d6) AutoBrightness: Add support for one shot auto-brightness _(by Cédric Bellegarde)_  
-[15125ac](https://github.com/PixelOS-AOSP/frameworks_base/commit/15125ac11eb25855a71aa0d6ec17476b01efad1c) fw/b: Add capability to allow tethering to use VPN upstreams _(by Sam Mortimer)_  
-[1dbb070](https://github.com/PixelOS-AOSP/frameworks_base/commit/1dbb0707bd419541f16b14d6cd2491bd27aa5033) SystemUI: Remove nav bar background in QS customizer _(by Danny Lin)_  
-[bbf9326](https://github.com/PixelOS-AOSP/frameworks_base/commit/bbf93263f128f05117a03bd87cca0de03caca155) base: Incall vibration options [1/3] _(by beanstown106)_  
-[c8fa248](https://github.com/PixelOS-AOSP/frameworks_base/commit/c8fa248090f48dcc60203507bb156d6112ad3f80) NetworkPolicyManagerService: turn this into just a warning _(by Simão Gomes Viana)_  
-[b2f55d1](https://github.com/PixelOS-AOSP/frameworks_base/commit/b2f55d1815b134d7109a930baf4746069a03178b) base: Squash import NetworkTraffic _(by Jon Haus)_  
-[dacd077](https://github.com/PixelOS-AOSP/frameworks_base/commit/dacd077b93e5fc3ae451e1cb398afe60be854637) Keyguard: Add option to scramble pin layout when unlocking [2/2] _(by Adnan)_  
-[138b686](https://github.com/PixelOS-AOSP/frameworks_base/commit/138b686cb243dec807fde80a963f361f4e4b37e3) LockPatternView: Fix showing pattern error _(by Dhina17)_  
-[e774867](https://github.com/PixelOS-AOSP/frameworks_base/commit/e774867bd23c7d5d1e18940a5ff3e0e92b8878f3) fixup! Forward port CM Screen Security settings (1/2) _(by LuK1337)_  
-[99d2617](https://github.com/PixelOS-AOSP/frameworks_base/commit/99d2617a4a9232adb70e83741fe646b4361895fc) Forward port CM Screen Security settings [1/2] _(by Michael Bestas)_  
-[dac230e](https://github.com/PixelOS-AOSP/frameworks_base/commit/dac230e2db6e9be86f44e9c99c6b53c155b96c3f) SystemUI: Launch power menu from QS only if enabled _(by DarkJoker360)_  
-[faa2c61](https://github.com/PixelOS-AOSP/frameworks_base/commit/faa2c61dae0e5d61fda59a96d94ce96f992fc2b8) base: Fix disabling power menu completely on secured lockscreen _(by Pranav Vashi)_  
-[a15a5c8](https://github.com/PixelOS-AOSP/frameworks_base/commit/a15a5c82b1f2905a6beb5ceffd38cc8861f5bd38) base: Hide power menu on secure lockscreen [1/2] _(by Altaf-Mahdi)_  
-[8c14ac6](https://github.com/PixelOS-AOSP/frameworks_base/commit/8c14ac6cfd14d89c0d96b476b77e3b59edc868b8) SystemUI: Show big keyguard clock when media controls are hidden _(by Ido Ben-Hur)_  
-[6f83be2](https://github.com/PixelOS-AOSP/frameworks_base/commit/6f83be237657709156e31fa94ed0114150dabe8d) base: Long press power button to toggle flashlight [1/2] _(by ezio84)_  
-[948b00f](https://github.com/PixelOS-AOSP/frameworks_base/commit/948b00fc4ca0be5a8f63211977cb5de340d0aa57) SystemUI: MediaHierarchyManager: Initiate allowMediaPlayerOnLockScreen _(by Ido Ben-Hur)_  
-[fa0b809](https://github.com/PixelOS-AOSP/frameworks_base/commit/fa0b8099d899837eda9fb6b738ef3ed76368690e) fixup! SystemUI: Implement hide gestural navigation hint bar _(by Dhina17)_  
-[f8b5165](https://github.com/PixelOS-AOSP/frameworks_base/commit/f8b5165c4d64ebec631ffb1a7feedcf0c9832db3) SystemUI: Implement hide gestural navigation hint bar _(by Jesse Chan)_  
-[54f8e41](https://github.com/PixelOS-AOSP/frameworks_base/commit/54f8e41bd5d455c11fc9d8b5b38f23d039444bf3) SystemUI: Add Autobrightness tile _(by Dil3mm4)_  
-[c0d28cb](https://github.com/PixelOS-AOSP/frameworks_base/commit/c0d28cb46b7c8580c4dd260832845ede4251afe6) SystemUI: Add powershare QS tile _(by Linux4)_  
-[58fbdd7](https://github.com/PixelOS-AOSP/frameworks_base/commit/58fbdd74e7c26c9dd60272e87cc634a276648358) SystemUI: Add USB Tether tile _(by BestPig)_  
-[1a8fc20](https://github.com/PixelOS-AOSP/frameworks_base/commit/1a8fc20e1f67200b43be54cc67cddd7c6b021d91) SystemUI: Add AOD QS tile _(by Marko Man)_  
-[311afd2](https://github.com/PixelOS-AOSP/frameworks_base/commit/311afd2eb94d7a121c4909e62798fde3282e2714) SystemUI: Add heads up tile _(by Michael Bestas)_  
-[63e3da6](https://github.com/PixelOS-AOSP/frameworks_base/commit/63e3da64716a91f6c88c1b88895e7c852ce8ff2c) Revert "[DO NOT MERGE] Make sure WiFi and Cell tiles are not created … _(by Danny Lin)_  
-[21b1ad6](https://github.com/PixelOS-AOSP/frameworks_base/commit/21b1ad6c53233dcfde9f4de19d4fc9ee39e652cf) Reapply "SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider m… _(by Danny Lin)_  
-[45ba7cd](https://github.com/PixelOS-AOSP/frameworks_base/commit/45ba7cd4445c9a9bc2cc2bb4a0a84047fa15b603) SystemUI: Restore wifi and cellular QS tiles _(by Michael Bestas)_  
-[42df070](https://github.com/PixelOS-AOSP/frameworks_base/commit/42df070bba87f9ed876c98a2bd4d897ccc29aadb) SystemUI: Introduce Data Switch QS Tile _(by Christian Oder)_  
-[c7e0834](https://github.com/PixelOS-AOSP/frameworks_base/commit/c7e083411c157652101cf8681ed3259e60933a98) SystemUI: Add caffeine QS tile _(by Keith Mok)_  
-[5df87df](https://github.com/PixelOS-AOSP/frameworks_base/commit/5df87dfa42bfea8f6ecf91f8bd1bcbcefcec7bcb) SystemUI: Enable NFC tile _(by Tim Schumacher)_  
-[818e604](https://github.com/PixelOS-AOSP/frameworks_base/commit/818e6047a34ef41bfb4a914f9fc909830fbb818d) SystemUI: Update NFC tile drawable _(by mydongistiny)_  
-[260f470](https://github.com/PixelOS-AOSP/frameworks_base/commit/260f470e5bf158c5c7cbe4e9c940994c1e77b04d) core: Fix menu popup ripple _(by timjosten)_  
-[2f7d6ad](https://github.com/PixelOS-AOSP/frameworks_base/commit/2f7d6ada93567341a74386cc21678c71ded0b8f7) SystemUI: Add navbar layout inversion tuning [1/2] _(by LuK1337)_  
-[7da1d79](https://github.com/PixelOS-AOSP/frameworks_base/commit/7da1d799b0185f6a8a696a1e3d2353e3231bb803) policy: Add support for device alert sliders. _(by thecrazyskull)_  
-[a782bac](https://github.com/PixelOS-AOSP/frameworks_base/commit/a782bac124f5c97049c93fc43ee1da18a2843c7e) base: Introduce Smart 5G service [1/2] _(by Adithya R)_  
-[4fc82f8](https://github.com/PixelOS-AOSP/frameworks_base/commit/4fc82f886a561aecf1eec8ae7208d209114376f6) base: Add three-fingers-swipe to screenshot [1/2] _(by ghbhaha)_  
-[bd84b8b](https://github.com/PixelOS-AOSP/frameworks_base/commit/bd84b8b15a71c9b91a884a1b042bc12b14724f50) [SQUASH] base: Add option to cycle through ringer modes [1/2] _(by rituj)_  
-[afdbe16](https://github.com/PixelOS-AOSP/frameworks_base/commit/afdbe16d7b119db131e8abda9d6767ea4bc346b0) SystemUI: Introduce Adaptive Playback [1/2] _(by Jyotiraditya)_  
-[9885cc3](https://github.com/PixelOS-AOSP/frameworks_base/commit/9885cc31f5de8c49fca98cc9d53cdd0c2b0fa213) core: Broadcast intent when display power state changes _(by Adithya R)_  
-[1c6278b](https://github.com/PixelOS-AOSP/frameworks_base/commit/1c6278b18558d25e9e463f26640de451fd180f46) base: Update some icons to MD2 _(by Anushek Prasal)_  
-[1ef5f63](https://github.com/PixelOS-AOSP/frameworks_base/commit/1ef5f63977a074dbee5e7b550720c4e81e8c17d2) SystemUI: support black theme for dark mode [1/3] _(by Jesse Chan)_  
-[16d890b](https://github.com/PixelOS-AOSP/frameworks_base/commit/16d890b366a589077741d7e4861d560140c626b9) Report success on every fingerprint removal _(by Kishan Dudhatra)_  
-[8b9e293](https://github.com/PixelOS-AOSP/frameworks_base/commit/8b9e2934b3b34bb69433286d67140f19822b9665) SystemUI: Fix uneven DND icon padding in status bar _(by Ido Ben-Hur)_  
-[a8b8e1f](https://github.com/PixelOS-AOSP/frameworks_base/commit/a8b8e1f557885b870d432769aa72d26fdfcb204d) SystemUI: Update string for add tiles with one click _(by mydongistiny)_  
-[9277dab](https://github.com/PixelOS-AOSP/frameworks_base/commit/9277dab43cf72339cdd0ed4fac1389ff026cf115) SystemUI: Allow user to add/remove QS with one click _(by Andrzej Ressel)_  
-[d963829](https://github.com/PixelOS-AOSP/frameworks_base/commit/d963829f3d3395d331a63bbfb2897b06e7971de2) Apply monet to fingerprint authentication ripple animation _(by SagarMakhar)_  
-[6f4e87d](https://github.com/PixelOS-AOSP/frameworks_base/commit/6f4e87db1e61a9516e6441ae3ea406b901886b5c) SystemUI: Make battery clickable again _(by Michael W)_  
-[f1da48d](https://github.com/PixelOS-AOSP/frameworks_base/commit/f1da48da775ca5ad810bd0fd3a3b550fb2621ab8) SystemUI: Enable cast tile without Wi-Fi connection _(by nift4)_  
-[ec02828](https://github.com/PixelOS-AOSP/frameworks_base/commit/ec02828b4bb8cc3268162cdc08d1028c1e7aaa07) AutofillManager: Make userdebug default to NO_LOGGING _(by LuK1337)_  
-[e56ce8f](https://github.com/PixelOS-AOSP/frameworks_base/commit/e56ce8fa146d503f894bf17d486a402d3406c179) SystemServer: only enable fd leak tracker on eng _(by Simao Gomes Viana)_  
-[c40f025](https://github.com/PixelOS-AOSP/frameworks_base/commit/c40f0257e5bec844105bd11bcf0dd0bb07521548) core: BatteryManager: Add few more Battery broadcast intents _(by Jyotiraditya Panda)_  
-[4e2a57c](https://github.com/PixelOS-AOSP/frameworks_base/commit/4e2a57c85813a950bc8db21a66971e3b1e3969c9) PowerOffAlarmService: Handle NPE with shared preferences _(by Adithya R)_  
-[1e88cd0](https://github.com/PixelOS-AOSP/frameworks_base/commit/1e88cd02a1509f2b8fa03744358af508bb7077e8) base: Introduce PowerOffAlarmService _(by Ido Ben-Hur)_  
-[34fd4fa](https://github.com/PixelOS-AOSP/frameworks_base/commit/34fd4fa3c8dcd4eb69c8edff52a15b8f33c14471) SystemUI: Update QS header fields text appearance on theme change _(by Dhina17)_  
-[3ede8cd](https://github.com/PixelOS-AOSP/frameworks_base/commit/3ede8cd0b4562bb34893ba216036fd85425413f9) Fix default values for 5G Ultra Wideband icon carrier config keys _(by Vala Zadeh)_  
-[34dd9c8](https://github.com/PixelOS-AOSP/frameworks_base/commit/34dd9c82625139d3c9e8df7f8e5b13f859d37314) Add 5G Ultra Wideband icon carrier config keys _(by Vala Zadeh)_  
-[9a606a7](https://github.com/PixelOS-AOSP/frameworks_base/commit/9a606a7a82c5ddc883ebc9e11499498a9e739e3a) base: SystemUI: Allow flags to be overrideable _(by Jeferson)_  
-[0918411](https://github.com/PixelOS-AOSP/frameworks_base/commit/0918411d05f882df60d63effe5a5ad22f37da20a) SystemUI: handle camera launch gesture from keyhandler _(by Roman Birg)_  
-[8cb5630](https://github.com/PixelOS-AOSP/frameworks_base/commit/8cb5630ca50b3b381ac6c872f0dd9d3c2af1954a) DozeSensors: only use proximity sensor if supported _(by Demon000)_  
-[4b82b50](https://github.com/PixelOS-AOSP/frameworks_base/commit/4b82b504863d341ae4cc1b3c662e8a4a49db4738) SystemUI: doze: add config for long press sensors that need a proximi… _(by Cosmin Tanislav)_  
-[a7bea8d](https://github.com/PixelOS-AOSP/frameworks_base/commit/a7bea8d2f2525a67439efc3f9163127e4c28e9ac) SystemUI: doze: add config for double tap sensors that need a proximi… _(by Cosmin Tanislav)_  
-[12ce78a](https://github.com/PixelOS-AOSP/frameworks_base/commit/12ce78a2aea9f08c3e91ce688d9f7a5f4fadce9f) Partially revert "Assume sensors perform prox check" _(by Cosmin Tanislav)_  
-[436549a](https://github.com/PixelOS-AOSP/frameworks_base/commit/436549a3a0cc9c3d1c11f75113379c36f4000ed1) SettingsLib: Update 5G+ icon to Silk design _(by Adithya R)_  
-[3f4ce6e](https://github.com/PixelOS-AOSP/frameworks_base/commit/3f4ce6e36b829da029cf47a1de8a878142b731d2) SystemUI: Enable production-ready feature flags _(by Danny Lin)_  
-[e005a7b](https://github.com/PixelOS-AOSP/frameworks_base/commit/e005a7b05233e59a677f9c7b66a7702d8e6488c6) Add config to exempt telephony-related app from location indicators _(by Danny Lin)_  
-[30dad88](https://github.com/PixelOS-AOSP/frameworks_base/commit/30dad882e4f1772af4c7268337640e63f26a1624) SystemUI: Internet tile: Allow long-pressing on mobile network _(by Michael W)_  
-[4d13b6c](https://github.com/PixelOS-AOSP/frameworks_base/commit/4d13b6cdad9cb5fc9e6c18ee310369a03b49dad2) SystemUI: More rounded corners _(by Lucchetto)_  
-[741110a](https://github.com/PixelOS-AOSP/frameworks_base/commit/741110ac8ae05dcf94562bb86a9ce27003bffe0e) wm: Follow rounded corners by split divider corner size _(by ReallySnow)_  
-[0c9b4dd](https://github.com/PixelOS-AOSP/frameworks_base/commit/0c9b4ddbd2c56ddc5c42fc634910b1136e21c61c) graphics: Override system fonts with user-selected overlays _(by Danny Lin)_  
-[d670785](https://github.com/PixelOS-AOSP/frameworks_base/commit/d6707858cb4dc27dacb38dcc7098bb865b9d23a1) base: Add deep sleep info to uptime preference _(by maxwen)_  
-[a0bf648](https://github.com/PixelOS-AOSP/frameworks_base/commit/a0bf648d9e568fd83c6bf79453570bd8bba4ca3a) SettingsProvider: Set device name to marketname if available _(by Adithya R)_  
-[6f71a5a](https://github.com/PixelOS-AOSP/frameworks_base/commit/6f71a5ac187b98c08467f2d10f58d1b2419b2de8) TtsEngines: avoid crashes caused by null engine name _(by Oliver Scott)_  
-[180c77b](https://github.com/PixelOS-AOSP/frameworks_base/commit/180c77b80decb46d1460f6808a169e4c23dd5b49) Do not ignore background vibrations from shell _(by Tommy Webb)_  
-[154d31b](https://github.com/PixelOS-AOSP/frameworks_base/commit/154d31b4b2d75395c056da517d2a2735fbbd8889) Fix MtpDatabase multithreading NullPointerException _(by katao)_  
-[625aec5](https://github.com/PixelOS-AOSP/frameworks_base/commit/625aec53f8820ff4f502604767e8a7590e6c9034) Allow disabling USB notifications _(by Danny Lin)_  
-[a4ce876](https://github.com/PixelOS-AOSP/frameworks_base/commit/a4ce876ec6124139d5119f6c43974dac48154113) UpdateEngine: Add perf mode binder interface _(by Luca Stefani)_  
-[bf28170](https://github.com/PixelOS-AOSP/frameworks_base/commit/bf28170e60d5b575aa4e6ca582f4eb48240c367f) TwilightService: Use temporary TwilightState when location is not ava… _(by rituj)_  
-[ae01db8](https://github.com/PixelOS-AOSP/frameworks_base/commit/ae01db8397d3203d14085caf713e1bdbd4f42547) SystemUI: Add colors to assistant animation _(by paphonb)_  
-[d5a699d](https://github.com/PixelOS-AOSP/frameworks_base/commit/d5a699d5a8d72fbe0300c869bbcaf0dc3466b12c) Fix bug Device that can't support adoptable storage cannot read the s… _(by sangho.yoon)_  
-[82be095](https://github.com/PixelOS-AOSP/frameworks_base/commit/82be095bb44ef6e69e6f4e924cbfb58cd17f1d35) ScreenRecord: Save recordings in ScreenRecords _(by El Dainosor)_  
-[0c64b71](https://github.com/PixelOS-AOSP/frameworks_base/commit/0c64b7174d172d3767d93e2215426ea254b64a06) SystemUI: Fix the unlock sound played repeatedly _(by Shufeng Hou)_  
-[6b0125e](https://github.com/PixelOS-AOSP/frameworks_base/commit/6b0125eeee17d780eb7bf71c9fc8bda4e5eacee3) SystemUI: Fix status bar alarm icon _(by Michael W)_  
-[515ee4d](https://github.com/PixelOS-AOSP/frameworks_base/commit/515ee4dd0d84e7a5c1b39737a0aba1ff1f6d9d57) SystemUI: Remove alarm from statusbar icon blocklist _(by Adithya R)_  
-[9199498](https://github.com/PixelOS-AOSP/frameworks_base/commit/9199498976b6e4dafab6b56b52c6a07b8d82796b) base: Rearrange bluetooth icon on statusbar _(by Adithya)_  
-[6e677d3](https://github.com/PixelOS-AOSP/frameworks_base/commit/6e677d3e65267d0242d0dcbfa83a0721a18a892b) themes: Fix list style alert dialog to use system font _(by maxwen)_  
-[c5fb550](https://github.com/PixelOS-AOSP/frameworks_base/commit/c5fb5500be524b683adb2ec2fd775650aeb24512) SystemUI: Remove excess margin in few statusbar icons _(by Adithya R)_  
-[07d0759](https://github.com/PixelOS-AOSP/frameworks_base/commit/07d0759e7d5a5bfb1e2acefa2375e2aedd060c51) SystemUI: Internet tile: Allow long-pressing on mobile network _(by Michael W)_  
-[8f06668](https://github.com/PixelOS-AOSP/frameworks_base/commit/8f06668afbe151136ade1d719cd0f9bd0a0f06ce) SystemUI: Fix uneven volume icon padding in status bar _(by Danny Lin)_  
-[0b13121](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b13121cfeea4ca4b6dc61bd799e80cdb811f9a0) SystemUI: Check if primitive vibrations are supported in new quick af… _(by Fabian Leutenegger)_  
-[46d9ba7](https://github.com/PixelOS-AOSP/frameworks_base/commit/46d9ba724d67d701373f38272d6437179e5d5338) camera: Skip HFR checks for privileged apps. _(by Sai Kumar Sanagavarapu)_  
-[0b91232](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b91232b793cdefb4f44ca638b93f19fe63170bb) Camera: Skip stream size check for whitelisted apps. _(by Gaoxiang Chen)_  
-[932bc74](https://github.com/PixelOS-AOSP/frameworks_base/commit/932bc743930fdb44748808f70639abc76dd76b52) camera: Support exposing aux camera to apps _(by Sauhard Pande)_  
-[00c7457](https://github.com/PixelOS-AOSP/frameworks_base/commit/00c74575546cc9730ad1834821e5df8cfd6e0855) core: camera2: StreamConfigurationMap: add constructor for MIUI camera _(by Pulkit077)_  
-[b5dda28](https://github.com/PixelOS-AOSP/frameworks_base/commit/b5dda28d9f940643f121872901e43bf718d78429) camera: Add backwards-compatible CaptureResultExtras constructor _(by Adithya R)_  
-[0b365c3](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b365c336796b8fa3dce0621ecea13a053b40afe) base: Follow Dark/Light theme for Safe Mode dialog _(by Pulkit077)_  
-[5a4e47a](https://github.com/PixelOS-AOSP/frameworks_base/commit/5a4e47a2c38a0e5ee83b6deea1bbeebe19b77f16) Enable Binder Proxy Tracking by Uid only on eng builds _(by dianlujitao)_  
-[249a314](https://github.com/PixelOS-AOSP/frameworks_base/commit/249a31446e88cfc874d9778de364e23c227dd0f0) frameworks: Exempt location packages from location indicators _(by Chirayu Desai)_  
-[504bc3a](https://github.com/PixelOS-AOSP/frameworks_base/commit/504bc3a1352412bc7800df30797dc232d9b9c875) AbsListView: Improve scrolling cache _(by Pawit Pornkitprasan)_  
-[cc577d5](https://github.com/PixelOS-AOSP/frameworks_base/commit/cc577d50baeda3b2085742a29564cd5e356ecced) Trace: Disable debug tracing on production builds _(by Danny Lin)_  
-[dd1b176](https://github.com/PixelOS-AOSP/frameworks_base/commit/dd1b1765878f972279122f23e6bca69a024a70c0) Paint: Enable subpixel text positioning by default _(by Danny Lin)_  
-[dedddc6](https://github.com/PixelOS-AOSP/frameworks_base/commit/dedddc668fe5810d33f4d6850462d33f1e375dbd) base: Deprioritize important developer notifications _(by Danny Lin)_  
-[4eb8a91](https://github.com/PixelOS-AOSP/frameworks_base/commit/4eb8a91e6492ff6346bc2606df496cbd595f15f5) SettingsLib: Update 4G+ icon to Silk design as well _(by TH779)_  
-[27f9d0a](https://github.com/PixelOS-AOSP/frameworks_base/commit/27f9d0a9fab40f5a1d839b1e1abe6089148709e1) SettingsLib: Update LTE+ icon as per new Silk design _(by Adithya)_  
-[b381dab](https://github.com/PixelOS-AOSP/frameworks_base/commit/b381dabf7703ad0fc32b82e43a11c139dc7d849c) SystemUI: Remove Android build number from QS footer _(by Danny Lin)_  
-[2568c80](https://github.com/PixelOS-AOSP/frameworks_base/commit/2568c805335b49443a6e494ec016c958c1f2c6de) SystemUI: Remove build version from qs footer _(by jhenrique09)_  
-[f67fa6e](https://github.com/PixelOS-AOSP/frameworks_base/commit/f67fa6e2eefffe31b55769a86db68a26c39bc104) Squash of SystemUI: Show bluetooth battery level _(by LuK1337)_  
-[e72faab](https://github.com/PixelOS-AOSP/frameworks_base/commit/e72faab41d78e992e6c6f8d3f479bd027eab5de2) Fallback to global actions if assistant is not available _(by LuK1337)_  
-[5992bcd](https://github.com/PixelOS-AOSP/frameworks_base/commit/5992bcdf6e6ad08287efddbb121ef188705e6048) SystemUI: Add support for persistent usb drive notification. _(by Adnan Begovic)_  
-[339e977](https://github.com/PixelOS-AOSP/frameworks_base/commit/339e97760bdc79c60982a63ead7116af9d4ae03d) SystemUI: Allow snoozing SD card notification unconditionally _(by LuK1337)_  
-[b8c2685](https://github.com/PixelOS-AOSP/frameworks_base/commit/b8c2685b468144a343254f92c388c058a58f0f30) SystemUI: Allow privileged system apps to access screenshot service _(by Danny Lin)_  
-[471d949](https://github.com/PixelOS-AOSP/frameworks_base/commit/471d949b72437274ed200fa80754dde5731ad509) core: Expose method to start assistant through Binder _(by Danny Lin)_  
-[e2bc18a](https://github.com/PixelOS-AOSP/frameworks_base/commit/e2bc18ab86d33fa98423131d8f0f4b01f4571806) base: Support for device specific key handlers _(by Bruno Martins)_  
-[ea2253d](https://github.com/PixelOS-AOSP/frameworks_base/commit/ea2253dbed49ac143cab461ca3e1ca01f9021171) Check for null callerPackage in getStorageEncryptionStatus _(by Ethan Chen)_  
-[b83e74e](https://github.com/PixelOS-AOSP/frameworks_base/commit/b83e74e5724855c79a8acf11be6c9d3b7c64fb0a) Show the vibrate icon in the Status Bar by default _(by Chirayu Desai)_  
-[233ae8b](https://github.com/PixelOS-AOSP/frameworks_base/commit/233ae8bbf48ffc4c59b9a9fbd00c0dcedff41b1a) Updates to various icons: _(by Dan Sandler)_  
-[6a4a8e8](https://github.com/PixelOS-AOSP/frameworks_base/commit/6a4a8e861ae7c178ebddc939d72bee1b326ed777) SettingsLib: Don't show system overlays on apps list _(by Henrique Silva)_  
-[673295a](https://github.com/PixelOS-AOSP/frameworks_base/commit/673295a6d2defce7199b3b1e75ab6bf84f956ce6) Download: Add support to manually pause/resume download _(by qqzhou)_  
-[9a18fb1](https://github.com/PixelOS-AOSP/frameworks_base/commit/9a18fb14e8eaa36aca3532f8e2edab39258dbaf8) Allow adjusting screen density to smaller sizes. _(by Danny Baumann)_  
-[8955563](https://github.com/PixelOS-AOSP/frameworks_base/commit/89555634caa690655dec473b543b3b78b22cd54e) Allow adjusting progress on touch events. _(by Danny Baumann)_  
-[3deb0eb](https://github.com/PixelOS-AOSP/frameworks_base/commit/3deb0eb1bb372db46dd34e572da06e5e933c9eca) [SQUASH] Implement DeviceConfigUtils and service _(by jhenrique09)_  
-[e6f2e00](https://github.com/PixelOS-AOSP/frameworks_base/commit/e6f2e000de475cffcbdee010892a1bc42a2a0b99) fixup! Introduce high touch polling rate feature control _(by Michael Bestas)_  
-[e933c1f](https://github.com/PixelOS-AOSP/frameworks_base/commit/e933c1fca4720ee7b48f78c711822488a6dbe469) Introduce high touch polling rate feature control _(by Ramii Ahmed)_  
-[97d65a6](https://github.com/PixelOS-AOSP/frameworks_base/commit/97d65a63ce45833c6cc7faaea6f294a83e2875cd) fixup! Add high touch sensitivity and hovering to InputService _(by Chirayu Desai)_  
-[68fc478](https://github.com/PixelOS-AOSP/frameworks_base/commit/68fc478c0d99c282533c03b80697d6d87ce9162d) Move high touch sensitivity and hovering to InputService _(by Danesh M)_  
-[1a79f03](https://github.com/PixelOS-AOSP/frameworks_base/commit/1a79f03ef72ce3801b1aa1429687240280f78c2a) base: Add Touch HIDL support _(by Anushek Prasal)_  
-[17c536b](https://github.com/PixelOS-AOSP/frameworks_base/commit/17c536bf7be0a2a0edc5599a9310ee4e8c9d1b44) Shell: Don't show bugreport on DocumentsUI _(by jhenrique09)_  
-[2be4c87](https://github.com/PixelOS-AOSP/frameworks_base/commit/2be4c87bb72ddc3963af84582e6e65357693c6d4) Introduce anti flicker mode in LiveDisplay _(by Arian)_  
-[7828386](https://github.com/PixelOS-AOSP/frameworks_base/commit/782838689777af11ac835fa21117b7a113665837) services: TwilightTracker: create an attribution context and use it i… _(by jhonboy121)_  
-[69be5e9](https://github.com/PixelOS-AOSP/frameworks_base/commit/69be5e91427a7be71d0b770f4644ae2d05ea6723) Introduce LiveDisplay from Lineage _(by Henrique Silva)_  
-[f1904e2](https://github.com/PixelOS-AOSP/frameworks_base/commit/f1904e29ddd88249d3d8d6fd99a647223bdcb9bf) Initial import of lineagehw _(by jhenrique09)_  
-[2f7f0d5](https://github.com/PixelOS-AOSP/frameworks_base/commit/2f7f0d549c76f287bbace19cc318644762ff29d6) base: Implement Lineage Health Service _(by Luofan Chen)_  
-[4826fc1](https://github.com/PixelOS-AOSP/frameworks_base/commit/4826fc102984223acd16731f1a1d6c9746478a3c) utils: Introduce FileUtils class _(by Michael Bestas)_  
-[cbc38ed](https://github.com/PixelOS-AOSP/frameworks_base/commit/cbc38edea36c5929e5df6fd76c09599894e021b2) base: Add CUSTOM metrics const. _(by Bauuuuu)_  
-[6965d2e](https://github.com/PixelOS-AOSP/frameworks_base/commit/6965d2e1e4396aaebcaa0a742a99d1804b15dae7) core: Switch to mkrbin for copying crash logs _(by NurKeinNeid)_  
-[84a9031](https://github.com/PixelOS-AOSP/frameworks_base/commit/84a903139ceca5f1ca99f4e936933b8c86332d68) base: Add button to upload crash log to memocho _(by Till Kottmann)_  
-[de4386f](https://github.com/PixelOS-AOSP/frameworks_base/commit/de4386f4e8b2313442aaebb6f1ca7468c6f85bf1) FrameTracker: Silence logspam _(by cjh1249131356)_  
-[ee5819c](https://github.com/PixelOS-AOSP/frameworks_base/commit/ee5819cf7685931131ff2dc716b8b130ba78131c) fw/b: Use ro.build.version.incremental to signal OTA upgrades _(by dhacker29)_  
-[aebcdf6](https://github.com/PixelOS-AOSP/frameworks_base/commit/aebcdf64a6933528d10d3f6d3c73e1ef1051cf34) KernelCpuUidTimeReader: Decrease log level on non-eng builds _(by Han Wang)_  
-[4187714](https://github.com/PixelOS-AOSP/frameworks_base/commit/4187714cbd7d4895bf604289ed691b16c9aebe46) styles: Use user fonts for Material UI themes _(by Danny Lin)_  
-[e3a4f1f](https://github.com/PixelOS-AOSP/frameworks_base/commit/e3a4f1fd87b00b6d3e1924cc566a47975146891e) SettingsLib: Use framework resource for headline font _(by Adithya R)_  
-[87476a1](https://github.com/PixelOS-AOSP/frameworks_base/commit/87476a151f1440ea496bc62444439b541baea5f6) fixup! base: Allow disabling refresh rate lowering in battery saver _(by Hridaya Prajapati)_  
-[6781a86](https://github.com/PixelOS-AOSP/frameworks_base/commit/6781a86e8acff4074d645829c24d0384e42ca7fe) base: Allow disabling refresh rate lowering in battery saver _(by Adithya R)_  
 [80deac9](https://github.com/PixelOS-AOSP/frameworks_base/commit/80deac94b74dcaf900316c4b9d57f5f945d3a36c) display: Consider peak refresh rate in BrightnessObserver _(by Adithya R)_  
 [f74c352](https://github.com/PixelOS-AOSP/frameworks_base/commit/f74c352039afd536be05ab557aaee116c6371600) display: Don't spam log when display state changes _(by Adithya R)_  
 [f77ddc9](https://github.com/PixelOS-AOSP/frameworks_base/commit/f77ddc93e6a1fe2d23192c5af8aeee3b16f32de1) core: Update freeze IDs of ContextualSearch for QPR1 _(by COSMIC)_  
