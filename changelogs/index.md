@@ -4,6 +4,28 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-16
+[2d04d49](https://github.com/PixelOS-AOSP/frameworks_native/commit/2d04d49763a268234a4c2bf21b55d4cd8e48ad62) fixup! surfaceflinger: Add support for Udfps extension lib _(by LuK1337)_  
+[bee2277](https://github.com/PixelOS-AOSP/frameworks_base/commit/bee2277b13851a3c08ff3c8b1c835e53cdfd0c16) config: enable desktop mode support _(by Dmitry Muhomor)_  
+[c9a5d68](https://github.com/PixelOS-AOSP/vendor_aosp/commit/c9a5d68fe62c77155a995d14a5ae30c29b233346) soong: Add camera package name flag _(by Jake Weinstein)_  
+[7adc620](https://github.com/PixelOS-AOSP/vendor_aosp/commit/7adc620ffea6931d370dddd9fdd6970635047156) Revert "soong: Add TARGET_USES_OPLUS_CAMERA" _(by Hridaya Prajapati)_  
+[8012993](https://github.com/PixelOS-AOSP/vendor_aosp/commit/80129933620de91f94e3a5b9fb1adf29de7fb8af) Revert "soong: Add TARGET_USES_NOTHING_CAMERA" _(by Hridaya Prajapati)_  
+[30c9fe9](https://github.com/PixelOS-AOSP/vendor_aosp/commit/30c9fe9617062f18cdb806c54e483926e15a0345) soong: Remove LD_SHIM_LIBS support _(by LuK1337)_  
+[bd84ddb](https://github.com/PixelOS-AOSP/vendor_aosp/commit/bd84ddbacb85abfdabcf63e8b0bb080bc9bec825) envsetup.sh: Always use AOSP latest clang version _(by micky387)_  
+[968cff1](https://github.com/PixelOS-AOSP/vendor_aosp/commit/968cff19c897483b5d442cdba9cfc7d6c7061457) release: Enable screen_off_unlock_udfps _(by Michael Bestas)_  
+[c0ee67e](https://github.com/PixelOS-AOSP/vendor_aosp/commit/c0ee67e1ee4ff4ed49c7d89cbd24327ddfc075b9) release: Bump aconfig flags extension to BP1A _(by Michael Bestas)_  
+[a5903a1](https://github.com/PixelOS-AOSP/build_soong/commit/a5903a13a2f35a143aef1f948ae3d6cd75635d2c) Add Compress_apk property to android_app_import _(by Nelson Li)_  
+[7412136](https://github.com/PixelOS-AOSP/build_soong/commit/7412136793ce43a933c12cad7e2ce5d8b791d0fa) Support extract_apk in soong _(by Herbert Xue)_  
+[5489b8a](https://github.com/PixelOS-AOSP/build_soong/commit/5489b8ac0ea34d582b4390e62a6e3704e9843944) Add <partition>/app support to fsgen _(by Sarthak Roy)_  
+[c7238b5](https://github.com/PixelOS-AOSP/build_soong/commit/c7238b5ae7c9418384a22b0d76a5685e7332b0a9) Add <partition>/camera support to fsgen _(by kyasu)_  
+[c99a095](https://github.com/PixelOS-AOSP/build_soong/commit/c99a09581ebb71c03d752d726230ee607bc43752) Add <partition>/thh support to fsgen _(by Giovanni Ricca)_  
+[998f25a](https://github.com/PixelOS-AOSP/build_soong/commit/998f25aa19a1f535fe594fe82d2d9328bd93287f) Add <partition>/addon.d support to fsgen _(by Thomas Turner)_  
+[ffbf6d8](https://github.com/PixelOS-AOSP/build_soong/commit/ffbf6d830935f73a980ff7a1f1347a5a7c4bec4f) Add <partition>/install support to fsgen _(by Thomas Turner)_  
+[de26b55](https://github.com/PixelOS-AOSP/build_soong/commit/de26b557c42cf6718c228bbe8c67a79383ccc204) Disallow prebuilt_root module type from setting Dsts property _(by Jihoon Kang)_  
+[2928a05](https://github.com/PixelOS-AOSP/build_soong/commit/2928a059c241aa07f67bc11da3317ff72b2930e7) Introduce prebuilt_any module type _(by Jihoon Kang)_  
+[3345fa5](https://github.com/PixelOS-AOSP/build_soong/commit/3345fa5144db44788378cca6ed51b37c60d16cc3) Add vendor_manifest.xml to createFsGenState _(by Jihoon Kang)_  
+[6affb2c](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/6affb2c19ca8dd56332870c68d7c6bf3e64d58b4) common: private: Allow tombstoned to read custom version prop _(by Hridaya Prajapati)_  
+
 ## 2025-03-15
 [b251857](https://github.com/PixelOS-AOSP/frameworks_base/commit/b25185779c08bdac59449194f85a3081010ab3d0) SystemUI: Nuke oriented navbar handle _(by Ido Ben-Hur)_  
 [0b429ae](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b429aeb39d27e9aba1159f1294637b10deaab82) SystemUI: Update advanced reboot icons _(by Gustavo Mendes)_  
@@ -115,9 +137,6 @@ pageClass: changelogSection
 [3058c82](https://github.com/PixelOS-AOSP/frameworks_base/commit/3058c82a578b23b26676ed904714b795279714ec) power: Keep file scheme when not using content URI _(by Han Wang)_  
 [ff216b4](https://github.com/PixelOS-AOSP/frameworks_base/commit/ff216b49884f365dfe89c17b7181c20be2c8d2ec) SystemUI: Redraw display cutout on overlay changes _(by Adithya R)_  
 [07f25e5](https://github.com/PixelOS-AOSP/frameworks_av/commit/07f25e5d45f766b6cdec0d11a6a2bb90f5ebdd36) libcameraservice: Add support to set vendor tag with client package name _(by cjh1249131356)_  
-[ec3da0d](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ec3da0d862c1bfe2ec25f4d212b722ed3968259d) soong: Add camera package name flag _(by Jake Weinstein)_  
-[db9567e](https://github.com/PixelOS-AOSP/vendor_aosp/commit/db9567e1b5d43d0104c44d60d912bfcc97b2f788) Revert "soong: Add TARGET_USES_OPLUS_CAMERA" _(by Hridaya Prajapati)_  
-[49472aa](https://github.com/PixelOS-AOSP/vendor_aosp/commit/49472aaf8e9dd896304c40d93cf9990118932991) Revert "soong: Add TARGET_USES_NOTHING_CAMERA" _(by Hridaya Prajapati)_  
 [7140829](https://github.com/PixelOS-AOSP/frameworks_av/commit/7140829f8bec1aafb4f2238142744b6f88f72376) Revert "libcameraservice: Add support to set vendor tag with client p… _(by Hridaya Prajapati)_  
 [3fbe562](https://github.com/PixelOS-AOSP/frameworks_base/commit/3fbe5620eb15f846c4185c5e2263f74bd8e57f6e) SystemUI: Let screenshot window ignore screen decorations _(by LuK1337)_  
 [ba0e4c5](https://github.com/PixelOS-AOSP/frameworks_base/commit/ba0e4c5cfb8f6deb7247060ae4b671476359c193) SystemUI: screenshot: close QS after launching long screenshot activity _(by LuK1337)_  
@@ -330,10 +349,6 @@ pageClass: changelogSection
 [c8adbfb](https://github.com/PixelOS-AOSP/frameworks_base/commit/c8adbfb639dd7a8fc42023b4fbcd352ce6094a00) health: Rename msToUTCString to msToHMSString _(by Luofan Chen)_  
 [9687526](https://github.com/PixelOS-AOSP/frameworks_base/commit/9687526533926f10b91ee14c78a30cec6f2fb3e2) health: Format notification's target time according to locale _(by наб)_  
 [2935da2](https://github.com/PixelOS-AOSP/frameworks_base/commit/2935da2f917611d956290d1f32886b891c7e05d5) base: Decouple charging control and main logic _(by Luofan Chen)_  
-[9edca14](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9edca14d88b1c1c6e140a4b9ae2beb5c0b5e2cd3) soong: Remove LD_SHIM_LIBS support _(by LuK1337)_  
-[ecbf1df](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ecbf1dfd718012a57a883c1e2ea8608f09a66941) envsetup.sh: Always use AOSP latest clang version _(by micky387)_  
-[58f28bf](https://github.com/PixelOS-AOSP/vendor_aosp/commit/58f28bfafa8fc1506a1caa99b203b1dbde7ebe32) release: Enable screen_off_unlock_udfps _(by Michael Bestas)_  
-[1b31cf3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/1b31cf35f8404e310f447024f80fa8f6748651fe) release: Bump aconfig flags extension to BP1A _(by Michael Bestas)_  
 [a17fcc6](https://github.com/PixelOS-AOSP/build/commit/a17fcc6ad8bfac75fe0d43f6a4c233b69296989d) Reapply "Add DeviceDiagnostics.apk" _(by Hridaya Prajapati)_  
 [f27d510](https://github.com/PixelOS-AOSP/build/commit/f27d510f617aa7e446bec86c571bf3c1bbf4b384) Revert "Remove additional DeviceDiagnostics reference" _(by Hridaya Prajapati)_  
 [655e1ee](https://github.com/PixelOS-AOSP/system_core/commit/655e1eed9279f6561548620b1417075ee77e5b95) Revert "init: Remove schedtune support" _(by Giovanni Ricca)_  
@@ -350,15 +365,10 @@ pageClass: changelogSection
 [4679c6e](https://github.com/PixelOS-AOSP/frameworks_base/commit/4679c6eabbc8426a7ea2093ab2f616f07da0aa25) base: Allow disabling refresh rate lowering in battery saver _(by Adithya R)_  
 
 ## 2025-03-13
-[ac3f780](https://github.com/PixelOS-AOSP/build_soong/commit/ac3f78065caea7ae70484ad32db5d2ac6c9fa23b) Add <partition>/addon.d support to fsgen _(by Thomas Turner)_  
-[75fc332](https://github.com/PixelOS-AOSP/build_soong/commit/75fc3327da4f5f53fbee0c0465c149f986aa9e1a) Add <partition>/install support to fsgen _(by Thomas Turner)_  
-[dd15b53](https://github.com/PixelOS-AOSP/build_soong/commit/dd15b53ef20c683c235b67d9bf30eedc0edcf373) Add Compress_apk property to android_app_import _(by Nelson Li)_  
-[6de967a](https://github.com/PixelOS-AOSP/build_soong/commit/6de967a4d0fd09048cd57b3711e04b2d0a6cb871) Support extract_apk in soong _(by Herbert Xue)_  
 [46b6d53](https://github.com/PixelOS-AOSP/frameworks_av/commit/46b6d536fd7c785a6944ed7d1a060a0375c4e7aa) fixup! Camera: Skip stream size check for whitelisted apps _(by Michael Bestas)_  
 [16b748d](https://github.com/PixelOS-AOSP/frameworks_av/commit/16b748da7b2854746a01bff5abe472fe35f5e225) Merge tag 'android-15.0.0_r20' into fifteen _(by Hridaya Prajapati)_  
 [e2fa2e6](https://github.com/PixelOS-AOSP/packages_apps_ParanoidSense/commit/e2fa2e6a99de972eada6ae4569bb1255ba88ba09) ParanoidSense: Fix build errors with latest kotlin version _(by Jyotiraditya Panda)_  
 [1b32ab1](https://github.com/PixelOS-AOSP/packages_apps_ParanoidSense/commit/1b32ab11365f6782b59614e44e221e34fad07c6d) Revert "ParanoidSense: Fix build error for QPR2" _(by Hridaya Prajapati)_  
-[77edbd6](https://github.com/PixelOS-AOSP/build_soong/commit/77edbd677c513104df48109c898d14ef93a7c1b5) Add vendor_manifest.xml to createFsGenState _(by Jihoon Kang)_  
 [1d95f7e](https://github.com/PixelOS-AOSP/build/commit/1d95f7e100532f24a857dd251a4c50460c315529) Revert "Always include vendor_manifest.xml in PRODUCT_PACKAGES" _(by Michael Bestas)_  
 [f872f5a](https://github.com/PixelOS-AOSP/build/commit/f872f5affca39cca2b5b9524cb455903cea7952b) build: Move inclusion of BoardConfigExtra.mk to board_config.mk _(by Yumi Yukimura)_  
 [c609f1f](https://github.com/PixelOS-AOSP/build_soong/commit/c609f1f22bab742439bee83324400715c132c6eb) Add <partition>/gpu support to fsgen _(by Luca Stefani)_  
