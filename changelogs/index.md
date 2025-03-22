@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-21
+[832ea9a](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/832ea9a621ef5723ed357a41b12a11c6dc14c4de) Updater: Update gradle-generateBp to 1.22 _(by Luca Stefani)_  
+
 ## 2025-03-17
 [5026b0a](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/5026b0ab8c5614f9849b1b384acfa3144b3cc527) Settings: Hide|disable "Phone number" from About phone information _(by kubersharma001)_  
 [d8785c7](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/d8785c798ca863ac272bd619c5be8c8cda06887f) Revert "[Sim UI enhancement] remove the "Tap to show info"" _(by althafvly)_  
