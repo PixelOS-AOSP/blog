@@ -4,6 +4,11 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-22
+[5752186](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/575218609ceff4cd27d2a3f6b3d74f80fe28ae9f) common: Drop deprecated vendor.lineage.camera.motor _(by Michael Bestas)_  
+[32bd9b0](https://github.com/PixelOS-AOSP/vendor_aosp/commit/32bd9b08139c1b1229222598915f0ac8ad09dd18) config: Drop deprecated vendor.lineage.camera.motor _(by Michael Bestas)_  
+[0d5a5b9](https://github.com/PixelOS-AOSP/build/commit/0d5a5b9b4b802fe8ddc061280e1dfc3ac1f7d341) Reapply "Add tradeinmode to the system image." _(by Hridaya Prajapati)_  
+
 ## 2025-03-21
 [832ea9a](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/832ea9a621ef5723ed357a41b12a11c6dc14c4de) Updater: Update gradle-generateBp to 1.22 _(by Luca Stefani)_  
 
