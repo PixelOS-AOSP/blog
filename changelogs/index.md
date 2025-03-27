@@ -4,6 +4,15 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-26
+[05ecbdc](https://github.com/PixelOS-AOSP/build_soong/commit/05ecbdc923d8777647031a495eb37b828a68cb70) fsgen: Use prebuilt_{root,any} in case install_in_root is set _(by Luca Stefani)_  
+[4fd7df9](https://github.com/PixelOS-AOSP/build_soong/commit/4fd7df9ae7979a16c20706b5eeea64451047cb0a) Expand the usages of prebuilt_any in prebuilt_etc module gen _(by Jihoon Kang)_  
+[82e18ed](https://github.com/PixelOS-AOSP/build_soong/commit/82e18ede838cd2e62a42fa6338eea8760c7c81fa) Add Compress_apk property to android_app_import _(by Nelson Li)_  
+[963a559](https://github.com/PixelOS-AOSP/build_soong/commit/963a55904b245373d936a04f874aeb87a373b3c9) Support extract_apk in soong _(by Herbert Xue)_  
+[36828d6](https://github.com/PixelOS-AOSP/build_soong/commit/36828d6c6e4f41fe82a0128c0a5e69e1a53a844b) Disallow prebuilt_root module type from setting Dsts property _(by Jihoon Kang)_  
+[9be3629](https://github.com/PixelOS-AOSP/build_soong/commit/9be36297af3c584c8e84d513a47f2892842f2588) Introduce prebuilt_any module type _(by Jihoon Kang)_  
+[b48bc9f](https://github.com/PixelOS-AOSP/build_soong/commit/b48bc9f97599b5c75134f7d72cfaf36046cc6f2f) Add vendor_manifest.xml to createFsGenState _(by Jihoon Kang)_  
+
 ## 2025-03-22
 [5752186](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/575218609ceff4cd27d2a3f6b3d74f80fe28ae9f) common: Drop deprecated vendor.lineage.camera.motor _(by Michael Bestas)_  
 [32bd9b0](https://github.com/PixelOS-AOSP/vendor_aosp/commit/32bd9b08139c1b1229222598915f0ac8ad09dd18) config: Drop deprecated vendor.lineage.camera.motor _(by Michael Bestas)_  
@@ -27,7 +36,6 @@ pageClass: changelogSection
 [dea2e13](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/dea2e1310988507c2691c91dff2e4d178901ab05) Settings: Add missing icon for media output _(by ReallySnow)_  
 [885b411](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/885b411ba1447410b1fc6d7f0103c91dc05278df) Settings: Declare an activity for WirelessDebuggingFragment _(by Ido Ben-Hur)_  
 [ca3c76b](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/ca3c76bed29c4fe6e4297dd71bccd8897f2a33a3) fingerprint: hide link icon when there's no link _(by Timi Rautamäki)_  
-[29997da](https://github.com/PixelOS-AOSP/frameworks_base/commit/29997dad7528be86078d8fd2e8db826ef1aa2929) config: enable desktop mode support _(by Dmitry Muhomor)_  
 [9e0b9f0](https://github.com/PixelOS-AOSP/frameworks_base/commit/9e0b9f0c17362c66eb1707f994f9210c46e5b186) SystemUI: Nuke oriented navbar handle _(by Ido Ben-Hur)_  
 [471ca1b](https://github.com/PixelOS-AOSP/frameworks_base/commit/471ca1bd0f6084fef60a40a68c1464bd58c27000) SystemUI: Update advanced reboot icons _(by Gustavo Mendes)_  
 [eb67eb7](https://github.com/PixelOS-AOSP/frameworks_base/commit/eb67eb7a050838119f7fd7b0c9d25279d48d7e42) SystemUI: Hide advanced reboot options on keyguard _(by Adithya R)_  
@@ -159,16 +167,6 @@ pageClass: changelogSection
 
 ## 2025-03-16
 [2d04d49](https://github.com/PixelOS-AOSP/frameworks_native/commit/2d04d49763a268234a4c2bf21b55d4cd8e48ad62) fixup! surfaceflinger: Add support for Udfps extension lib _(by LuK1337)_  
-[a5903a1](https://github.com/PixelOS-AOSP/build_soong/commit/a5903a13a2f35a143aef1f948ae3d6cd75635d2c) Add Compress_apk property to android_app_import _(by Nelson Li)_  
-[7412136](https://github.com/PixelOS-AOSP/build_soong/commit/7412136793ce43a933c12cad7e2ce5d8b791d0fa) Support extract_apk in soong _(by Herbert Xue)_  
-[5489b8a](https://github.com/PixelOS-AOSP/build_soong/commit/5489b8ac0ea34d582b4390e62a6e3704e9843944) Add <partition>/app support to fsgen _(by Sarthak Roy)_  
-[c7238b5](https://github.com/PixelOS-AOSP/build_soong/commit/c7238b5ae7c9418384a22b0d76a5685e7332b0a9) Add <partition>/camera support to fsgen _(by kyasu)_  
-[c99a095](https://github.com/PixelOS-AOSP/build_soong/commit/c99a09581ebb71c03d752d726230ee607bc43752) Add <partition>/thh support to fsgen _(by Giovanni Ricca)_  
-[998f25a](https://github.com/PixelOS-AOSP/build_soong/commit/998f25aa19a1f535fe594fe82d2d9328bd93287f) Add <partition>/addon.d support to fsgen _(by Thomas Turner)_  
-[ffbf6d8](https://github.com/PixelOS-AOSP/build_soong/commit/ffbf6d830935f73a980ff7a1f1347a5a7c4bec4f) Add <partition>/install support to fsgen _(by Thomas Turner)_  
-[de26b55](https://github.com/PixelOS-AOSP/build_soong/commit/de26b557c42cf6718c228bbe8c67a79383ccc204) Disallow prebuilt_root module type from setting Dsts property _(by Jihoon Kang)_  
-[2928a05](https://github.com/PixelOS-AOSP/build_soong/commit/2928a059c241aa07f67bc11da3317ff72b2930e7) Introduce prebuilt_any module type _(by Jihoon Kang)_  
-[3345fa5](https://github.com/PixelOS-AOSP/build_soong/commit/3345fa5144db44788378cca6ed51b37c60d16cc3) Add vendor_manifest.xml to createFsGenState _(by Jihoon Kang)_  
 [6affb2c](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/6affb2c19ca8dd56332870c68d7c6bf3e64d58b4) common: private: Allow tombstoned to read custom version prop _(by Hridaya Prajapati)_  
 
 ## 2025-03-15
@@ -389,8 +387,6 @@ pageClass: changelogSection
 [1b32ab1](https://github.com/PixelOS-AOSP/packages_apps_ParanoidSense/commit/1b32ab11365f6782b59614e44e221e34fad07c6d) Revert "ParanoidSense: Fix build error for QPR2" _(by Hridaya Prajapati)_  
 [1d95f7e](https://github.com/PixelOS-AOSP/build/commit/1d95f7e100532f24a857dd251a4c50460c315529) Revert "Always include vendor_manifest.xml in PRODUCT_PACKAGES" _(by Michael Bestas)_  
 [f872f5a](https://github.com/PixelOS-AOSP/build/commit/f872f5affca39cca2b5b9524cb455903cea7952b) build: Move inclusion of BoardConfigExtra.mk to board_config.mk _(by Yumi Yukimura)_  
-[c609f1f](https://github.com/PixelOS-AOSP/build_soong/commit/c609f1f22bab742439bee83324400715c132c6eb) Add <partition>/gpu support to fsgen _(by Luca Stefani)_  
-[70eb96d](https://github.com/PixelOS-AOSP/build_soong/commit/70eb96dc1fdf9233015f7555bfae0af08cb770cf) Add <partition>/radio support to fsgen _(by Michael Bestas)_  
 [88be538](https://github.com/PixelOS-AOSP/build_soong/commit/88be538970efaa24ec4b488dd78b5e975e3e8270) Use system server jar module stem instead of its name _(by Luca Stefani)_  
 [3f6b4f8](https://github.com/PixelOS-AOSP/build_soong/commit/3f6b4f8933b4bed6b15decb8ae1833e8e6a33f0e) Revert "Add vendor/aosp to kotlin plugins neverallow" _(by Michael Bestas)_  
 [0f12f61](https://github.com/PixelOS-AOSP/build_soong/commit/0f12f6189fb717b862223ce03506bc16a7b49e2d) Merge tag 'android-15.0.0_r20' into fifteen _(by Hridaya Prajapati)_  
