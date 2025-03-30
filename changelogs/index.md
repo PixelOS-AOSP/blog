@@ -4,6 +4,16 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-29
+[7f00d8e](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/7f00d8e9d10ac0121e614068db3d77c36ae75ef1) New Crowdin updates _(by Karan Parashar)_  
+[64d7d7d](https://github.com/PixelOS-AOSP/frameworks_base/commit/64d7d7d66370791f48c7a88d34a3e48b1678d5b5) New Crowdin updates _(by Karan Parashar)_  
+[358deaf](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/358deafa15e3fe8f91dc00a219060ee38e866dde) Settings: Import crowdin config _(by Karan Parashar)_  
+[7d2db7d](https://github.com/PixelOS-AOSP/frameworks_base/commit/7d2db7d45be2116942a14f4de0f0603010f27562) base: Import crowdin config _(by Karan Parashar)_  
+[11ce156](https://github.com/PixelOS-AOSP/vendor_aosp/commit/11ce156052f79b370a493cf0d4f2a6df35631033) Revert "Implement hide gestural navigation hint bar [3/3]" _(by Hridaya Prajapati)_  
+[874ec6a](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/874ec6ac8f5ba150e20e7bc38e3e1f34bee2b81c) Revert "Settings: Implement hide gestural navigation hint bar [2/2]" _(by Hridaya Prajapati)_  
+[d15e0de](https://github.com/PixelOS-AOSP/frameworks_base/commit/d15e0de9eb7b5c7af4c707f6e4eace43dbe82199) Revert "SystemUI: Implement hide gestural navigation hint bar" _(by Hridaya Prajapati)_  
+[390aaf0](https://github.com/PixelOS-AOSP/frameworks_base/commit/390aaf083cece49417fc6ab31b2a2ce72e840494) SystemUI: Bring back old smartspace padding _(by Ido Ben-Hur)_  
+
 ## 2025-03-28
 [8e2f7f8](https://github.com/PixelOS-AOSP/frameworks_base/commit/8e2f7f845f1778ba5c2478a5e6e56e8f3fc77501) camera2: StreamConfigurationMap: Add another constructor for MiuiCame… _(by Pranav Vashi)_  
 [da6c473](https://github.com/PixelOS-AOSP/frameworks_base/commit/da6c473a924be67334ed2a457fdbe79dc43e1b9c) SystemUI: Nuke oriented navbar handle _(by Ido Ben-Hur)_  
