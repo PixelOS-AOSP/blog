@@ -4,6 +4,28 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-03-31
+[d45b8ef](https://github.com/PixelOS-AOSP/frameworks_base/commit/d45b8ef364c89e727e06828b0dde6e390b7afe80) Merge tag 'android-15.0.0_r23' into fifteen _(by Hridaya Prajapati)_  
+[2e30332](https://github.com/PixelOS-AOSP/frameworks_base/commit/2e3033223a1926491495ba4e157dec20be7943ef) health: Implement charge limit mode _(by Oliver Scott)_  
+[7aa7b7e](https://github.com/PixelOS-AOSP/frameworks_base/commit/7aa7b7ee9d4f973769aef1cd39d430ea2ae5ce35) ChargingControl: Prevent crash against very frequent power toggle _(by Oliver Scott)_  
+[4da73f8](https://github.com/PixelOS-AOSP/frameworks_base/commit/4da73f88c95b5b7f87c443ec52c653484994347d) Biometrics: Hook up support for halHandlesDisplayTouches prop _(by Bruno Martins)_  
+[5ced867](https://github.com/PixelOS-AOSP/frameworks_base/commit/5ced867d71463706e04ad1c67d5307edb73f1b95) fixup! SystemUI: Adapt screenshot sound to ringer modes _(by Ashwin R C)_  
+[baa9288](https://github.com/PixelOS-AOSP/frameworks_base/commit/baa9288c83aa90bd860aba2063f54df9e05e61fe) Revert "SystemUI: Cleanup screenshot sound/vibration logic" _(by Hridaya Prajapati)_  
+[4c0f13c](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/4c0f13c1cd9120f85bcfa9b5bcf0d2e64db4f7d5) Biometrics: Pass halHandlesDisplayTouches to FingerprintSensorPropert… _(by Bruno Martins)_  
+[3a376fd](https://github.com/PixelOS-AOSP/vendor_aosp/commit/3a376fd412be9d0ed81ba48367341894b9d56092) soong: move vibrator effect stream config to select _(by Cosmin Tanislav)_  
+[43a9723](https://github.com/PixelOS-AOSP/vendor_aosp/commit/43a97231baa2f7ebda27e9ec0bcfb52d85257b12) config: Add vendor.lineage.health V2 _(by Michael Bestas)_  
+[efa1853](https://github.com/PixelOS-AOSP/vendor_aosp/commit/efa1853f500dd73590335558f14dda6832852cbb) soong: Implement charge limit mode _(by Oliver Scott)_  
+[7c222c3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/7c222c37965dc895218234bf9d788c5cdf939504) backuptool: Export TMPDIR to /tmp for non-AB _(by LuK1337)_  
+[a8309df](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a8309df7f319f6c541aaee4a25594f9838157f92) apns: Add APNs for China Telecom Global GD & HK & MO prepaid SIM card _(by Yumi Yukimura)_  
+[5cf8c89](https://github.com/PixelOS-AOSP/vendor_aosp/commit/5cf8c8978c880e4c6c688d0c7d4a3df4963bd3fe) Add version to AIDL health HAL _(by Luca Stefani)_  
+[87ecaca](https://github.com/PixelOS-AOSP/vendor_aosp/commit/87ecaca72d1aab087d27aaae0fe4611c590b7e06) kernel: Use libc sysroot from host for 6.11+ _(by Yumi Yukimura)_  
+[7d8e5a5](https://github.com/PixelOS-AOSP/vendor_aosp/commit/7d8e5a55a184dcbc824c7e60604b3502318b9133) aconfig: Enable minimize button and running apps for desktop windowin… _(by Yumi Yukimura)_  
+[c6e9031](https://github.com/PixelOS-AOSP/build/commit/c6e9031a6a1b0fd661e0e0551df88292c49ce0db) Merge tag 'android-15.0.0_r23' into fifteen _(by Hridaya Prajapati)_  
+[a9e2c66](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/a9e2c667bcc95401ab8461f88ed3a12f32b250fd) Revert "Settings: Add setup UI for minimum delay between an app's not… _(by Hridaya Prajapati)_  
+[dfd56b7](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/dfd56b72dc74701afa6a9cc6ec178f644f7391e3) Revert "Settings: Add toggle for 3-button navbar inversion [2/2]" _(by Hridaya Prajapati)_  
+[48a9953](https://github.com/PixelOS-AOSP/frameworks_base/commit/48a9953bb4bf8f50a9a8dc299a71bb3a128288a5) Revert "Support enforcing a minimum delay between notification sounds… _(by Hridaya Prajapati)_  
+[329b819](https://github.com/PixelOS-AOSP/frameworks_base/commit/329b8194fa6c340eb0410f568027cf31fb9f45e2) Revert "SystemUI: Add navbar layout inversion tuning [1/2]" _(by Hridaya Prajapati)_  
+
 ## 2025-03-29
 [7f00d8e](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/7f00d8e9d10ac0121e614068db3d77c36ae75ef1) New Crowdin updates _(by Karan Parashar)_  
 [64d7d7d](https://github.com/PixelOS-AOSP/frameworks_base/commit/64d7d7d66370791f48c7a88d34a3e48b1678d5b5) New Crowdin updates _(by Karan Parashar)_  
