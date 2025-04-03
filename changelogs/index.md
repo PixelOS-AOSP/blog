@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-02
+[9b5c8b7](https://github.com/PixelOS-AOSP/frameworks_base/commit/9b5c8b72dfde3f1601e473301e4cc6ea07764ad1) fixup! SystemUI: Constrain keyguard indication area burn-in offset _(by Adithya R)_  
+
 ## 2025-03-31
 [d45b8ef](https://github.com/PixelOS-AOSP/frameworks_base/commit/d45b8ef364c89e727e06828b0dde6e390b7afe80) Merge tag 'android-15.0.0_r23' into fifteen _(by Hridaya Prajapati)_  
 [2e30332](https://github.com/PixelOS-AOSP/frameworks_base/commit/2e3033223a1926491495ba4e157dec20be7943ef) health: Implement charge limit mode _(by Oliver Scott)_  
