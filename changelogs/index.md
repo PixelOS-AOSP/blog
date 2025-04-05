@@ -4,6 +4,21 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-04
+[128e94c](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/128e94c4cd0ee89899df86831b87db8ee77b4cd7) Revert "Settings: Bring in missing lottie animations" _(by Hridaya Prajapati)_  
+[98e41b7](https://github.com/PixelOS-AOSP/vendor_aosp/commit/98e41b70d6881434cab2b29532045f7fddec4739) Revert "prebuilt: Add prebuilt vendor.aac.hardware.richtap.vibrator" _(by Hridaya Prajapati)_  
+[6f2d5f6](https://github.com/PixelOS-AOSP/vendor_aosp/commit/6f2d5f6dd06d2417e8c41c988379cc0964685596) kernel: Update default clang version to clang-r536225 _(by Michael Bestas)_  
+[d15834e](https://github.com/PixelOS-AOSP/vendor_aosp/commit/d15834ef873c552185b1785529680a1fd26bd089) Revert "envsetup.sh: Always use AOSP latest clang version" _(by Hridaya Prajapati)_  
+[914849f](https://github.com/PixelOS-AOSP/frameworks_native/commit/914849fcff08fafed590d5faa7a97c89fe5bf76d) EGL: move display array config to select _(by Michael Bestas)_  
+[0aa41c8](https://github.com/PixelOS-AOSP/frameworks_native/commit/0aa41c8fef73032960015b7fc45491afecbc8d03) EGL: Move nvidia enhancements to select _(by Michael Bestas)_  
+[5538d38](https://github.com/PixelOS-AOSP/frameworks_native/commit/5538d384772cb93ed523402152bb09f77b684e70) sf: Move QTI extensions to select _(by Michael Bestas)_  
+[2618d8c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/2618d8c30fb1c06cefdf57e594b5cce49f118b93) soong: move EGL display array config to select _(by Michael Bestas)_  
+[8867ff4](https://github.com/PixelOS-AOSP/vendor_aosp/commit/8867ff4aeb3caff25a7e75b86bc7b6f51ffa9a77) soong: move nvidia enhancements config to select _(by Michael Bestas)_  
+[676c5d9](https://github.com/PixelOS-AOSP/vendor_aosp/commit/676c5d9e4a9fa5ef85861caf3f8eb8ac6064260d) soong: move QTI surfaceflinger config to select _(by Michael Bestas)_  
+[08f342a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/08f342accbfc201fe7d3bd1c2bab559021194039) soong: drop librmnetctl config _(by Michael Bestas)_  
+[c31366a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/c31366ac93f86d46b26ce9f976ad7d6c5a4a8e0d) soong: move extended compress format config to select _(by Michael Bestas)_  
+[ddcc1bd](https://github.com/PixelOS-AOSP/frameworks_base/commit/ddcc1bd0de6c7bcb8310cfba55b0acf66a71c861) camera: Allow extending aux list/excludelist via resources _(by LuK1337)_  
+
 ## 2025-04-02
 [9b5c8b7](https://github.com/PixelOS-AOSP/frameworks_base/commit/9b5c8b72dfde3f1601e473301e4cc6ea07764ad1) fixup! SystemUI: Constrain keyguard indication area burn-in offset _(by Adithya R)_  
 
