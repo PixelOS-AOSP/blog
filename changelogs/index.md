@@ -4,6 +4,14 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-06
+[da73af3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/da73af3512f72729d1c14067e5245aacc364e525) overlay: Remove SystemUI flags _(by Hridaya Prajapati)_  
+[cf173bd](https://github.com/PixelOS-AOSP/vendor_aosp/commit/cf173bdb0f4b93343746f146b14fe471549d5b3a) config: Disable GMS_COMMS_SUITE for wifionly tablet builds _(by Hridaya Prajapati)_  
+[6312555](https://github.com/PixelOS-AOSP/vendor_aosp/commit/631255595d59904041eb2870855db7481e6863ec) config: Update SystemUIGXOverlay package name _(by Hridaya Prajapati)_  
+[44bb843](https://github.com/PixelOS-AOSP/vendor_aosp/commit/44bb843331f3aa9d429dbb7acac2b6b2c6201c00) vendor: Drop unrequired overlays _(by Hridaya Prajapati)_  
+[b239d46](https://github.com/PixelOS-AOSP/frameworks_base/commit/b239d46dcfe74de4aaf2130934dc050ccb88f1ea) Revert "core: res: Use accent color for progress bar background" _(by Hridaya Prajapati)_  
+[bda4945](https://github.com/PixelOS-AOSP/vendor_aosp/commit/bda494564965e8daa0535ffd054c779c9a70535b) config: Determine bootanimation resolution from TARGET_SCREEN_WIDTH _(by Hridaya Prajapati)_  
+
 ## 2025-04-04
 [128e94c](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/128e94c4cd0ee89899df86831b87db8ee77b4cd7) Revert "Settings: Bring in missing lottie animations" _(by Hridaya Prajapati)_  
 [98e41b7](https://github.com/PixelOS-AOSP/vendor_aosp/commit/98e41b70d6881434cab2b29532045f7fddec4739) Revert "prebuilt: Add prebuilt vendor.aac.hardware.richtap.vibrator" _(by Hridaya Prajapati)_  
