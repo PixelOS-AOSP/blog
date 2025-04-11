@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-10
+[d5e1544](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/d5e1544beddf16b760f43a4e6564f8b29f395144) sepolicy: qcom: Extend hal_gnss_qti xtra-daemon control dontaudit _(by Michael Bestas)_  
+
 ## 2025-04-06
 [da73af3](https://github.com/PixelOS-AOSP/vendor_aosp/commit/da73af3512f72729d1c14067e5245aacc364e525) overlay: Remove SystemUI flags _(by Hridaya Prajapati)_  
 [cf173bd](https://github.com/PixelOS-AOSP/vendor_aosp/commit/cf173bdb0f4b93343746f146b14fe471549d5b3a) config: Disable GMS_COMMS_SUITE for wifionly tablet builds _(by Hridaya Prajapati)_  
