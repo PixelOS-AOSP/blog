@@ -4,6 +4,13 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-11
+[acc84ed](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/acc84ed89eb4224eeae8d876a1a9c3e85961e6c0) Merge tag 'android-15.0.0_r30' into fifteen _(by Hridaya Prajapati)_  
+[f5cc4bf](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/f5cc4bf6b59c49e18de42d79789e9b084852cc58) Merge tag 'android-15.0.0_r30' into fifteen _(by Hridaya Prajapati)_  
+[7417c5c](https://github.com/PixelOS-AOSP/frameworks_native/commit/7417c5cde802ea33e269cac9526769e9cfef78f2) Merge tag 'android-15.0.0_r30' into fifteen _(by Hridaya Prajapati)_  
+[356602b](https://github.com/PixelOS-AOSP/frameworks_base/commit/356602bb4c789660c991d2d2fe6800cf23c30a2f) Merge tag 'android-15.0.0_r30' into fifteen _(by Hridaya Prajapati)_  
+[34803f6](https://github.com/PixelOS-AOSP/build/commit/34803f6439789871ca0547dc20442b1e742420d2) Merge tag 'android-15.0.0_r30' into fifteen _(by Hridaya Prajapati)_  
+
 ## 2025-04-10
 [d5e1544](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/d5e1544beddf16b760f43a4e6564f8b29f395144) sepolicy: qcom: Extend hal_gnss_qti xtra-daemon control dontaudit _(by Michael Bestas)_  
 
@@ -355,7 +362,13 @@ pageClass: changelogSection
 ## 2025-03-21
 [832ea9a](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/832ea9a621ef5723ed357a41b12a11c6dc14c4de) Updater: Update gradle-generateBp to 1.22 _(by Luca Stefani)_  
 
+## 2025-03-19
+[0f79aac](https://github.com/PixelOS-AOSP/build/commit/0f79aac1bc8733a1302399077efc5d33df98555a) Version bump to BP1A.250405.007.D1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[b0f177a](https://github.com/PixelOS-AOSP/build/commit/b0f177a8fabe83337a99362369a656f44be45947) Version bump to BP1A.250405.007 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+
 ## 2025-03-17
+[bd3d3b0](https://github.com/PixelOS-AOSP/build/commit/bd3d3b0459aaa500079eb17a70e405c33ecf14e2) [coastguard skipped] Merge sparse cherrypicks from sparse-13219495-L6… _(by Android Build Coastguard Worker)_  
+[f7be216](https://github.com/PixelOS-AOSP/build/commit/f7be216b7bea68f8d37efd86deec53fb473ac08f) Version bump to BP1A.250305.019.W6 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 [5026b0a](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/5026b0ab8c5614f9849b1b384acfa3144b3cc527) Settings: Hide|disable "Phone number" from About phone information _(by kubersharma001)_  
 [d8785c7](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/d8785c798ca863ac272bd619c5be8c8cda06887f) Revert "[Sim UI enhancement] remove the "Tap to show info"" _(by althafvly)_  
 [f62dace](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/f62dace359c597504bff5a23403623df2242aacd) Settings: Remove divider from Battery Manager _(by Akash Srivastava)_  
@@ -412,6 +425,21 @@ pageClass: changelogSection
 [fe29dc3](https://github.com/PixelOS-AOSP/frameworks_base/commit/fe29dc3edddbc8f4150f54862c03c5e8fe11b2f5) styles: Use user fonts for Material UI themes _(by Danny Lin)_  
 [d22158b](https://github.com/PixelOS-AOSP/frameworks_base/commit/d22158b23db9cda0b765f0c0ebe15b5ed94dd950) SettingsLib: Use framework resource for headline font _(by Adithya R)_  
 [4679c6e](https://github.com/PixelOS-AOSP/frameworks_base/commit/4679c6eabbc8426a7ea2093ab2f616f07da0aa25) base: Allow disabling refresh rate lowering in battery saver _(by Adithya R)_  
+
+## 2025-03-14
+[0261aaa](https://github.com/PixelOS-AOSP/build/commit/0261aaa94ddff8cb66d4e3abd828a18d3b061443) [coastguard skipped] Merge sparse cherrypicks from sparse-13130632-L9… _(by Android Build Coastguard Worker)_  
+[158c875](https://github.com/PixelOS-AOSP/build/commit/158c875dd212f6b367196541ca725cfa03429e80) Version bump to BP1A.250305.019.W5 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[2d0b2b1](https://github.com/PixelOS-AOSP/build/commit/2d0b2b1abcb88143e9498ab52526a4d9e47702f6) [coastguard skipped] Merge sparse cherrypicks from sparse-13218059-L4… _(by Android Build Coastguard Worker)_  
+[4c20a2a](https://github.com/PixelOS-AOSP/build/commit/4c20a2a73de765c59539f4717fb614ca592ec030) Version bump to BP1A.250405.006.D1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[90aa038](https://github.com/PixelOS-AOSP/build/commit/90aa038844c8c895704dbfa5ec6969e347148cd1) [coastguard skipped] Merge sparse cherrypicks from sparse-13218059-L8… _(by Android Build Coastguard Worker)_  
+[9e0c230](https://github.com/PixelOS-AOSP/build/commit/9e0c230b88a6e180d018bd3c3442c198d087d5ef) Version bump to BP1A.250405.006.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[287e064](https://github.com/PixelOS-AOSP/build/commit/287e064f8e2c4a04e09c849d3f34035a4dfc5f01) [coastguard skipped] Merge sparse cherrypicks from sparse-13218059-L7… _(by Android Build Coastguard Worker)_  
+[730c4a5](https://github.com/PixelOS-AOSP/build/commit/730c4a5516e1263b7f54f0d0aeb53fa19654032a) Version bump to BP1A.250405.006.A1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[a6307b5](https://github.com/PixelOS-AOSP/build/commit/a6307b567099a7c346c5c365d67b878163785789) [coastguard skipped] Merge sparse cherrypicks from sparse-13218059-L0… _(by Android Build Coastguard Worker)_  
+[3db2460](https://github.com/PixelOS-AOSP/build/commit/3db2460dae94b17cb57b08b46d1ab51ee12a3a55) Version bump to BP1A.250405.006.B1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[713a40a](https://github.com/PixelOS-AOSP/build/commit/713a40a9257559a9d4e25db463a3821d53188926) Version bump to BP1A.250405.006 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[54642d1](https://github.com/PixelOS-AOSP/frameworks_base/commit/54642d141f80d495a475b304052eedd2832fcdb1) Merge cherrypicks of ['googleplex-android-review.googlesource.com/323… _(by Android Build Coastguard Worker)_  
+[d99084e](https://github.com/PixelOS-AOSP/frameworks_base/commit/d99084e244b9e528015dcad499314115f9388a6d) Fix the race in per display brightness overrides. _(by Vladimir Komsiyski)_  
 
 ## 2025-03-13
 [46b6d53](https://github.com/PixelOS-AOSP/frameworks_av/commit/46b6d536fd7c785a6944ed7d1a060a0375c4e7aa) fixup! Camera: Skip stream size check for whitelisted apps _(by Michael Bestas)_  
@@ -551,6 +579,8 @@ pageClass: changelogSection
 [7b66260](https://github.com/PixelOS-AOSP/system_core/commit/7b6626056103b479992a7ba44e89b82214e6aa25) Revert "libprocessgroup: Remove schedtune support" _(by Nolen Johnson)_  
 [f9d9341](https://github.com/PixelOS-AOSP/frameworks_av/commit/f9d93416ae939504bf98947fe2aabea4ce429b66) Reapply "Fix audio AppOps refcount mismatch" _(by Chirayu Desai)_  
 [be994cd](https://github.com/PixelOS-AOSP/frameworks_av/commit/be994cde39b76eb798a6c5224d4e5715ef6edaa8) audioflinger: Adapt audio fix for wifi display to A15/r14 _(by Ido Ben-Hur)_  
+[2fca39f](https://github.com/PixelOS-AOSP/build/commit/2fca39fd439ce39547b4932f006cf136b4aa241a) [coastguard skipped] Merge sparse cherrypicks from sparse-13150826-L0… _(by Android Build Coastguard Worker)_  
+[3baf3a2](https://github.com/PixelOS-AOSP/build/commit/3baf3a22de8c22af89afad0f46a351d34d051b9a) Version bump to BP1A.250405.005.D1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 [9a6a361](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9a6a3617e8418b494739cd0ca6883ff658fc1c16) Revert "Add `androidx.compose.compiler_compiler-hosted-plugin` define" _(by Michael Bestas)_  
 [3f5a953](https://github.com/PixelOS-AOSP/vendor_aosp/commit/3f5a95359bc84a574adc3473a30e84b70a2f9492) vars: March 2025 Security update and Quarterly Platform Release _(by Chirayu Desai)_  
 [e1dc5ca](https://github.com/PixelOS-AOSP/build/commit/e1dc5ca304bf88e5e7a62483ca9ecf79e9d05450) Revert "Add tradeinmode to the system image." _(by Michael Bestas)_  
@@ -567,5 +597,29 @@ pageClass: changelogSection
 ## 2025-03-08
 [f62e5a5](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f62e5a56056f640f793be4c5e673fc06e4e90bd8) config: Move wifionly defination to tablet wifionly makefile _(by AdarshGrewal)_  
 
+## 2025-03-03
+[92c375e](https://github.com/PixelOS-AOSP/build/commit/92c375e6120eba24df4600b1bd2fac5f9d62cb4b) [coastguard skipped] Merge sparse cherrypicks from sparse-13150826-L9… _(by Android Build Coastguard Worker)_  
+[c51f14b](https://github.com/PixelOS-AOSP/build/commit/c51f14bf1442cac448a60a15afcb1685498f7e0b) Version bump to BP1A.250405.005.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[37868d6](https://github.com/PixelOS-AOSP/build/commit/37868d6a3b454997b6cb354281d818717b869d5c) [coastguard skipped] Merge sparse cherrypicks from sparse-13150826-L4… _(by Android Build Coastguard Worker)_  
+[ba0c6f7](https://github.com/PixelOS-AOSP/build/commit/ba0c6f7f2c3b18cbada2978540fc95f66a7ec4f6) Version bump to BP1A.250405.005.A1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[f072649](https://github.com/PixelOS-AOSP/build/commit/f0726498847fdafa213033c91444162a818040e5) [coastguard skipped] Merge sparse cherrypicks from sparse-13150826-L8… _(by Android Build Coastguard Worker)_  
+[bbb4c33](https://github.com/PixelOS-AOSP/build/commit/bbb4c33dc81c3e8c37bed720450d0343c5664b58) Version bump to BP1A.250405.005.B1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[5d07cb8](https://github.com/PixelOS-AOSP/build/commit/5d07cb8bcbad37a894888adc12dd9b5c2926d933) Version bump to BP1A.250405.005 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[a0fddac](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/a0fddac57b65e599d1f26b395d2de36e3029df8f) Merge cherrypicks of ['googleplex-android-review.googlesource.com/319… _(by Android Build Coastguard Worker)_  
+[985bf5f](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/985bf5fd4e8d6973e893c6638de9b806521428b5) Import translations. DO NOT MERGE ANYWHERE _(by Bill Yi)_  
+[2771432](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/2771432b93c3211ec5db7fff00648d1aab6dcd4e) Add strings for NTN connection manual type _(by tom hsu)_  
+[00e2736](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/00e2736308637cd3ec675a0cab34415542f04209) Modify string to match the design. _(by tom hsu)_  
+[a28c027](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/a28c027f06ac4d295651bfea5e17b69f6fac279c) [Satellite] Satellite UX changes in SIM settings as per new UX design. _(by arunvoddu)_  
+[547c5f1](https://github.com/PixelOS-AOSP/build/commit/547c5f1eb6f9f707433bd603ae4a9ac01db11c81) Version bump to BP1A.250405.004 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[00a0e2d](https://github.com/PixelOS-AOSP/frameworks_base/commit/00a0e2def63b6df9ccc80f95f03b1d0586618f87) Merge cherrypicks of ['googleplex-android-review.googlesource.com/320… _(by Android Build Coastguard Worker)_  
+[944fb16](https://github.com/PixelOS-AOSP/frameworks_base/commit/944fb162e3dea6b590dfb112d2a5894d80b17c7f) Revert "Check sound Uri permission when creating a notification channel" _(by Lokesh Kumar Goel)_  
+[1ac598d](https://github.com/PixelOS-AOSP/frameworks_base/commit/1ac598db9d82b845feff854bc94eb39698d40373) Revert "Cleanup flag for notification sound Uri permission check" _(by Lokesh Kumar Goel)_  
+
 ## 2025-03-01
 [480eaff](https://github.com/PixelOS-AOSP/vendor_google_overlays_ThemeIcons/commit/480eaff9890b76438adc3595f7d697723b59a8e1) PixelLauncherIconsOverlay: Use MIUICamera icon for OPlus Camera app _(by Karan Parashar)_  
+[27cb3a8](https://github.com/PixelOS-AOSP/build/commit/27cb3a819cfa526725dddec5880c9762188675d3) [coastguard skipped] Merge sparse cherrypicks from sparse-13096125-L7… _(by Android Build Coastguard Worker)_  
+[a916203](https://github.com/PixelOS-AOSP/frameworks_base/commit/a916203e1f6b0cf3e7068c7d51c2154c8bec2297) [coastguard skipped] Merge sparse cherrypicks from sparse-13096125-L7… _(by Android Build Coastguard Worker)_  
+[a8dadc5](https://github.com/PixelOS-AOSP/build/commit/a8dadc51a5d93aa6a4896ea93a373e41befd6d90) Version bump to BP1A.250405.003.Y1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[adaf6e4](https://github.com/PixelOS-AOSP/frameworks_base/commit/adaf6e43876fac90d4b36be3b677eeaefb01fba3) Merge cherrypicks of ['googleplex-android-review.googlesource.com/320… _(by Android Build Coastguard Worker)_  
+[a1428ab](https://github.com/PixelOS-AOSP/frameworks_base/commit/a1428ab9e4f9d019cb6c63358df84afd066eaa63) Revert "Check sound Uri permission when creating a notification channel" _(by Lokesh Kumar Goel)_  
+[351a37c](https://github.com/PixelOS-AOSP/frameworks_base/commit/351a37c50552f698e950777618972b953e7af99c) Revert "Cleanup flag for notification sound Uri permission check" _(by Lokesh Kumar Goel)_  
