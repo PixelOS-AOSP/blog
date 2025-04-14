@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-13
+[97b16fd](https://github.com/PixelOS-AOSP/frameworks_base/commit/97b16fdf3ea986ef8555aa5e0522a22997b7372f) health: Select correct provider on init _(by LuK1337)_  
+
 ## 2025-04-11
 [acc84ed](https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/acc84ed89eb4224eeae8d876a1a9c3e85961e6c0) Merge tag 'android-15.0.0_r30' into fifteen _(by Hridaya Prajapati)_  
 [f5cc4bf](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/f5cc4bf6b59c49e18de42d79789e9b084852cc58) Merge tag 'android-15.0.0_r30' into fifteen _(by Hridaya Prajapati)_  
