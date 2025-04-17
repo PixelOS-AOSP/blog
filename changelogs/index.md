@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-16
+[9b8ae2c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9b8ae2cdda6296476426d2a34ced04a8490e0f39) release: Sync flag_values with BP1A.250405.007 _(by Michael Bestas)_  
+
 ## 2025-04-15
 [452de67](https://github.com/PixelOS-AOSP/build_soong/commit/452de67c28963ab052e4368b8a9ce1d23f991411) install_symlink: Make symlink target configurable _(by Luca Stefani)_  
 
