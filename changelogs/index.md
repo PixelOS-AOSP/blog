@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-21
+[79ed0b7](https://github.com/PixelOS-AOSP/frameworks_base/commit/79ed0b7e06e31bf9276d12698ec810df21bd6e3a) ChargingControl: Prevent crash against null provider _(by Pranav Vashi)_  
+
 ## 2025-04-16
 [9b8ae2c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9b8ae2cdda6296476426d2a34ced04a8490e0f39) release: Sync flag_values with BP1A.250405.007 _(by Michael Bestas)_  
 
