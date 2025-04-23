@@ -4,7 +4,7 @@ authors: [Karan]
 tags: [PixelOS, AOSP, A15, April]
 ---
 
-# March 2025 Update
+# April 2025 Update
 
 This update includes the latest security patches (from `android-15.0.0_r30`).
 
