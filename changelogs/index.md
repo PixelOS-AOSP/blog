@@ -4,8 +4,14 @@ pageClass: changelogSection
 
 # Changelogs
 
-## 2025-04-21
-[79ed0b7](https://github.com/PixelOS-AOSP/frameworks_base/commit/79ed0b7e06e31bf9276d12698ec810df21bd6e3a) ChargingControl: Prevent crash against null provider _(by Pranav Vashi)_  
+## 2025-04-22
+[63e6ca4](https://github.com/PixelOS-AOSP/frameworks_base/commit/63e6ca4f1a6a6457e390ff9c10d77dafcb95d63c) health: Allow Limit/Toggle providers for MODE_AUTO/MODE_MANUAL _(by LuK1337)_  
+[e5094f0](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/e5094f06d2f012f45dc87bd233d7cc55316a087f) Updater: AGP updates and bump dependencies _(by Hridaya Prajapati)_  
+[eb14069](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/eb140693d216a9b5a8effebea2b5789ceb48be39) Updater: Make certified props overlay configurable _(by Hridaya Prajapati)_  
+[744feb9](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/744feb9bca51b09b9c3df69795da1a7347aa37bd) UpdatesActivity: Refactor changes _(by Hridaya Prajapati)_  
+[39e8b43](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/39e8b438133d3a9bc88eb37b9a143daffc1186d8) UpdatesActivity: Use `when` instead in handleDownloadStatusChange() _(by Hridaya Prajapati)_  
+[f032b94](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/f032b94b6b86521115bc80f5af393e8bc121a05a) UpdatesActivity: visibility -> isVisibile _(by Hridaya Prajapati)_  
+[79faa04](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/79faa04390c19656494d8251ea1edfcace194ecc) UpdatesActivity: Refactor fetching changelogs section _(by Hridaya Prajapati)_  
 
 ## 2025-04-16
 [9b8ae2c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9b8ae2cdda6296476426d2a34ced04a8490e0f39) release: Sync flag_values with BP1A.250405.007 _(by Michael Bestas)_  
