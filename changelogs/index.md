@@ -4,6 +4,14 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-24
+[779d0fd](https://github.com/PixelOS-AOSP/build/commit/779d0fd7788a681fac24de49bc5b47496d5c3fc8) releasetools: Handle build description not ending in -keys _(by Michael Bestas)_  
+[403b75c](https://github.com/PixelOS-AOSP/frameworks_base/commit/403b75c2528281c8c121cdd2028beeaec357e3eb) fixup! Introduce high touch polling rate feature control _(by Michael Bestas)_  
+[bfff315](https://github.com/PixelOS-AOSP/frameworks_base/commit/bfff315c7a8c430374d97d67005896455f324ef1) fixup! Add high touch sensitivity and hovering to InputService _(by Oliver Scott)_  
+[53822bf](https://github.com/PixelOS-AOSP/frameworks_base/commit/53822bf42a76cf551edaf2b7adafa6dcd6c62921) Only toggle MainSwitchBar on successful change listener result _(by Oliver Scott)_  
+[83f7e1f](https://github.com/PixelOS-AOSP/frameworks_base/commit/83f7e1fe5a96e2be9df61352aa8d81bef8092f31) Fix ever-growing AppOpItem string representation _(by Tommy Webb)_  
+[0b12c2e](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b12c2e65d71036ea3372882e0380a1c2038a216) HintManagerService: Generate dummy mSupportInfo for non power AIDL de… _(by electimon)_  
+
 ## 2025-04-22
 [63e6ca4](https://github.com/PixelOS-AOSP/frameworks_base/commit/63e6ca4f1a6a6457e390ff9c10d77dafcb95d63c) health: Allow Limit/Toggle providers for MODE_AUTO/MODE_MANUAL _(by LuK1337)_  
 [e5094f0](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/e5094f06d2f012f45dc87bd233d7cc55316a087f) Updater: AGP updates and bump dependencies _(by Hridaya Prajapati)_  
