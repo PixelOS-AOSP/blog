@@ -4,6 +4,14 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-25
+[54af7eb](https://github.com/PixelOS-AOSP/vendor_aosp/commit/54af7ebcebf471a11e3ba9fe6ce82a888bd7e901) android: merge_dtbs: Respect oem specific extra ids _(by Arian)_  
+[f097058](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f0970581c2b547e3dadadec8b2afe5577fd8c7e6) Revert "android: merge_dtbs: Respect miboard-id while merging" _(by Hridaya Prajapati)_  
+[75ec7fc](https://github.com/PixelOS-AOSP/vendor_aosp/commit/75ec7fcd325af5e64cb238a98ec1e66cc0dc2ae6) kernel: Add support to append DTBs to kernel image _(by Yumi Yukimura)_  
+[537d56c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/537d56c1aa49080d3913de082ec3af0c0a0375ed) init: Update `bugreport` service definition _(by Sebastiano Barezzi)_  
+[4fc2ab8](https://github.com/PixelOS-AOSP/vendor_aosp/commit/4fc2ab88e6889cbf08d890ae422106c3ccf53dce) kernel: Use correct recovery modules.load variable _(by Aaron Kling)_  
+[eda1802](https://github.com/PixelOS-AOSP/vendor_aosp/commit/eda180207cd6c3079bf496c4040558802fa6d627) kernel: use DTBS_OUT variable _(by Cosmin Tanislav)_  
+
 ## 2025-04-24
 [779d0fd](https://github.com/PixelOS-AOSP/build/commit/779d0fd7788a681fac24de49bc5b47496d5c3fc8) releasetools: Handle build description not ending in -keys _(by Michael Bestas)_  
 [403b75c](https://github.com/PixelOS-AOSP/frameworks_base/commit/403b75c2528281c8c121cdd2028beeaec357e3eb) fixup! Introduce high touch polling rate feature control _(by Michael Bestas)_  
