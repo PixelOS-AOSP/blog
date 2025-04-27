@@ -4,6 +4,15 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-26
+[51354d3](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/51354d3952a966bc5fad044c0661ba83618a6ded) Revert "Settings: Only show gesture navigation if device has a softwa… _(by Hridaya Prajapati)_  
+[9ed4050](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9ed4050687677adc67f0732c39166fd402b43a9c) fonts: Copy GoogleSansFlexClock-Regular.ttf as well _(by Hridaya Prajapati)_  
+[504c9f9](https://github.com/PixelOS-AOSP/frameworks_native/commit/504c9f9e280643be5d64ba7de487872635b01d5b) surfaceflinger: Move surfaceflinger_udfps_lib_defaults to select() _(by Michael Bestas)_  
+[f019dc8](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f019dc875ccb4a72f9480dc51e20a939b43f2736) config: Move surfaceflinger UDFPS lib to select() _(by Michael Bestas)_  
+[168b2f1](https://github.com/PixelOS-AOSP/vendor_aosp/commit/168b2f19bbe1b18709cf8b40243aff88659ff730) soong: Move QTI gralloc configs to select() _(by Michael Bestas)_  
+[a8bcaea](https://github.com/PixelOS-AOSP/vendor_aosp/commit/a8bcaea32a1c53dc0443c5185ce1244723b0249e) build: Remove reference to deprecated VR HAL _(by Michael Bestas)_  
+[382dfdd](https://github.com/PixelOS-AOSP/build_soong/commit/382dfdde58b7c0a5a78e3e4b855011574cf0b316) soong: Make export_cflags configurable _(by Michael Bestas)_  
+
 ## 2025-04-25
 [54af7eb](https://github.com/PixelOS-AOSP/vendor_aosp/commit/54af7ebcebf471a11e3ba9fe6ce82a888bd7e901) android: merge_dtbs: Respect oem specific extra ids _(by Arian)_  
 [f097058](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f0970581c2b547e3dadadec8b2afe5577fd8c7e6) Revert "android: merge_dtbs: Respect miboard-id while merging" _(by Hridaya Prajapati)_  
@@ -13,7 +22,6 @@ pageClass: changelogSection
 [eda1802](https://github.com/PixelOS-AOSP/vendor_aosp/commit/eda180207cd6c3079bf496c4040558802fa6d627) kernel: use DTBS_OUT variable _(by Cosmin Tanislav)_  
 
 ## 2025-04-24
-[779d0fd](https://github.com/PixelOS-AOSP/build/commit/779d0fd7788a681fac24de49bc5b47496d5c3fc8) releasetools: Handle build description not ending in -keys _(by Michael Bestas)_  
 [403b75c](https://github.com/PixelOS-AOSP/frameworks_base/commit/403b75c2528281c8c121cdd2028beeaec357e3eb) fixup! Introduce high touch polling rate feature control _(by Michael Bestas)_  
 [bfff315](https://github.com/PixelOS-AOSP/frameworks_base/commit/bfff315c7a8c430374d97d67005896455f324ef1) fixup! Add high touch sensitivity and hovering to InputService _(by Oliver Scott)_  
 [53822bf](https://github.com/PixelOS-AOSP/frameworks_base/commit/53822bf42a76cf551edaf2b7adafa6dcd6c62921) Only toggle MainSwitchBar on successful change listener result _(by Oliver Scott)_  
