@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-27
+[d31b6cb](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/d31b6cbfe19fb51400ded99337568fd26a51ac9d) Settings: Use ActionPrimaryButton style for face buttons _(by Jyotiraditya Panda)_  
+[a500478](https://github.com/PixelOS-AOSP/packages_apps_ParanoidSense/commit/a500478bbb0e2933276d57796d9b410f0f8e90f8) ParanoidSense: Use proper daynight theme _(by Jyotiraditya Panda)_  
+
 ## 2025-04-26
 [51354d3](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/51354d3952a966bc5fad044c0661ba83618a6ded) Revert "Settings: Only show gesture navigation if device has a softwa… _(by Hridaya Prajapati)_  
 [9ed4050](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9ed4050687677adc67f0732c39166fd402b43a9c) fonts: Copy GoogleSansFlexClock-Regular.ttf as well _(by Hridaya Prajapati)_  
