@@ -4,6 +4,16 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-28
+[32911f7](https://github.com/PixelOS-AOSP/frameworks_av/commit/32911f772b3c668468369d7adc5d7c8827e62bd9) services: Move camera_package_name_defaults to select() _(by Hridaya Prajapati)_  
+[c045da9](https://github.com/PixelOS-AOSP/frameworks_av/commit/c045da9f5a0d8cc45217479df1c23652ce90bf26) services: Move libcameraservice_ext_lib_defaults to select() _(by Hridaya Prajapati)_  
+[8356139](https://github.com/PixelOS-AOSP/vendor_aosp/commit/83561398352b46b0a05cb840a4e36a3d58987c70) config: Move camera package name flag to select() _(by Hridaya Prajapati)_  
+[0cb5ba6](https://github.com/PixelOS-AOSP/vendor_aosp/commit/0cb5ba67ddd614566618f38cbfba3c137deba4ba) bootanimation: chmod 0644 bootanimation_720.zip _(by Hridaya Prajapati)_  
+[9154cc8](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9154cc83c8ea2a217fa3aa99d4e1c4d9fdc5beab) config: Move libcameraservice extension lib to select() _(by Hridaya Prajapati)_  
+[640451c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/640451c889795a475b8467b7e89d0129a337b27a) overlay: Create NCM USB tethering overlay package _(by LuK1337)_  
+[3c27896](https://github.com/PixelOS-AOSP/vendor_aosp/commit/3c278967fb26f0826895f0949bdbafba2d2c05f7) config: Move Lineage PowerShare HAL to select() _(by Michael Bestas)_  
+[9c11192](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9c11192460c582e3bb53e0868c8279c8c63dd453) config: Move Lineage Health HAL to select() _(by Michael Bestas)_  
+
 ## 2025-04-27
 [d31b6cb](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/d31b6cbfe19fb51400ded99337568fd26a51ac9d) Settings: Use ActionPrimaryButton style for face buttons _(by Jyotiraditya Panda)_  
 [a500478](https://github.com/PixelOS-AOSP/packages_apps_ParanoidSense/commit/a500478bbb0e2933276d57796d9b410f0f8e90f8) ParanoidSense: Use proper daynight theme _(by Jyotiraditya Panda)_  
