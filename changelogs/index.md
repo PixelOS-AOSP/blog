@@ -4,6 +4,15 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-04-30
+[aa83b35](https://github.com/PixelOS-AOSP/frameworks_base/commit/aa83b35e486bec4157c2822386832ae1c742dbfc) UsbTetherTile: Check for UsbManager.USB_FUNCTION_NCM as well _(by ShevT)_  
+[d11fd0b](https://github.com/PixelOS-AOSP/frameworks_base/commit/d11fd0bbf6f930631153bfdbf18dbeda083a80e8) Do not undo Dark Theme schedule override so often _(by Tommy Webb)_  
+[ac64fe7](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/ac64fe7a95f5d6aeb688fd76fa73aba51e50d6b5) Fix development color mode preference _(by Alexander Martinz)_  
+[e619410](https://github.com/PixelOS-AOSP/system_core/commit/e6194103fc8e920037d576fc02b568e503d08e2d) init: Migrate vendor_init_defaults to select() _(by Michael Bestas)_  
+[d19cf8e](https://github.com/PixelOS-AOSP/vendor_aosp/commit/d19cf8e40e333707dfec28a01dda447a39498590) config: Move vendor_init lib to select() _(by Michael Bestas)_  
+[be92546](https://github.com/PixelOS-AOSP/vendor_aosp/commit/be92546317b505900a26fe4a4276defdf6c730b3) config: Move libperfmgr mode extension lib to select() _(by Michael Bestas)_  
+[f873bef](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f873bef14b7c25e5a4cc77fb7f2213a95c30095d) Add software credentials permission support _(by Bharath)_  
+
 ## 2025-04-28
 [32911f7](https://github.com/PixelOS-AOSP/frameworks_av/commit/32911f772b3c668468369d7adc5d7c8827e62bd9) services: Move camera_package_name_defaults to select() _(by Hridaya Prajapati)_  
 [c045da9](https://github.com/PixelOS-AOSP/frameworks_av/commit/c045da9f5a0d8cc45217479df1c23652ce90bf26) services: Move libcameraservice_ext_lib_defaults to select() _(by Hridaya Prajapati)_  
