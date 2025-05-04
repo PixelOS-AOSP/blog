@@ -4,6 +4,10 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-03
+[c543241](https://github.com/PixelOS-AOSP/frameworks_base/commit/c5432416356b6684b2ddbe6d56d157b710bf2e57) Grant CAPTURE_AUDIO_OUTPUT permission for media uid _(by LuK1337)_  
+[e60e0c0](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/e60e0c0ff22ccc918891a035e0d98422051a5d9c) common: Add video encode flag opt-out for DeviceAsWebcam _(by Alexander Koskovich)_  
+
 ## 2025-04-30
 [aa83b35](https://github.com/PixelOS-AOSP/frameworks_base/commit/aa83b35e486bec4157c2822386832ae1c742dbfc) UsbTetherTile: Check for UsbManager.USB_FUNCTION_NCM as well _(by ShevT)_  
 [d11fd0b](https://github.com/PixelOS-AOSP/frameworks_base/commit/d11fd0bbf6f930631153bfdbf18dbeda083a80e8) Do not undo Dark Theme schedule override so often _(by Tommy Webb)_  
