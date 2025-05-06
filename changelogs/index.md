@@ -4,6 +4,16 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-05
+[bc835fb](https://github.com/PixelOS-AOSP/bootable_recovery/commit/bc835fb6af26a23571bb6b49db69fbe66a8a2518) recovery: Move bootloader_message_offset_defaults to select() _(by Michael Bestas)_  
+[da02b9a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/da02b9a9415e9799d9bc87ae1c91dc586f1035da) config: move camera package name and libcameraservice ext lib to came… _(by Hridaya Prajapati)_  
+[b67f42b](https://github.com/PixelOS-AOSP/vendor_aosp/commit/b67f42b219fce05802dcb55ae82a6bd89ce3d35d) config: Move additional gralloc 10 usage bits to select() _(by Michael Bestas)_  
+[c37fb6d](https://github.com/PixelOS-AOSP/vendor_aosp/commit/c37fb6db686bd94ef5baea8402bab5521594b5c5) config: Move camera override format from reserved to select() _(by Michael Bestas)_  
+[73d5b7e](https://github.com/PixelOS-AOSP/vendor_aosp/commit/73d5b7e868761bbb546464220c4c9ada0946a935) config: Move bootloader message offset to select() _(by Michael Bestas)_  
+[2c1a8db](https://github.com/PixelOS-AOSP/vendor_aosp/commit/2c1a8dbf5f492372202200f506ae4a88da28f02b) config: Move USB restrictions to select() _(by Michael Bestas)_  
+[35ec960](https://github.com/PixelOS-AOSP/frameworks_native/commit/35ec9605e96c70af7652b4e5b07b008bc5e63b0c) libui: Migrate gralloc_10_usage_bits_defaults to select() _(by Michael Bestas)_  
+[8cc2c49](https://github.com/PixelOS-AOSP/frameworks_base/commit/8cc2c492f45d235d6fe4564d6e2317488c33f772) DisplayCutout: fully animate camera protection _(by Cosmin Tanislav)_  
+
 ## 2025-05-03
 [c543241](https://github.com/PixelOS-AOSP/frameworks_base/commit/c5432416356b6684b2ddbe6d56d157b710bf2e57) Grant CAPTURE_AUDIO_OUTPUT permission for media uid _(by LuK1337)_  
 [e60e0c0](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/e60e0c0ff22ccc918891a035e0d98422051a5d9c) common: Add video encode flag opt-out for DeviceAsWebcam _(by Alexander Koskovich)_  
