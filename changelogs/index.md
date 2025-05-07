@@ -4,6 +4,11 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-06
+[25cc397](https://github.com/PixelOS-AOSP/frameworks_base/commit/25cc397659011ffcaea5cd7b1c709e0642242a65) health: Update charging control if next alarm is changed _(by Trogel)_  
+[7a4e239](https://github.com/PixelOS-AOSP/frameworks_base/commit/7a4e2395cd075886c530fe724304c4c035989a77) health: Don't turn on charging control if not plugged in _(by Trogel)_  
+[1e0e66a](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/1e0e66a4c9e04603792a24f5cbd18e6790dec665) Revert "common: private: Allow tombstoned to read custom version prop" _(by Hridaya Prajapati)_  
+
 ## 2025-05-05
 [bc835fb](https://github.com/PixelOS-AOSP/bootable_recovery/commit/bc835fb6af26a23571bb6b49db69fbe66a8a2518) recovery: Move bootloader_message_offset_defaults to select() _(by Michael Bestas)_  
 [da02b9a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/da02b9a9415e9799d9bc87ae1c91dc586f1035da) config: move camera package name and libcameraservice ext lib to came… _(by Hridaya Prajapati)_  
