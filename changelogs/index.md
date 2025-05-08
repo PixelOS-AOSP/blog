@@ -4,6 +4,26 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-07
+[5e0b33a](https://github.com/PixelOS-AOSP/build_soong/commit/5e0b33ae12d7b4ce4137899eed4d788802854a63) soong: Nuke kernel stuff on installclean _(by Adithya R)_  
+[f6d772c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f6d772c4b5cec79bab866d9b1cd3c5e151b9d5b6) config/version: add TARGET_NO_OEM_UNLOCK _(by John Galt)_  
+[df614cc](https://github.com/PixelOS-AOSP/vendor_aosp/commit/df614cc0ed66e46e96d1133870e4c7f6768de3bc) device_config: update nearby flags _(by John Galt)_  
+[6daeeea](https://github.com/PixelOS-AOSP/vendor_aosp/commit/6daeeeaaf5c16188a70caad9d707c306f3271d59) device_config: Escape special characters _(by Ido Ben-Hur)_  
+[3e67028](https://github.com/PixelOS-AOSP/vendor_aosp/commit/3e670282dd3ccc39d4290b8937bcbfb7b02d6bd7) device_config: Sync with The Parasite _(by Gustavo Mendes)_  
+[1ac6828](https://github.com/PixelOS-AOSP/vendor_aosp/commit/1ac6828f50c8bc9d4492f1d6fa33523b2b02e003) fixup! base: Cleanup duplicated and obselete overlays _(by Gustavo Mendes)_  
+[34c9d71](https://github.com/PixelOS-AOSP/frameworks_base/commit/34c9d711d4728c343de26281a3ef9712e4c52c0b) PIHooks: Spoof more Google apps _(by Gustavo Mendes)_  
+[9f4027a](https://github.com/PixelOS-AOSP/frameworks_base/commit/9f4027aae1a9c96cfcaaf4949faaf2af48b8602f) Put bare minimum metadata in screenshots _(by Chirayu Desai)_  
+[f64113e](https://github.com/PixelOS-AOSP/frameworks_base/commit/f64113e8f79552e10b0273c4ffec8d1010fde61d) core: Remove default aspect ratio limit for old apps _(by Danny Lin)_  
+[f531877](https://github.com/PixelOS-AOSP/frameworks_base/commit/f531877ae61b96298a423cf2ad8b23e372d627e8) SystemUI: Follow light/dark theme in power menu _(by Danny Lin)_  
+[d5a066b](https://github.com/PixelOS-AOSP/frameworks_base/commit/d5a066b5f45a3c0774822fd5e773c69dc2c32b1b) EventLog: Disable event writing in production builds _(by Danny Lin)_  
+[ead1997](https://github.com/PixelOS-AOSP/frameworks_base/commit/ead1997499cafe02dc41ce97bbecc5f89469bdab) Allow APK signature scheme v1 for API 30+ apps _(by Danny Lin)_  
+[3006e21](https://github.com/PixelOS-AOSP/frameworks_base/commit/3006e211b64217316ecc30fdd5394cae47b4939a) core: Remove old app target SDK dialog _(by Danny Lin)_  
+[c55e39c](https://github.com/PixelOS-AOSP/frameworks_base/commit/c55e39c0f2475482f978574966fdb7bcc79eea0a) Revert "SystemUI: Disable animations during biometric wake-and-unlock" _(by Hridaya Prajapati)_  
+[c93312e](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/c93312e41c8b9863f9e00036cde0e6b1082f61f9) Merge tag 'android-15.0.0_r32' into fifteen _(by Hridaya Prajapati)_  
+[b0a7994](https://github.com/PixelOS-AOSP/frameworks_base/commit/b0a79947e6b6713b3b09cb71fa8849534de87bc7) Merge tag 'android-15.0.0_r32' into fifteen _(by Hridaya Prajapati)_  
+[6ea3dab](https://github.com/PixelOS-AOSP/frameworks_av/commit/6ea3dab2ee4f934565b3a029f734c6a051961e01) Merge tag 'android-15.0.0_r32' into fifteen _(by Hridaya Prajapati)_  
+[f86fe2b](https://github.com/PixelOS-AOSP/build/commit/f86fe2b18adbcd19f958c13e313694591d161633) Merge tag 'android-15.0.0_r32' into fifteen _(by Hridaya Prajapati)_  
+
 ## 2025-05-06
 [25cc397](https://github.com/PixelOS-AOSP/frameworks_base/commit/25cc397659011ffcaea5cd7b1c709e0642242a65) health: Update charging control if next alarm is changed _(by Trogel)_  
 [7a4e239](https://github.com/PixelOS-AOSP/frameworks_base/commit/7a4e2395cd075886c530fe724304c4c035989a77) health: Don't turn on charging control if not plugged in _(by Trogel)_  
@@ -429,6 +449,9 @@ pageClass: changelogSection
 [879228a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/879228a6ead3d47ea240ddc0417182b743505942) base: Cleanup duplicated and obselete overlays _(by Hridaya Prajapati)_  
 
 ## 2025-03-26
+[1cd3439](https://github.com/PixelOS-AOSP/build/commit/1cd3439288ca1544b5477ed7cb59f48d45150b88) Version bump to BP1A.250505.005 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[749410f](https://github.com/PixelOS-AOSP/frameworks_av/commit/749410f841d709c8adb65f5c51811290035be9e4) Merge cherrypicks of ['googleplex-android-review.googlesource.com/312… _(by Android Build Coastguard Worker)_  
+[cbc3f6f](https://github.com/PixelOS-AOSP/frameworks_av/commit/cbc3f6f7cc0d6b0ee7a507f070ff8913285b76ec) audio policy: return input source updates to audio flinger _(by Eric Laurent)_  
 [091395f](https://github.com/PixelOS-AOSP/vendor_aosp/commit/091395fe7246bb55f99809f2aaf52b56e10f15ac) fonts: Update from bp1a.250305.020 _(by Hridaya Prajapati)_  
 [05ecbdc](https://github.com/PixelOS-AOSP/build_soong/commit/05ecbdc923d8777647031a495eb37b828a68cb70) fsgen: Use prebuilt_{root,any} in case install_in_root is set _(by Luca Stefani)_  
 [4fd7df9](https://github.com/PixelOS-AOSP/build_soong/commit/4fd7df9ae7979a16c20706b5eeea64451047cb0a) Expand the usages of prebuilt_any in prebuilt_etc module gen _(by Jihoon Kang)_  
@@ -437,8 +460,52 @@ pageClass: changelogSection
 [36828d6](https://github.com/PixelOS-AOSP/build_soong/commit/36828d6c6e4f41fe82a0128c0a5e69e1a53a844b) Disallow prebuilt_root module type from setting Dsts property _(by Jihoon Kang)_  
 [9be3629](https://github.com/PixelOS-AOSP/build_soong/commit/9be36297af3c584c8e84d513a47f2892842f2588) Introduce prebuilt_any module type _(by Jihoon Kang)_  
 [b48bc9f](https://github.com/PixelOS-AOSP/build_soong/commit/b48bc9f97599b5c75134f7d72cfaf36046cc6f2f) Add vendor_manifest.xml to createFsGenState _(by Jihoon Kang)_  
+[65bf6f8](https://github.com/PixelOS-AOSP/build/commit/65bf6f84478d0815cdbffe15bd4816940303b691) [coastguard skipped] Merge sparse cherrypicks from sparse-13272751-L4… _(by Android Build Coastguard Worker)_  
+[658b91d](https://github.com/PixelOS-AOSP/build/commit/658b91d669691bf513503f7861ae2a60b133c427) Version bump to BP1A.250505.004.D1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[5d4d5d6](https://github.com/PixelOS-AOSP/build/commit/5d4d5d699878511e6aa6c2627ecdfae759a8f69b) [coastguard skipped] Merge sparse cherrypicks from sparse-13272751-L4… _(by Android Build Coastguard Worker)_  
+[aab4af2](https://github.com/PixelOS-AOSP/build/commit/aab4af2d67c4a2f8caee15dd198333c2a90386d7) Version bump to BP1A.250505.004.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[4b4467f](https://github.com/PixelOS-AOSP/build/commit/4b4467f7a1b555fee35954b8c8fb22acedf2db96) [coastguard skipped] Merge sparse cherrypicks from sparse-13272751-L5… _(by Android Build Coastguard Worker)_  
+[fb82efb](https://github.com/PixelOS-AOSP/build/commit/fb82efb4d6afdbc0acc29f0d10b9d56cb2cdf78c) Version bump to BP1A.250505.004.A1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[0d9656f](https://github.com/PixelOS-AOSP/build/commit/0d9656f9a8e9cf87148a29f9f91e3d5d807e87e0) [coastguard skipped] Merge sparse cherrypicks from sparse-13272751-L1… _(by Android Build Coastguard Worker)_  
+[c4bb6b4](https://github.com/PixelOS-AOSP/build/commit/c4bb6b4807fce632934aa20ee17bf683eed2635b) Version bump to BP1A.250505.004.B1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[510b9a4](https://github.com/PixelOS-AOSP/build/commit/510b9a41d5f4200a4b720a466e276a284e9e0c77) Version bump to BP1A.250505.004 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[2ede4d4](https://github.com/PixelOS-AOSP/build/commit/2ede4d45d75eaacde37cc78b586e25f54467ac56) [coastguard skipped] Merge sparse cherrypicks from sparse-13270399-L9… _(by Android Build Coastguard Worker)_  
+[9ba4259](https://github.com/PixelOS-AOSP/build/commit/9ba425968f0aa90000fcadb11bb7195e779ae659) Version bump to BP1A.250505.003.D1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+
+## 2025-03-25
+[9b28149](https://github.com/PixelOS-AOSP/build/commit/9b2814987e14f382cbcc591df646f569cd02739a) [coastguard skipped] Merge sparse cherrypicks from sparse-13270399-L0… _(by Android Build Coastguard Worker)_  
+[817db88](https://github.com/PixelOS-AOSP/build/commit/817db88c91b7985f3bf3cfce27b7424d95e2e79d) Version bump to BP1A.250505.003.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[a191e87](https://github.com/PixelOS-AOSP/build/commit/a191e8735dbc6571bdd0bf0d10639a4f4b59da92) [coastguard skipped] Merge sparse cherrypicks from sparse-13270399-L7… _(by Android Build Coastguard Worker)_  
+[2d993e5](https://github.com/PixelOS-AOSP/build/commit/2d993e59451b249f646d5fdeb366cafa48fcaaf3) Version bump to BP1A.250505.003.A1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[a3cbafe](https://github.com/PixelOS-AOSP/build/commit/a3cbafe0fa617649ba94b855f54218399b8b65e5) [coastguard skipped] Merge sparse cherrypicks from sparse-13270399-L1… _(by Android Build Coastguard Worker)_  
+[c5ef8f4](https://github.com/PixelOS-AOSP/build/commit/c5ef8f4737c5c685ff57631a5142b31257790ee8) Version bump to BP1A.250505.003.B1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[b57a80b](https://github.com/PixelOS-AOSP/build/commit/b57a80be5c2578dff0ed334489928cff765c3b42) Version bump to BP1A.250505.003 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 
 ## 2025-03-22
+[1f7c93b](https://github.com/PixelOS-AOSP/build/commit/1f7c93b25942dd87cb9b75f8a678162d110927ca) Version bump to BP1A.250505.002 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[396d329](https://github.com/PixelOS-AOSP/frameworks_base/commit/396d32905ded85c082232bc510b525c9e372e585) Merge cherrypicks of ['googleplex-android-review.googlesource.com/314… _(by Android Build Coastguard Worker)_  
+[72e7904](https://github.com/PixelOS-AOSP/frameworks_base/commit/72e7904b0b46e09aaaa427bbe7c2c79e5ae16ebd) Log locale changes from AssetManager2.cpp _(by Jeremy Meyer)_  
+[0a21ad3](https://github.com/PixelOS-AOSP/frameworks_base/commit/0a21ad36df8b4f46146a8eb3fc20164a516cb98e) Add config for auto data switch switch back case _(by Ling Ma)_  
+[93509cc](https://github.com/PixelOS-AOSP/frameworks_base/commit/93509ccdaa3a5e1ec2f2f0288a93d183f82a03fa) set default locale when config change isn't locale _(by Jeremy Meyer)_  
+[6b552f6](https://github.com/PixelOS-AOSP/frameworks_base/commit/6b552f6fc4a55c9533302583ad2d2c6cba66ed14) Add some logging around locale changes _(by Jeremy Meyer)_  
+[57707ea](https://github.com/PixelOS-AOSP/frameworks_base/commit/57707ea4c67f75dfa5b6b7139d95dc76edcc060f) [AE] Prevent crash when launching activity's task id is invalid _(by Jiaming Liu)_  
+[a24d8e7](https://github.com/PixelOS-AOSP/build/commit/a24d8e7fe3b1ae46833c45f24647d376f9af899d) Version bump to BP1A.250505.001 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[d56148b](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/d56148b315549a7f9759e32565cff83cc9bcc3c1) Merge cherrypicks of ['googleplex-android-review.googlesource.com/310… _(by Android Build Coastguard Worker)_  
+[aa29463](https://github.com/PixelOS-AOSP/frameworks_base/commit/aa2946301174603050cd8729b45fa6aa22a5f22b) Merge cherrypicks of ['googleplex-android-review.googlesource.com/297… _(by Android Build Coastguard Worker)_  
+[c71eabd](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/c71eabd1e9b23a46704bd8a2b822743579e12128) Disable the ContentProtection setting switch bar when current user is… _(by Wa Gao)_  
+[0841a81](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/0841a813bec8ba925edfed49f1ce01df28a1631f) [CDM] Checks NLS component name instead of package name _(by Guojing Yuan)_  
+[55ba66d](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/55ba66d7c0d61b21f46b7a6246cd4d8403533033) Check package name format before using it for SPA nav _(by zhibinliu)_  
+[f9b0058](https://github.com/PixelOS-AOSP/frameworks_base/commit/f9b0058a2d6e3531c215b326c444b374921aae24) Remove Flag to clear allowlist duration _(by Achim Thesmann)_  
+[d2f0725](https://github.com/PixelOS-AOSP/frameworks_base/commit/d2f0725f92d42918c562f9832668ca8c5e71c6fe) Revert^2 "Clear the BAL allowlist duration" _(by Achim Thesmann)_  
+[cbf08f4](https://github.com/PixelOS-AOSP/frameworks_base/commit/cbf08f407561a07821f497c9268b13106d7fab52) Add equals method _(by Achim Thesmann)_  
+[5a196bd](https://github.com/PixelOS-AOSP/frameworks_base/commit/5a196bdc33a8cb2f9a1ef94cf338057634ddffc1) Remove normalize_home_intent flag _(by Louis Chang)_  
+[da0bb76](https://github.com/PixelOS-AOSP/frameworks_base/commit/da0bb76e30425e3694ae712ac3aa9a50434c761d) Prevent setting app op mode for device provisioning app through shell _(by yutingfang)_  
+[fd16f56](https://github.com/PixelOS-AOSP/frameworks_base/commit/fd16f565f2a03d4e2df961e6430197cd829a805d) Check dump permissions before dumping --high-priority _(by Vishnu Nair)_  
+[7a050df](https://github.com/PixelOS-AOSP/frameworks_base/commit/7a050dfd572ba7b9b689011f12c611a1534bd200) Restrict the permission for accessing vpn profile _(by Chiachang Wang)_  
+[b94e994](https://github.com/PixelOS-AOSP/frameworks_base/commit/b94e9942bb1f4c8d3e53c23c474fd4359db59b18) Impose a threshold on the number of attributed op entries returned in… _(by yutingfang)_  
+[6a242a0](https://github.com/PixelOS-AOSP/frameworks_base/commit/6a242a0fcb75186fa0515fbd1d6976feb6ac09d4) Avoid app pinning requests if the Task is already locked _(by Louis Chang)_  
+[932b444](https://github.com/PixelOS-AOSP/frameworks_base/commit/932b4445ec6089baa6abadde28546089b8ebe4e2) Normalize home intent _(by Louis Chang)_  
+[70ee03a](https://github.com/PixelOS-AOSP/frameworks_base/commit/70ee03ab68e4fc131dff4fea9d4b5fead1377e8a) Don't allow non-system uids to use "android" as calling package. _(by Sudheer Shanka)_  
 [5752186](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/575218609ceff4cd27d2a3f6b3d74f80fe28ae9f) common: Drop deprecated vendor.lineage.camera.motor _(by Michael Bestas)_  
 [32bd9b0](https://github.com/PixelOS-AOSP/vendor_aosp/commit/32bd9b08139c1b1229222598915f0ac8ad09dd18) config: Drop deprecated vendor.lineage.camera.motor _(by Michael Bestas)_  
 [0d5a5b9](https://github.com/PixelOS-AOSP/build/commit/0d5a5b9b4b802fe8ddc061280e1dfc3ac1f7d341) Reapply "Add tradeinmode to the system image." _(by Hridaya Prajapati)_  
@@ -446,8 +513,19 @@ pageClass: changelogSection
 ## 2025-03-21
 [832ea9a](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/832ea9a621ef5723ed357a41b12a11c6dc14c4de) Updater: Update gradle-generateBp to 1.22 _(by Luca Stefani)_  
 
+## 2025-03-20
+[e7b6472](https://github.com/PixelOS-AOSP/build/commit/e7b6472c93a55ce87dab19fb5f9cc78d8bd4d80a) [coastguard skipped] Merge sparse cherrypicks from sparse-13226307-L3… _(by Android Build Coastguard Worker)_  
+[26587e9](https://github.com/PixelOS-AOSP/build/commit/26587e9248ae425c66ce395e70ca5c81fb9ad49d) Version bump to BP1A.250305.019.W7 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+
 ## 2025-03-19
+[cbd8940](https://github.com/PixelOS-AOSP/build/commit/cbd89409648acad7ced8cf1d1be2bf26fc2712a0) [coastguard skipped] Merge sparse cherrypicks from sparse-13240079-L4… _(by Android Build Coastguard Worker)_  
 [0f79aac](https://github.com/PixelOS-AOSP/build/commit/0f79aac1bc8733a1302399077efc5d33df98555a) Version bump to BP1A.250405.007.D1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[0e4ea48](https://github.com/PixelOS-AOSP/build/commit/0e4ea486ee97a21971df358e81acb57a309a083a) [coastguard skipped] Merge sparse cherrypicks from sparse-13240079-L7… _(by Android Build Coastguard Worker)_  
+[f18b001](https://github.com/PixelOS-AOSP/build/commit/f18b00186f9e8e5f12f8d208d2e8085fe3ee9939) Version bump to BP1A.250405.007.C1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[40b4473](https://github.com/PixelOS-AOSP/build/commit/40b4473ac5e487718b8a06ae26d2c5f67360d702) [coastguard skipped] Merge sparse cherrypicks from sparse-13240079-L6… _(by Android Build Coastguard Worker)_  
+[dba28da](https://github.com/PixelOS-AOSP/build/commit/dba28dac26f42c264117f6a6915928f767452d7b) Version bump to BP1A.250405.007.A1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
+[11de8f9](https://github.com/PixelOS-AOSP/build/commit/11de8f990dfe40573c90d0714f92d497e77b8e8d) [coastguard skipped] Merge sparse cherrypicks from sparse-13240079-L3… _(by Android Build Coastguard Worker)_  
+[144c84b](https://github.com/PixelOS-AOSP/build/commit/144c84b4ee7afaeef72ee74abc22fe10a9f6849d) Version bump to BP1A.250405.007.B1 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 [b0f177a](https://github.com/PixelOS-AOSP/build/commit/b0f177a8fabe83337a99362369a656f44be45947) Version bump to BP1A.250405.007 [core/build_id.mk] _(by Android Build Coastguard Worker)_  
 
 ## 2025-03-17
