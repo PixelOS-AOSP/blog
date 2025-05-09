@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-08
+[9cfbc90](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9cfbc90316367f36fc4d2a7cd199e75ffe3377ac) Revert "release: Sync flag_values with BP1A.250405.007" _(by Hridaya Prajapati)_  
+
 ## 2025-05-07
 [5e0b33a](https://github.com/PixelOS-AOSP/build_soong/commit/5e0b33ae12d7b4ce4137899eed4d788802854a63) soong: Nuke kernel stuff on installclean _(by Adithya R)_  
 [f6d772c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f6d772c4b5cec79bab866d9b1cd3c5e151b9d5b6) config/version: add TARGET_NO_OEM_UNLOCK _(by John Galt)_  
