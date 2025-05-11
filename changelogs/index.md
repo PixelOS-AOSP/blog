@@ -4,6 +4,21 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-10
+[a70215d](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/a70215d72da26aa6d0c8385c0d031c4d9d87cb6e) sepolicy: Migrate to PowerShare AIDL _(by sidharthify)_  
+[ad8ba2c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ad8ba2cf88009267c7e058a615806ded5768fb11) config: Migrate PowerShare to AIDL _(by sidharthify)_  
+[014b549](https://github.com/PixelOS-AOSP/frameworks_base/commit/014b549c03ff6c5826b6033601aff2f3a9f6a911) PowerShareTile: Migrate to AIDL PowerShare HAL _(by sidharthify)_  
+[1d9bc2a](https://github.com/PixelOS-AOSP/vendor_aosp/commit/1d9bc2ade4554fe811a7fb1b23a78365fb74f369) config: Deprecate TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB _(by Bruno Martins)_  
+[eee4907](https://github.com/PixelOS-AOSP/vendor_aosp/commit/eee49073cd9e2b26ca7b4ecd633a151b0609f0ff) config: Deprecate TARGET_TRUST_USB_CONTROL_* flags _(by Michael Bestas)_  
+[c3bc95a](https://github.com/PixelOS-AOSP/frameworks_base/commit/c3bc95ad0555857d5c22262645603ef635862b4e) Add the VDM permissions to shell _(by Vladimir Komsiyski)_  
+[71ff81e](https://github.com/PixelOS-AOSP/build/commit/71ff81ebc1e05faf9b4d79e515c4167e7202cee6) fixup! Reland: Verify init scripts for correctness during build _(by Aaron Kling)_  
+[e4344ea](https://github.com/PixelOS-AOSP/build_soong/commit/e4344ea3c531c71049c2b42b78d7a8450984fab5) Add vintf_data inputPaths as Implicits to build command _(by Devin Moore)_  
+[77ab928](https://github.com/PixelOS-AOSP/build_soong/commit/77ab9288ae729b42670f4a60384b9bca2bdf7930) Rust: Use nehalem cpu-target when building with sandybridge arch variant _(by hmtheboy154)_  
+[e92172a](https://github.com/PixelOS-AOSP/build_soong/commit/e92172ade4da25412c3bdecadfbbb996d7e1a12a) Do not propagate boot jars in CLC construction _(by Jihoon Kang)_  
+[2f2a0bb](https://github.com/PixelOS-AOSP/build_soong/commit/2f2a0bba240809abdb5d6d91a63d90ac26f1da18) Do not propagate uses lib tags of framework _(by Jihoon Kang)_  
+[0e6353a](https://github.com/PixelOS-AOSP/build/commit/0e6353a0246ce2919cb9d9163388721d872e33b1) Filter out framework and ext in uses library tag propagation in make _(by Jihoon Kang)_  
+[b367483](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/b367483c9720f6ee72c43bbcdd5368fc43fae061) common: Label property `vendor.usb.uvc.payload_transfer_size` _(by Yumi Yukimura)_  
+
 ## 2025-05-08
 [9cfbc90](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9cfbc90316367f36fc4d2a7cd199e75ffe3377ac) Revert "release: Sync flag_values with BP1A.250405.007" _(by Hridaya Prajapati)_  
 
