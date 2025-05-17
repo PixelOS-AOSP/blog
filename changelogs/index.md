@@ -4,6 +4,13 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-16
+[9e88959](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9e889595e862e79b50e4be8641fb73239d932541) config: Mark remaining BoardConfig flags as deprecated _(by Michael Bestas)_  
+[784187f](https://github.com/PixelOS-AOSP/vendor_aosp/commit/784187f380f68139eacf26f44240921be11338ce) config: Use add_soong_config_namespace/add_soong_config_var macros _(by LuK1337)_  
+[95193e5](https://github.com/PixelOS-AOSP/vendor_aosp/commit/95193e5c49e5a52fa6cc822692ed8d735bed69eb) config: Deprecate BOOTLOADER_MESSAGE_OFFSET _(by Michael Bestas)_  
+[49c7b5b](https://github.com/PixelOS-AOSP/vendor_aosp/commit/49c7b5b4d789c96e69639a16c16c39f2303245a4) config: Deprecate TARGET_POWERSHARE_* flags _(by Bruno Martins)_  
+[24d707a](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/24d707a1587c3e464b85692e7ae1f3582266596c) sepolicy: Allow crash_dump to read custom version prop _(by LuK1337)_  
+
 ## 2025-05-10
 [a70215d](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/a70215d72da26aa6d0c8385c0d031c4d9d87cb6e) sepolicy: Migrate to PowerShare AIDL _(by sidharthify)_  
 [ad8ba2c](https://github.com/PixelOS-AOSP/vendor_aosp/commit/ad8ba2cf88009267c7e058a615806ded5768fb11) config: Migrate PowerShare to AIDL _(by sidharthify)_  
