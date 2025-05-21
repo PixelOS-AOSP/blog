@@ -4,6 +4,15 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-20
+[dd0ca7f](https://github.com/PixelOS-AOSP/vendor_aosp/commit/dd0ca7fc4bbf1969adc81dafbe39c669fe296a82) config/common: enable full system java optimization _(by John Galt)_  
+[13b30c5](https://github.com/PixelOS-AOSP/frameworks_base/commit/13b30c5f68bc3277290f285b6554262fe0442ce3) SystemUI: Introduce network speed indicator on statusbar _(by Adithya R)_  
+[64a15e2](https://github.com/PixelOS-AOSP/frameworks_base/commit/64a15e276602ce5d273b3519e9de91caae23eb60) Revert "NetworkPolicyManagerService: turn this into just a warning" _(by Hridaya Prajapati)_  
+
+## 2025-05-19
+[4aa943a](https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/4aa943a88d178001858c6ed9ac3a3b72ab320c5c) Revert "Settings: Import network traffic" _(by Hridaya Prajapati)_  
+[14d3cca](https://github.com/PixelOS-AOSP/frameworks_base/commit/14d3cca1c98b461bbc33d6befd507a2abc43a93e) Revert "base: Squash import NetworkTraffic" _(by Hridaya Prajapati)_  
+
 ## 2025-05-16
 [9e88959](https://github.com/PixelOS-AOSP/vendor_aosp/commit/9e889595e862e79b50e4be8641fb73239d932541) config: Mark remaining BoardConfig flags as deprecated _(by Michael Bestas)_  
 [784187f](https://github.com/PixelOS-AOSP/vendor_aosp/commit/784187f380f68139eacf26f44240921be11338ce) config: Use add_soong_config_namespace/add_soong_config_var macros _(by LuK1337)_  
