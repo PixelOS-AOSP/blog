@@ -4,6 +4,11 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-05-30
+[1a60b8a](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/1a60b8a1a5ee04cd220997668099e3a7e79abfe0) common: vendor: add rules for IR HAL _(by Cosmin Tanislav)_  
+[5d28f85](https://github.com/PixelOS-AOSP/frameworks_base/commit/5d28f8586ccb3eb4f27f49012e7b4e4839c65ae2) Initial implementation of KeyboxImitationHooks _(by Jyotiraditya Panda)_  
+[f82cf0f](https://github.com/PixelOS-AOSP/packages_apps_Updater/commit/f82cf0fd384cdaaded8c4898eb52c59e39b87af4) Updater: Update certified props overlay pkg name _(by Hridaya Prajapati)_  
+
 ## 2025-05-20
 [dd0ca7f](https://github.com/PixelOS-AOSP/vendor_aosp/commit/dd0ca7fc4bbf1969adc81dafbe39c669fe296a82) config/common: enable full system java optimization _(by John Galt)_  
 [13b30c5](https://github.com/PixelOS-AOSP/frameworks_base/commit/13b30c5f68bc3277290f285b6554262fe0442ce3) SystemUI: Introduce network speed indicator on statusbar _(by Adithya R)_  
