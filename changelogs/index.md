@@ -4,6 +4,17 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2025-06-02
+[42dfb6d](https://github.com/PixelOS-AOSP/frameworks_base/commit/42dfb6d1622c6d98898883f67e7cdce64ac3afe3) PIHooks: Update fingerprints to the May release _(by Gustavo Mendes)_  
+[9514b40](https://github.com/PixelOS-AOSP/frameworks_base/commit/9514b403d8f27564d4557b22b32304badb9a83e9) PIHooks: Replace caiman with komodo _(by Gustavo Mendes)_  
+[e91754b](https://github.com/PixelOS-AOSP/frameworks_base/commit/e91754b0eb9d63603b916f9c1ca940d3abf86d77) PIHooks: Stop spoofing Google QSB _(by Gustavo Mendes)_  
+[b19ea0f](https://github.com/PixelOS-AOSP/frameworks_base/commit/b19ea0fa95eefe11523c9606520c3ded79de30e5) PIHooks: Block 2021/2024 pixel features from Pixel Launcher and ASI _(by basamaryan)_  
+[0b873bb](https://github.com/PixelOS-AOSP/frameworks_base/commit/0b873bb371c0dcb35665982e393004339dcfd49e) SystemUI: Filter out duplicate notification icons on statusbar _(by Adithya R)_  
+[2887d1b](https://github.com/PixelOS-AOSP/vendor_aosp/commit/2887d1b7729f38560b1cb4b27317c2bf29f2325b) Revert "Add product_launched_with_j{,_mr1,mr2}.mk" _(by Michael Bestas)_  
+[b6b52eb](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/b6b52ebb459e3e8968a9ab84c45c8f81a66338e3) qcom: Restrict /firmware unmounting to recovery mode _(by Bruno Martins)_  
+[c3319ea](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/c3319ea48843eff1b1cd62ba59d43bc8c2baf72d) qcom: Allow init to unmount /firmware _(by LuK1337)_  
+[debd1d6](https://github.com/PixelOS-AOSP/frameworks_base/commit/debd1d6bf34d0121d2036487ccbf90dff5aed0a2) fixup! PowerShareTile: Migrate to AIDL PowerShare HAL _(by LuK1337)_  
+
 ## 2025-05-30
 [1a60b8a](https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/1a60b8a1a5ee04cd220997668099e3a7e79abfe0) common: vendor: add rules for IR HAL _(by Cosmin Tanislav)_  
 [5d28f85](https://github.com/PixelOS-AOSP/frameworks_base/commit/5d28f8586ccb3eb4f27f49012e7b4e4839c65ae2) Initial implementation of KeyboxImitationHooks _(by Jyotiraditya Panda)_  
