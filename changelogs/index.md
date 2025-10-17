@@ -804,7 +804,6 @@ pageClass: changelogSection
 [61f8531](https://github.com/PixelOS-AOSP/system_core/commit/61f85312ad36b509dbbbbadb979fa7bd6f068820) Merge tag 'android-15.0.0_r20' into fifteen _(by Hridaya Prajapati)_  
 [22a7f9c](https://github.com/PixelOS-AOSP/bootable_recovery/commit/22a7f9cad02e3159f929ad02d0cfb4b1b3084eab) recovery_ui: Bump to android.hardware.health-V4-ndk _(by Michael Bestas)_  
 [0033057](https://github.com/PixelOS-AOSP/bootable_recovery/commit/0033057d75bdcaac57fd1ed1c81ab56c1b34964a) Merge tag 'android-15.0.0_r20' into fifteen _(by Hridaya Prajapati)_  
-[1d5b40c](https://github.com/PixelOS-AOSP/bionic/commit/1d5b40c343edbd7ad7fb49aee74fde02c1b3aadb) Merge tag 'android-15.0.0_r20' into fifteen _(by Hridaya Prajapati)_  
 
 ## 2025-03-08
 [f62e5a5](https://github.com/PixelOS-AOSP/vendor_aosp/commit/f62e5a56056f640f793be4c5e673fc06e4e90bd8) config: Move wifionly defination to tablet wifionly makefile _(by AdarshGrewal)_  
