@@ -12,7 +12,7 @@ This month’s update rebases PixelOS to the latest Android 16 QPR2 release (`an
 
 Designer was busy, so we outsourced the banner.
 
-## Platform changes
+### Platform changes
 All existing features remain unchanged.
 
 This update includes:
