@@ -7,6 +7,9 @@ pageClass: changelogSection
 ## 2026-01-30
 [9ae7dc5](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/9ae7dc516984553adf0368e232de35916188f049) Updater: Update BottomAppBar children layout _(by Ashwin Devi Srinivasan)_  
 
+## 2026-01-27
+[108f5ee](https://github.com/PixelOS-AOSP/android_system_core/commit/108f5ee3e5aedec51cba99f9897f67da59e45bd6) Revert "libprocessgroup: CgroupSetup should fail if a required contro… _(by Yumi Yukimura)_  
+
 ## 2026-01-26
 [9992ff7](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/9992ff7ac8a71c7c0b3eabd0119c4cc383715dcc) Updater: Fix pending reboot state not shown _(by pjgowtham)_  
 [e4d85e4](https://github.com/PixelOS-AOSP/android_packages_apps_Updater/commit/e4d85e4f37cc0d632cf974112ac2ad9bee89bddb) Updater: Fix local update installation progress not showing _(by pjgowtham)_  
