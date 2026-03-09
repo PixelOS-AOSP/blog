@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * *"
 
 env:
-  BRANCH: "sixteen-qpr1"
+  BRANCH: "sixteen-qpr2"
   START_DATE: "2025-11-01"
 
 jobs:
