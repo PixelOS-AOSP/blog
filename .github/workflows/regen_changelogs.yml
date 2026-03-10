@@ -6,8 +6,8 @@ on:
     - cron: "0 0 * * *"
 
 env:
-  BRANCH: "sixteen-qpr1"
-  START_DATE: "2025-11-01"
+  BRANCH: "sixteen-qpr2"
+  START_DATE: "2026-02-01"
 
 jobs:
   regen-changelogs:
