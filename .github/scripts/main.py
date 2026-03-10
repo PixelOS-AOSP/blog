@@ -16,7 +16,7 @@ GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
 
 def get_projects(file) -> list[str]:
     contents = requests.get(
-        f"https://github.com/PixelOS-AOSP/android_manifest/blob/{BRANCH}/snippets/{file}.xml?raw=True"
+        f"https://raw.githubusercontent.com/PixelOS-AOSP/android_manifest/{BRANCH}/snippets/{file}.xml"
     ).content
     root = ET.fromstring(contents)
 
