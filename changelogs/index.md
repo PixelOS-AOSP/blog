@@ -4,6 +4,14 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-03-11
+[a66ad43](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a66ad43d8a96e5440a788f42c4eb7c6dd50c0a06) fixup! [PM] Check unknown sources for intent installation _(by Ivan Chiang)_  
+[4342512](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/4342512e1c1d4f9af05a1de52dcfd72e585161b3) fixup! Reapply "[PM] Check unknown sources user restriction for inten… _(by Ivan Chiang)_  
+[44abba0](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/44abba04276107463d2d76afea9f4c1504eac572) RESTRICT AUTOMERGE Ignore pinned Windows (Consolidated fix) _(by Achim Thesmann)_  
+[f661314](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/f661314774ef56353ee093b7dc75853a1d84e3f3) Revert "Ignore pinned Windows" _(by Achim Thesmann)_  
+[d146070](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/d1460708bc4a16c5fd255af28903f751c3a5accc) Apps clearing self data shouldn't get permissions restored _(by Nate Myren)_  
+[ed14954](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/ed14954e89267244068cbc29b0960a3ce5df2f0e) fixup! Prevent long press on profile notifs when locked _(by Julia Reynolds)_  
+
 ## 2026-03-08
 [274a478](https://github.com/PixelOS-AOSP/android_hardware_interfaces/commit/274a478d86e42b29694df6cae09a3aa364a579ba) fixup! audio: Allow opting out of speaker_layout_channel_mask field _(by Yuan Tong)_  
 [de6dc46](https://github.com/PixelOS-AOSP/android_vendor_lineage/commit/de6dc4672bed513c9f0f0921d4499fbbd1a54752) release: Bump Security String to 2026-03-01 _(by Michael Bestas)_  
