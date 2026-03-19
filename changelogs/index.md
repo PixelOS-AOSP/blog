@@ -4,6 +4,12 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-03-17
+[4323795](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/43237956d0b1ddebe6a148940ee5c9cf90ea70d6) config: Fix material expressive for permission manager _(by Pranav Vashi)_  
+
+## 2026-03-15
+[62e7a33](https://github.com/PixelOS-AOSP/android_build/commit/62e7a33757f6fa6d1e50949ba95c78170d4b08c3) releasetools: Only update dynamic partitions if unsparse_super_empty.… _(by Hridaya Prajapati)_  
+
 ## 2026-03-11
 [a66ad43](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/a66ad43d8a96e5440a788f42c4eb7c6dd50c0a06) fixup! [PM] Check unknown sources for intent installation _(by Ivan Chiang)_  
 [4342512](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/4342512e1c1d4f9af05a1de52dcfd72e585161b3) fixup! Reapply "[PM] Check unknown sources user restriction for inten… _(by Ivan Chiang)_  
