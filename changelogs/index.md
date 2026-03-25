@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-03-18
+[2185d33](https://github.com/PixelOS-AOSP/android_frameworks_base/commit/2185d33a662bfd3c38b7750a7dfadd7b95b85628) SystemUI: keep Wi-Fi QS tile subtitle Wi-Fi-specific _(by Ashwin Devi Srinivasan)_  
+
 ## 2026-03-17
 [4323795](https://github.com/PixelOS-AOSP/android_vendor_custom/commit/43237956d0b1ddebe6a148940ee5c9cf90ea70d6) config: Fix material expressive for permission manager _(by Pranav Vashi)_  
 
