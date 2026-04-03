@@ -7,7 +7,7 @@ This guide provides a step-by-step tutorial on setting up a build environment fo
 Ensure you have the necessary tools and dependencies installed on your system, including the Java Development Kit (JDK), the Android SDK, Git, and Repo. Open a terminal and run the following command:
 
 ```bash
-sudo apt-get update && sudo apt-get install bc bison build-essential curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf lib32ncurses-dev lib32readline-dev lib32z1-dev libelf-dev liblz4-tool libncurses-dev libssl-dev libxml2 libxml2-utils lzop openjdk-17-jdk pngcrush protobuf-compiler python3 repo unzip xsltproc zip zlib1g-dev
+sudo apt-get update && sudo apt-get install bc bison build-essential curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf lib32ncurses-dev lib32readline-dev lib32z1-dev libelf-dev liblz4-tool libncurses-dev libssl-dev libxml2 libxml2-utils lzop openjdk-21-jdk pngcrush protobuf-compiler python3 repo unzip xsltproc zip zlib1g-dev
 ```
 
 Alternatively, for a simpler method, run:
@@ -15,6 +15,14 @@ Alternatively, for a simpler method, run:
 ```bash
 wget https://raw.githubusercontent.com/akhilnarang/scripts/master/setup/android_build_env.sh && sudo bash android_build_env.sh
 ```
+
+If you run into the `Build sandboxing disabled due to nsjail error` message during builds, run:
+
+```bash
+sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+```
+
+This fixes the `07:37:33 Build sandboxing disabled due to nsjail error` issue on systems where AppArmor blocks unprivileged user namespaces.
 
 ## Step 2: Sync PixelOS ROM Using Repo
 
