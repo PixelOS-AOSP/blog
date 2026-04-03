@@ -46,11 +46,27 @@ Any instances of bullying maintainers will not be tolerated and action will be t
 
 ## 2. Using ADB
 
-1. Download the latest tools from Google:
+1. Install ADB with your package manager, or download the latest tools from Google:
 
-   - [Download for Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
-   - [Download for Darwin](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)
-   - [Download for Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
+   - Windows: Download from Google, or install via CLI:
+
+     [Download for Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
+
+     ```powershell
+     winget install -e --id Google.PlatformTools
+     ```
+
+   - macOS: Download from Google, or install via CLI:
+
+     [Download for Darwin](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)
+
+     ```bash
+     brew install android-platform-tools
+     ```
+
+   - Linux: Download from Google:
+
+     [Download for Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
 
 2. Extract those to a folder and move into that folder:
 

@@ -1,9 +1,5 @@
 # Guide to Building PixelOS
 
-::: danger WARNING
-The content on this page is outdated and will be updated in near future.
-:::
-
 This guide provides a step-by-step tutorial on setting up a build environment for building PixelOS on Ubuntu and syncing the ROM from the manifest.
 
 ## Step 1: Install Necessary Tools and Dependencies
@@ -11,7 +7,7 @@ This guide provides a step-by-step tutorial on setting up a build environment fo
 Ensure you have the necessary tools and dependencies installed on your system, including the Java Development Kit (JDK), the Android SDK, Git, and Repo. Open a terminal and run the following command:
 
 ```bash
-sudo apt-get update && sudo apt-get install openjdk-8-jdk git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
+sudo apt-get update && sudo apt-get install bc bison build-essential curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf lib32ncurses-dev lib32readline-dev lib32z1-dev libelf-dev liblz4-tool libncurses-dev libssl-dev libxml2 libxml2-utils lzop openjdk-17-jdk pngcrush protobuf-compiler python3 repo unzip xsltproc zip zlib1g-dev
 ```
 
 Alternatively, for a simpler method, run:
@@ -27,11 +23,11 @@ Once your build environment is set up, use Repo to sync the PixelOS ROM from the
 ```bash
 mkdir pixelos
 cd pixelos
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b thirteen
+repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr2 --git-lfs
 repo sync
 ```
 
-This initializes the Repo tool and syncs the `thirteen` version of the PixelOS ROM from the manifest. The process may take some time, depending on your disk and internet connection speed.
+This initializes the Repo tool and syncs the `sixteen` version of the PixelOS ROM from the manifest. The process may take some time, depending on your disk and internet connection speed.
 
 ## Step 3: Download Device-Specific Source Code
 
@@ -39,15 +35,17 @@ To download the device-specific source code for the PixelOS ROM, use the `git cl
 
 ## Step 4: Build the ROM
 
-After downloading the device-specific source code, use the `lunch` and `make` commands to build the ROM. For example, to build PixelOS for the device codenamed `mojito` with the build type set to `user`:
+After downloading the device-specific source code, use the `breakfast` and `m` commands to build the ROM. For example, to build PixelOS for the device codenamed `xaga` with the build type set to `user`:
 
 ```bash
-lunch aosp_mojito-user
-mka bacon -j$(nproc --all)
+breakfast xaga user
+m pixelos -j$(nproc --all)
 ```
+
+Change `user` to `userdebug` or `eng` if you want to build a debug or engineering build.
 
 ## Step 5: Locate the Built ROM
 
-After the build process is complete, you should have a working zip file of the PixelOS ROM. You can find it at `./out/target/product/mojito/PixelOS_*.zip` (replace `mojito` with the codename for your device).
+After the build process is complete, you should have a working zip file of the PixelOS ROM. You can find it at `./out/target/product/xaga/PixelOS_*.zip` (replace `xaga` with the codename for your device).
 
 You can flash this zip to your device using the appropriate tools, such as PixelOS Recovery or TWRP.
